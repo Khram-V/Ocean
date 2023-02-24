@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Sakhalin Maps" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Option virtualFolders="Sakhalin/" />
+		<Build>
+			<Target title="Release">
+				<Option output="Dev/Sakhalin" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="Data" />
+				<Option object_output="Dev/Obj/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Option parameters="Sakhalin.dc2 -bgi=3" />
+				<Option projectLinkerOptionsRelation="2" />
+				<Linker>
+					<Add option="-static" />
+					<Add library="Dev/Lib/libAlis32.a" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-fexpensive-optimizations" />
+			<Add option="-Os" />
+			<Add option="-w" />
+			<Add option="-fPIC" />
+			<Add option="-funsigned-char" />
+			<Add option="-fopenmp" />
+			<Add option="-fno-exceptions" />
+			<Add option="-ffast-math" />
+			<Add option="-fno-trapping-math" />
+			<Add option="-fno-enforce-eh-specs" />
+			<Add option="-funsafe-math-optimizations" />
+			<Add option="-mthreads" />
+		</Compiler>
+		<Linker>
+			<Add option="-s" />
+			<Add option="-static-libstdc++" />
+			<Add option="-static-libgcc" />
+			<Add option="-static" />
+			<Add library="gdi32" />
+			<Add library="comdlg32" />
+		</Linker>
+		<Unit filename="../Ani/Sakh_DesignCAD.cpp">
+			<Option compile="0" />
+			<Option link="0" />
+			<Option virtualFolder="Sakhalin/" />
+		</Unit>
+		<Unit filename="../Ani/Sakh_Drawing.cpp">
+			<Option virtualFolder="Sakhalin/" />
+		</Unit>
+		<Unit filename="../Ani/Sakh_Inf-grd.cpp">
+			<Option virtualFolder="Sakhalin/" />
+		</Unit>
+		<Unit filename="../Ani/Sakh_Map.cpp">
+			<Option compile="0" />
+			<Option link="0" />
+			<Option virtualFolder="Sakhalin/" />
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="../Ani/Sakh_Meta.cpp">
+			<Option virtualFolder="Sakhalin/" />
+		</Unit>
+		<Unit filename="../Ani/Sakh_WinObject.cpp">
+			<Option virtualFolder="Sakhalin/" />
+		</Unit>
+		<Unit filename="../Ani/Sakh_Xml-Data-Meteo.cpp">
+			<Option virtualFolder="Sakhalin/" />
+		</Unit>
+		<Unit filename="../Ani/Sakh_Xml-Digest.cpp">
+			<Option virtualFolder="Sakhalin/" />
+		</Unit>
+		<Unit filename="../Ani/Sakhalin.cpp">
+			<Option virtualFolder="Sakhalin/" />
+		</Unit>
+		<Unit filename="../Ani/Sakhalin.h">
+			<Option virtualFolder="Sakhalin/" />
+		</Unit>
+		<Unit filename="../Ani/Sakhalin.rc">
+			<Option compilerVar="WINDRES" />
+			<Option virtualFolder="Sakhalin/" />
+		</Unit>
+		<Unit filename="../Matrix/XML.cpp">
+			<Option virtualFolder="Sakhalin/" />
+		</Unit>
+		<Extensions />
+	</Project>
+</CodeBlocks_project_file>

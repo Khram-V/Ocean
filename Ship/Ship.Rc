@@ -1,0 +1,32 @@
+
+// Вычислительная гидромеханика и морские исследования
+
+#include <windows.h>
+
+Ship ICON "..\\Ship\\Ship.ico"
+
+1 VERSIONINFO
+FILEVERSION 3,2,1,36
+PRODUCTVERSION 3,2,1,36
+FILETYPE VFT_APP
+BEGIN
+  BLOCK "StringFileInfo"
+  BEGIN
+    BLOCK "00000001"
+    BEGIN
+      VALUE "CompanyName", "Russian Shipbuilders Society of Alexey Krylov"
+      VALUE "FileVersion", "Sakhalin Branch 2015-04-06"
+      VALUE "FileDescription","Computational Fluid Mechanics and Marine Researches"
+      VALUE "InternalName", "Stormy Sea-keeping of Ship"
+      VALUE "LegalCopyright", "(c)1976-2014 Vasily Khramushin"
+      VALUE "LegalTrademarks", "Sakhalin GPL"
+      VALUE "OriginalFilename", "Ship.c++"
+      VALUE "ProductName", "Fluid-mechanics Simulation"
+      VALUE "ProductVersion", "original"
+    END
+  END
+  BLOCK "VarFileInfo"
+  BEGIN
+    VALUE "Translation", 0x0419, 1251
+  END
+END

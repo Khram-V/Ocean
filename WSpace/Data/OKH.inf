@@ -1,0 +1,22 @@
+North West of Pacific Ocean
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+
+     2               ³ Type        0:Text 1:Byte 2:Integer
+     2               ³ Format      0:Var  1:Line 2:Field 3:Space
+  64 64              ³ Ny Nx       Field's Dimension
+ 0 0 0 0   12 12 32 32        ³ Jy Jx Ly Lx Field's Base & Size
+0 0 m 8721 -2271 m   ³ Max Min     Bathimetry Extrema
+39825.4 33305.7 m 52 ³ Sy Sx ' Fe  Grid Step, ø'km & Lat.of scale
+ 0ø 40ø35' 134ø44'97 ³ Cs Fiø'Loø' Course, Latitude & Longitude
+    11 9             ³ Nc          Number Marigrams points
+   46:23'  142:41'   Korsakov         ;   25 ( 14/16 )
+ 22 16         ++++++++++++++
+ 48ø54'89  143ø40'22 Poronaysk        ;   33 ( 20/18 )
+ 53ø56'73  143ø01'96 Okha             ;   31 ( 34/17 )
+ 45ø10'39  147ø22'58 Kurilsk          ; 1720 ( 11/26 )
+ 50ø29'52  156ø27'68 Severo-Kurilsk   ;  123 ( 24/45 )
+ 52ø51'82  158ø41'57 Petropavlovsk    ;   59 ( 31/49 )
+ 52ø29'96  155ø53'41 Ust-Bolsheretsk  ;   75 ( 30/43 )
+ 59ø20'78  149ø50'37 Œ £ ¤ ­          ;   49 ( 51/31 )
+ 61ø21'65  158ø06'88 ¥­ì¦¨­áª ï £ã¡  ;   70 ( 58/48 )
+ 5 55 ’¨å¨© ®ª¥ ­

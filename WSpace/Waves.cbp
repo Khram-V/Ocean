@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Wave &amp; Flow - FluidMechanics of Stormy Waves" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Option virtualFolders="Ship/" />
+		<Build>
+			<Target title="Wave - Stormy Waves">
+				<Option output="Dev/Waves" prefix_auto="1" extension_auto="1" />
+				<Option object_output="Dev/Obj/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Option parameters="-bgi=5" />
+			</Target>
+			<Target title="Flow - FluidMechanics of Ship">
+				<Option output="Dev/Flow" prefix_auto="1" extension_auto="1" />
+				<Option object_output="Dev/Obj/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Option parameters=" -bgi=5" />
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-fexpensive-optimizations" />
+			<Add option="-Os" />
+			<Add option="-w" />
+			<Add option="-funsigned-char" />
+			<Add option="-ffast-math" />
+			<Add option="-fno-trapping-math" />
+			<Add option="-funsafe-math-optimizations" />
+			<Add option="-fno-exceptions" />
+		</Compiler>
+		<Linker>
+			<Add option="-s" />
+			<Add option="-static" />
+			<Add library="Dev/Lib/libAlis32.a" />
+			<Add library="libgdi32.a" />
+			<Add library="libcomdlg32.a" />
+		</Linker>
+		<Unit filename="../Ship/Flow.cpp">
+			<Option target="Flow - FluidMechanics of Ship" />
+		</Unit>
+		<Unit filename="../Ship/Flow_Mb.cpp">
+			<Option target="Flow - FluidMechanics of Ship" />
+		</Unit>
+		<Unit filename="../Ship/Flow_Pan.cpp">
+			<Option target="Flow - FluidMechanics of Ship" />
+		</Unit>
+		<Unit filename="../Ship/Flow_Solve.cpp">
+			<Option target="Flow - FluidMechanics of Ship" />
+		</Unit>
+		<Unit filename="../Ship/Ship.Rc">
+			<Option compilerVar="WINDRES" />
+			<Option virtualFolder="Ship/" />
+		</Unit>
+		<Unit filename="../Ship/Waves.cpp">
+			<Option virtualFolder="Ship/" />
+			<Option target="Wave - Stormy Waves" />
+		</Unit>
+		<Extensions />
+	</Project>
+</CodeBlocks_project_file>

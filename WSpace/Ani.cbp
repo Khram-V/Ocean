@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Ani - Simulation" />
+		<Option pch_mode="2" />
+		<Option compiler="gnu_gcc_stable" />
+		<Option virtualFolders="Graphics/;Matrix/;Charts/;Ani/" />
+		<Build>
+			<Target title="GCC stable">
+				<Option output="Dev/Ani-64" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="Data" />
+				<Option object_output="Dev/Obj/" />
+				<Option type="1" />
+				<Option compiler="gnu_gcc_stable" />
+				<Option use_console_runner="0" />
+				<Option parameters="Okho-20 -bgi=4" />
+				<Option projectLinkerOptionsRelation="2" />
+				<Compiler>
+					<Add option="-fopenmp" />
+					<Add option="-fanalyzer" />
+				</Compiler>
+				<Linker>
+					<Add library="gomp" />
+					<Add library="pthread" />
+					<Add library="dl" />
+				</Linker>
+			</Target>
+			<Target title="GCC stable 32">
+				<Option output="Dev/Ani-32" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="Data" />
+				<Option object_output="Dev/Obj/" />
+				<Option type="1" />
+				<Option compiler="gnu_gcc_stable32" />
+				<Option use_console_runner="0" />
+				<Option parameters="-bgi=3 Okho-20" />
+				<Compiler>
+					<Add option="-m32" />
+					<Add option="-fopenmp" />
+					<Add option="-fanalyzer" />
+				</Compiler>
+				<Linker>
+					<Add option="-m32" />
+					<Add library="gomp" />
+					<Add library="pthread" />
+					<Add library="dl" />
+				</Linker>
+			</Target>
+			<Target title="GCC 433">
+				<Option output="Dev/Ani" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="Data" />
+				<Option object_output="Dev/Obj/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Option use_console_runner="0" />
+				<Option parameters="World-400.inf" />
+				<Option projectLinkerOptionsRelation="2" />
+				<Compiler>
+					<Add option="-fopenmp" />
+				</Compiler>
+				<Linker>
+					<Add library="Dev/Lib/libAlis32.a" />
+					<Add library="gomp" />
+				</Linker>
+			</Target>
+			<Target title="GCC single">
+				<Option output="Dev/Ani-single" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="Data" />
+				<Option object_output="Dev/Obj/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Option use_console_runner="0" />
+				<Option parameters="Okho-20" />
+				<Option projectLinkerOptionsRelation="2" />
+				<Linker>
+					<Add library="Dev/Lib/libAlis32.a" />
+				</Linker>
+			</Target>
+			<Target title="GCC night">
+				<Option output="Dev/Ani-night" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="Data" />
+				<Option object_output="Dev/Obj/" />
+				<Option type="1" />
+				<Option compiler="gnu_gcc_nightly" />
+				<Option use_console_runner="0" />
+				<Option parameters="World-400" />
+				<Compiler>
+					<Add option="-flto" />
+					<Add option="-funsigned-char" />
+					<Add option="-fopenmp" />
+					<Add option="-fno-exceptions" />
+					<Add option="-ffast-math" />
+					<Add option="-mthreads" />
+					<Add option="-fno-enforce-eh-specs" />
+					<Add option="-funsafe-math-optimizations" />
+					<Add option="-fno-trapping-math" />
+					<Add option="-ffinite-math-only" />
+					<Add option="-fno-signaling-nans" />
+					<Add option="-fassociative-math" />
+					<Add option="-fanalyzer" />
+				</Compiler>
+				<Linker>
+					<Add option="-flto" />
+					<Add library="gomp" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-fexpensive-optimizations" />
+			<Add option="-Os" />
+			<Add option="-w" />
+			<Add option="-funsigned-char" />
+			<Add option="-fno-exceptions" />
+			<Add option="-ffast-math" />
+			<Add option="-mthreads" />
+			<Add option="-Wunused" />
+		</Compiler>
+		<Linker>
+			<Add option="-s" />
+			<Add option="-static-libstdc++" />
+			<Add option="-static-libgcc" />
+			<Add option="-static" />
+			<Add library="gdi32" />
+			<Add library="comdlg32" />
+		</Linker>
+		<Unit filename="../Ani/Ani.cpp">
+			<Option virtualFolder="Ani/" />
+		</Unit>
+		<Unit filename="../Ani/Ani_simulation.rc">
+			<Option compilerVar="WINDRES" />
+			<Option virtualFolder="Ani/" />
+		</Unit>
+		<Unit filename="../Ani/Depth.h">
+			<Option virtualFolder="Charts/" />
+		</Unit>
+		<Unit filename="../Ani/Dp_Edit.cpp">
+			<Option virtualFolder="Charts/" />
+		</Unit>
+		<Unit filename="../Ani/Dp_Geo.cpp">
+			<Option virtualFolder="Charts/" />
+		</Unit>
+		<Unit filename="../Ani/Dp_Inf.cpp">
+			<Option virtualFolder="Charts/" />
+		</Unit>
+		<Unit filename="../Ani/Dp_Mari.cpp">
+			<Option virtualFolder="Charts/" />
+		</Unit>
+		<Unit filename="../Ani/Dp_Out.cpp">
+			<Option virtualFolder="Charts/" />
+		</Unit>
+		<Unit filename="../Ani/Dp_Seismic.cpp">
+			<Option virtualFolder="Charts/" />
+		</Unit>
+		<Unit filename="../Ani/Dp_Topo.cpp">
+			<Option virtualFolder="Charts/" />
+		</Unit>
+		<Unit filename="../Ani/Front_Process.cpp">
+			<Option virtualFolder="Ani/" />
+		</Unit>
+		<Unit filename="../Ani/Front_Rays.cpp">
+			<Option compile="0" />
+			<Option link="0" />
+			<Option virtualFolder="Ani/" />
+		</Unit>
+		<Unit filename="../Ani/LW_A_EMeteo.cpp">
+			<Option virtualFolder="Ani/" />
+		</Unit>
+		<Unit filename="../Ani/LW_A_Espaso.cpp">
+			<Option virtualFolder="Ani/" />
+		</Unit>
+		<Unit filename="../Ani/LW_A_HBound.cpp">
+			<Option virtualFolder="Ani/" />
+		</Unit>
+		<Unit filename="../Ani/LW_B_Mariom.cpp">
+			<Option virtualFolder="Ani/" />
+		</Unit>
+		<Unit filename="../Ani/LW_Drawing.cpp">
+			<Option virtualFolder="Ani/" />
+		</Unit>
+		<Unit filename="../Ani/LW_InitSurf.cpp">
+			<Option virtualFolder="Ani/" />
+		</Unit>
+		<Unit filename="../Ani/LW_Initial.cpp">
+			<Option virtualFolder="Ani/" />
+		</Unit>
+		<Unit filename="../Ani/LW_Meteo_Init.cpp">
+			<Option virtualFolder="Ani/" />
+		</Unit>
+		<Unit filename="../Ani/LW_Tide_Init.cpp">
+			<Option virtualFolder="Ani/" />
+		</Unit>
+		<Unit filename="../Ani/LW_Waves_check.cpp">
+			<Option virtualFolder="Ani/" />
+		</Unit>
+		<Unit filename="../Ani/LongWave.h">
+			<Option virtualFolder="Ani/" />
+		</Unit>
+		<Unit filename="../Ani/Long_Waves.cpp">
+			<Option virtualFolder="Ani/" />
+		</Unit>
+		<Unit filename="../Ani/Tide.cpp">
+			<Option virtualFolder="Ani/" />
+		</Unit>
+		<Unit filename="../Ani/Tide.h">
+			<Option virtualFolder="Ani/" />
+		</Unit>
+		<Unit filename="../Graphics/Graphics.cpp">
+			<Option virtualFolder="Graphics/" />
+			<Option target="GCC stable 32" />
+			<Option target="GCC night" />
+			<Option target="GCC stable" />
+		</Unit>
+		<Unit filename="../Graphics/Graphics.h">
+			<Option virtualFolder="Graphics/" />
+			<Option target="GCC stable 32" />
+			<Option target="GCC night" />
+			<Option target="GCC stable" />
+		</Unit>
+		<Unit filename="../Graphics/Sym_CCCP.inc">
+			<Option virtualFolder="Graphics/" />
+			<Option target="GCC stable 32" />
+		</Unit>
+		<Unit filename="../Graphics/Tf_Paint.cpp">
+			<Option virtualFolder="Graphics/" />
+			<Option target="GCC stable 32" />
+			<Option target="GCC night" />
+			<Option target="GCC stable" />
+			<Option target="GCC single" />
+		</Unit>
+		<Unit filename="../Graphics/Tf_Topo.h">
+			<Option virtualFolder="Graphics/" />
+			<Option target="GCC stable 32" />
+			<Option target="GCC night" />
+			<Option target="GCC stable" />
+		</Unit>
+		<Unit filename="../Graphics/Tv_Case.cpp">
+			<Option virtualFolder="Graphics/" />
+			<Option target="GCC stable 32" />
+			<Option target="GCC night" />
+			<Option target="GCC stable" />
+		</Unit>
+		<Unit filename="../Graphics/Tv_File.cpp">
+			<Option virtualFolder="Graphics/" />
+			<Option target="GCC stable 32" />
+			<Option target="GCC night" />
+			<Option target="GCC stable" />
+		</Unit>
+		<Unit filename="../Graphics/Tv_Getc.cpp">
+			<Option virtualFolder="Graphics/" />
+			<Option target="GCC stable 32" />
+			<Option target="GCC night" />
+			<Option target="GCC stable" />
+		</Unit>
+		<Unit filename="../Graphics/Tv_Graph.h">
+			<Option virtualFolder="Graphics/" />
+			<Option target="GCC stable 32" />
+			<Option target="GCC night" />
+			<Option target="GCC stable" />
+		</Unit>
+		<Unit filename="../Graphics/Tv_Graphics.cpp">
+			<Option virtualFolder="Graphics/" />
+			<Option target="GCC stable 32" />
+			<Option target="GCC night" />
+			<Option target="GCC stable" />
+		</Unit>
+		<Unit filename="../Graphics/Tv_Help.cpp">
+			<Option virtualFolder="Graphics/" />
+			<Option target="GCC stable 32" />
+			<Option target="GCC night" />
+			<Option target="GCC stable" />
+		</Unit>
+		<Unit filename="../Graphics/Tv_Text.cpp">
+			<Option virtualFolder="Graphics/" />
+			<Option target="GCC stable 32" />
+			<Option target="GCC night" />
+			<Option target="GCC stable" />
+		</Unit>
+		<Unit filename="../Graphics/Win_Palette.inc">
+			<Option virtualFolder="Graphics/" />
+			<Option target="GCC stable 32" />
+			<Option target="GCC night" />
+			<Option target="GCC stable" />
+		</Unit>
+		<Unit filename="../Graphics/Window.cpp">
+			<Option target="GCC stable 32" />
+			<Option target="GCC night" />
+			<Option target="GCC stable" />
+		</Unit>
+		<Unit filename="../Graphics/Window.h">
+			<Option target="GCC stable 32" />
+			<Option target="GCC night" />
+			<Option target="GCC stable" />
+		</Unit>
+		<Unit filename="../Graphics/_Small_Font.c++">
+			<Option target="GCC night" />
+			<Option target="GCC stable" />
+			<Option target="GCC stable 32" />
+		</Unit>
+		<Unit filename="../Matrix/Allocate.cpp">
+			<Option virtualFolder="Matrix/" />
+			<Option target="GCC stable 32" />
+			<Option target="GCC night" />
+			<Option target="GCC stable" />
+		</Unit>
+		<Unit filename="../Matrix/B_Geo.cpp">
+			<Option virtualFolder="Matrix/" />
+			<Option target="GCC stable 32" />
+			<Option target="GCC night" />
+			<Option target="GCC stable" />
+		</Unit>
+		<Unit filename="../Matrix/Basis.cpp">
+			<Option virtualFolder="Matrix/" />
+			<Option target="GCC stable 32" />
+			<Option target="GCC night" />
+			<Option target="GCC stable" />
+		</Unit>
+		<Unit filename="../Matrix/Basis.h">
+			<Option virtualFolder="Matrix/" />
+			<Option target="GCC stable 32" />
+			<Option target="GCC night" />
+			<Option target="GCC stable" />
+		</Unit>
+		<Unit filename="../Matrix/Function.cpp">
+			<Option virtualFolder="Matrix/" />
+			<Option target="GCC stable 32" />
+			<Option target="GCC night" />
+			<Option target="GCC stable" />
+		</Unit>
+		<Unit filename="../Matrix/Function.h">
+			<Option virtualFolder="Matrix/" />
+			<Option target="GCC stable 32" />
+			<Option target="GCC night" />
+			<Option target="GCC stable" />
+		</Unit>
+		<Unit filename="../Matrix/Julian.cpp">
+			<Option virtualFolder="Matrix/" />
+			<Option target="GCC stable 32" />
+			<Option target="GCC night" />
+			<Option target="GCC stable" />
+		</Unit>
+		<Unit filename="../Matrix/Point.h">
+			<Option virtualFolder="Matrix/" />
+			<Option target="GCC stable 32" />
+			<Option target="GCC night" />
+			<Option target="GCC stable" />
+		</Unit>
+		<Unit filename="../Matrix/Rstring.cpp">
+			<Option virtualFolder="Matrix/" />
+			<Option target="GCC stable 32" />
+			<Option target="GCC night" />
+			<Option target="GCC stable" />
+		</Unit>
+		<Unit filename="../Type.h">
+			<Option target="GCC stable 32" />
+			<Option target="GCC night" />
+			<Option target="GCC stable" />
+		</Unit>
+		<Extensions />
+	</Project>
+</CodeBlocks_project_file>

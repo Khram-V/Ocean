@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Hull - Hydrostatic+Michell" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Option virtualFolders="Ship/" />
+		<Build>
+			<Target title="Hull-32">
+				<Option output="Dev/Hull32w" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="Data" />
+				<Option object_output="Dev/Obj/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Option parameters='&quot;A-1200 Early.vsl&quot; Аврора.vsl A-1201.vsl' />
+				<Linker>
+					<Add library="Dev/Lib/libAlis32.a" />
+				</Linker>
+			</Target>
+			<Target title="Hull-64">
+				<Option output="Dev/Hull64w" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="Data" />
+				<Option object_output="Dev/Obj/" />
+				<Option type="0" />
+				<Option compiler="gnu_gcc_stable" />
+				<Option parameters="A-1201.vsl" />
+				<Compiler>
+					<Add option="-w" />
+				</Compiler>
+				<Linker>
+					<Add library="Dev/Lib/libAlis64.a" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-fexpensive-optimizations" />
+			<Add option="-Os" />
+			<Add option="-funsigned-char" />
+			<Add option="-fno-exceptions" />
+			<Add option="-ffast-math" />
+			<Add option="-fno-trapping-math" />
+			<Add option="-fno-enforce-eh-specs" />
+			<Add option="-funsafe-math-optimizations" />
+		</Compiler>
+		<Linker>
+			<Add option="-s" />
+			<Add library="gdi32" />
+			<Add library="comdlg32" />
+		</Linker>
+		<Unit filename="../Ship/Hull.cpp">
+			<Option virtualFolder="Ship/" />
+		</Unit>
+		<Unit filename="../Ship/Hull.h">
+			<Option virtualFolder="Ship/" />
+		</Unit>
+		<Unit filename="../Ship/K_Frame.cpp">
+			<Option virtualFolder="Ship/" />
+		</Unit>
+		<Unit filename="../Ship/K_Hull.cpp">
+			<Option virtualFolder="Ship/" />
+		</Unit>
+		<Unit filename="../Ship/K_Math.cpp">
+			<Option virtualFolder="Ship/" />
+		</Unit>
+		<Unit filename="../Ship/K_Mich.cpp">
+			<Option virtualFolder="Ship/" />
+		</Unit>
+		<Unit filename="../Ship/K_Statics.cpp">
+			<Option virtualFolder="Ship/" />
+		</Unit>
+		<Unit filename="../Ship/K_Wave.cpp">
+			<Option virtualFolder="Ship/" />
+		</Unit>
+		<Unit filename="../Ship/K_WaveAta.cpp">
+			<Option virtualFolder="Ship/" />
+		</Unit>
+		<Unit filename="../Ship/Ship.Rc">
+			<Option compilerVar="WINDRES" />
+			<Option virtualFolder="Ship/" />
+		</Unit>
+		<Extensions />
+	</Project>
+</CodeBlocks_project_file>

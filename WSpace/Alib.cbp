@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="ALib" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Alib Static 32">
+				<Option output="Dev/Lib/Alis32" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="" />
+				<Option object_output="Dev/Obj" />
+				<Option type="2" />
+				<Option compiler="gcc" />
+				<Option createDefFile="1" />
+			</Target>
+			<Target title="Alib Static 64">
+				<Option output="Dev/Lib/Alis64" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="" />
+				<Option object_output="Dev/Obj" />
+				<Option type="2" />
+				<Option compiler="gnu_gcc_stable" />
+				<Option createDefFile="1" />
+				<Compiler>
+					<Add option="-w" />
+					<Add option="-fanalyzer" />
+				</Compiler>
+			</Target>
+			<Target title="Alib Dll">
+				<Option output="Dev/Lib/Alib" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="Dev" />
+				<Option object_output="Dev/Obj" />
+				<Option type="3" />
+				<Option compiler="gcc" />
+				<Option createDefFile="1" />
+				<Option createStaticLib="1" />
+				<Compiler>
+					<Add option="-D_ALIB_USE_CONFIG_H" />
+				</Compiler>
+			</Target>
+			<Target title="Wave">
+				<Option output="Dev/A-Waves" prefix_auto="1" extension_auto="1" />
+				<Option object_output="Dev/Obj" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Linker>
+					<Add library="Dev/Lib/libAlis32.a" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-fexpensive-optimizations" />
+			<Add option="-Os" />
+			<Add option="-w" />
+			<Add option="-funsigned-char" />
+			<Add option="-fopenmp" />
+			<Add option="-fno-exceptions" />
+			<Add option="-ffast-math" />
+			<Add option="-mthreads" />
+			<Add option="-Wunused" />
+		</Compiler>
+		<Linker>
+			<Add option="-s" />
+			<Add option="-static-libgcc" />
+			<Add option="-static" />
+			<Add library="gdi32" />
+			<Add library="comdlg32" />
+			<Add library="gomp" />
+		</Linker>
+		<Unit filename="../Graphics/Graphics.cpp">
+			<Option target="Alib Dll" />
+			<Option target="Alib Static 64" />
+			<Option target="Alib Static 32" />
+		</Unit>
+		<Unit filename="../Graphics/Graphics.h">
+			<Option target="Alib Dll" />
+			<Option target="Alib Static 64" />
+			<Option target="Alib Static 32" />
+		</Unit>
+		<Unit filename="../Graphics/Tf_Curve.cpp">
+			<Option target="Alib Dll" />
+			<Option target="Alib Static 64" />
+			<Option target="Alib Static 32" />
+		</Unit>
+		<Unit filename="../Graphics/Tf_Paint.cpp">
+			<Option target="Alib Dll" />
+			<Option target="Alib Static 64" />
+			<Option target="Alib Static 32" />
+		</Unit>
+		<Unit filename="../Graphics/Tf_Topo.cpp">
+			<Option target="Alib Dll" />
+			<Option target="Alib Static 64" />
+			<Option target="Alib Static 32" />
+		</Unit>
+		<Unit filename="../Graphics/Tf_Topo.h">
+			<Option target="Alib Dll" />
+			<Option target="Alib Static 64" />
+			<Option target="Alib Static 32" />
+		</Unit>
+		<Unit filename="../Graphics/Tv_Axis.cpp">
+			<Option target="Alib Dll" />
+			<Option target="Alib Static 64" />
+			<Option target="Alib Static 32" />
+		</Unit>
+		<Unit filename="../Graphics/Tv_Case.cpp">
+			<Option target="Alib Dll" />
+			<Option target="Alib Static 64" />
+			<Option target="Alib Static 32" />
+		</Unit>
+		<Unit filename="../Graphics/Tv_Draw.cpp">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="../Graphics/Tv_File.cpp">
+			<Option target="Alib Dll" />
+			<Option target="Alib Static 64" />
+			<Option target="Alib Static 32" />
+		</Unit>
+		<Unit filename="../Graphics/Tv_Getc.cpp">
+			<Option target="Alib Dll" />
+			<Option target="Alib Static 64" />
+			<Option target="Alib Static 32" />
+		</Unit>
+		<Unit filename="../Graphics/Tv_Graph.h">
+			<Option target="Alib Dll" />
+			<Option target="Alib Static 64" />
+			<Option target="Alib Static 32" />
+		</Unit>
+		<Unit filename="../Graphics/Tv_GraphTxt.cpp">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="../Graphics/Tv_Graphics.cpp">
+			<Option target="Alib Dll" />
+			<Option target="Alib Static 64" />
+			<Option target="Alib Static 32" />
+		</Unit>
+		<Unit filename="../Graphics/Tv_Help.cpp">
+			<Option target="Alib Dll" />
+			<Option target="Alib Static 64" />
+			<Option target="Alib Static 32" />
+		</Unit>
+		<Unit filename="../Graphics/Tv_Text.cpp">
+			<Option target="Alib Dll" />
+			<Option target="Alib Static 64" />
+			<Option target="Alib Static 32" />
+		</Unit>
+		<Unit filename="../Graphics/Window.cpp">
+			<Option target="Alib Dll" />
+			<Option target="Alib Static 64" />
+			<Option target="Alib Static 32" />
+		</Unit>
+		<Unit filename="../Graphics/Window.h">
+			<Option target="Alib Dll" />
+			<Option target="Alib Static 64" />
+			<Option target="Alib Static 32" />
+		</Unit>
+		<Unit filename="../Graphics/_Simplex_Font.c++">
+			<Option target="Alib Static 64" />
+			<Option target="Alib Dll" />
+			<Option target="Alib Static 32" />
+		</Unit>
+		<Unit filename="../Graphics/_Small_Font.c++">
+			<Option target="Alib Static 64" />
+			<Option target="Alib Dll" />
+			<Option target="Alib Static 32" />
+		</Unit>
+		<Unit filename="../Matrix/Allocate.cpp">
+			<Option target="Alib Dll" />
+			<Option target="Alib Static 64" />
+			<Option target="Alib Static 32" />
+		</Unit>
+		<Unit filename="../Matrix/B_Geo.cpp">
+			<Option target="Alib Dll" />
+			<Option target="Alib Static 64" />
+			<Option target="Alib Static 32" />
+		</Unit>
+		<Unit filename="../Matrix/Basis.cpp">
+			<Option target="Alib Dll" />
+			<Option target="Alib Static 64" />
+			<Option target="Alib Static 32" />
+		</Unit>
+		<Unit filename="../Matrix/Basis.h">
+			<Option target="Alib Dll" />
+			<Option target="Alib Static 64" />
+			<Option target="Alib Static 32" />
+		</Unit>
+		<Unit filename="../Matrix/Complex.h">
+			<Option target="Alib Dll" />
+			<Option target="Alib Static 64" />
+			<Option target="Alib Static 32" />
+		</Unit>
+		<Unit filename="../Matrix/Curve.cpp">
+			<Option target="Alib Dll" />
+			<Option target="Alib Static 64" />
+			<Option target="Alib Static 32" />
+		</Unit>
+		<Unit filename="../Matrix/Curve.h">
+			<Option target="Alib Dll" />
+			<Option target="Alib Static 64" />
+			<Option target="Alib Static 32" />
+		</Unit>
+		<Unit filename="../Matrix/Function.cpp">
+			<Option target="Alib Dll" />
+			<Option target="Alib Static 64" />
+			<Option target="Alib Static 32" />
+		</Unit>
+		<Unit filename="../Matrix/Function.h">
+			<Option target="Alib Dll" />
+			<Option target="Alib Static 64" />
+			<Option target="Alib Static 32" />
+		</Unit>
+		<Unit filename="../Matrix/Julian.cpp">
+			<Option target="Alib Dll" />
+			<Option target="Alib Static 64" />
+			<Option target="Alib Static 32" />
+		</Unit>
+		<Unit filename="../Matrix/Point.h">
+			<Option target="Alib Dll" />
+			<Option target="Alib Static 64" />
+			<Option target="Alib Static 32" />
+		</Unit>
+		<Unit filename="../Matrix/Rstring.cpp">
+			<Option target="Alib Dll" />
+			<Option target="Alib Static 64" />
+			<Option target="Alib Static 32" />
+		</Unit>
+		<Unit filename="../Matrix/XML.cpp">
+			<Option target="Alib Dll" />
+			<Option target="Alib Static 64" />
+			<Option target="Alib Static 32" />
+		</Unit>
+		<Unit filename="../Matrix/XML.h">
+			<Option target="Alib Dll" />
+			<Option target="Alib Static 64" />
+			<Option target="Alib Static 32" />
+		</Unit>
+		<Unit filename="../Ship/Ship.Rc">
+			<Option compilerVar="WINDRES" />
+			<Option target="Wave" />
+		</Unit>
+		<Unit filename="../Ship/Waves.cpp">
+			<Option target="Wave" />
+		</Unit>
+		<Extensions />
+	</Project>
+</CodeBlocks_project_file>

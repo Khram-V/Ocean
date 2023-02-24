@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Spectr - Ani/Mario" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Option virtualFolders="Spectr\;" />
+		<Build>
+			<Target title="SpecrM">
+				<Option output="Dev/SpecrM" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="Data" />
+				<Option object_output="Dev/Obj/" />
+				<Option type="0" />
+				<Option compiler="gnu_gcc_stable" />
+				<Option parameters="TS-1994X.mar -bgi=4" />
+				<Option projectLinkerOptionsRelation="2" />
+				<Linker>
+					<Add library="Dev/Lib/libAlis64.a" />
+				</Linker>
+			</Target>
+			<Target title="Specr32">
+				<Option output="Dev/Specr32" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="Data" />
+				<Option object_output="Dev/Obj/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Option parameters="TS-1994X.mar" />
+				<Option projectLinkerOptionsRelation="2" />
+				<Linker>
+					<Add library="Dev/Lib/libAlis32.a" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-funsigned-char" />
+			<Add option="-fexpensive-optimizations" />
+			<Add option="-Os" />
+			<Add option="-w" />
+			<Add option="-fopenmp" />
+			<Add option="-fno-exceptions" />
+			<Add option="-ffast-math" />
+			<Add option="-fno-trapping-math" />
+			<Add option="-fno-enforce-eh-specs" />
+			<Add option="-funsafe-math-optimizations" />
+			<Add option="-mthreads" />
+		</Compiler>
+		<Linker>
+			<Add option="-s" />
+			<Add library="libgdi32.a" />
+			<Add library="libcomdlg32.a" />
+		</Linker>
+		<Unit filename="../Ani/M_sFFT.cpp">
+			<Option virtualFolder="Spectr/" />
+		</Unit>
+		<Unit filename="../Ani/Spectral.h">
+			<Option virtualFolder="Spectr/" />
+		</Unit>
+		<Unit filename="../Ani/Spectral_M.cpp">
+			<Option virtualFolder="Spectr/" />
+		</Unit>
+		<Unit filename="../Ani/Spectral_S.cpp">
+			<Option virtualFolder="Spectr/" />
+		</Unit>
+		<Unit filename="../Ship/Ship.Rc">
+			<Option compilerVar="WINDRES" />
+			<Option virtualFolder="Spectr/" />
+		</Unit>
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<DoxyBlocks>
+				<comment_style block="1" line="1" />
+				<doxyfile_project />
+				<doxyfile_build />
+				<doxyfile_warnings warnings="0" />
+				<doxyfile_alpha_index alphabetical_index="0" />
+				<doxyfile_output html="0" />
+				<doxyfile_preprocessor enable_preprocessing="0" />
+				<doxyfile_dot />
+				<general />
+			</DoxyBlocks>
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

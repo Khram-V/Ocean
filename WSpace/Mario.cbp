@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Mario - Data analyze" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Option virtualFolders="Mario/" />
+		<Build>
+			<Target title="Release">
+				<Option output="Dev/Mario-64" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="Data" />
+				<Option object_output="Dev/Obj/" />
+				<Option type="0" />
+				<Option compiler="gnu_gcc_stable" />
+				<Option parameters="TS-1994R.mar -bgi=4" />
+				<Option projectLinkerOptionsRelation="2" />
+				<Linker>
+					<Add library="Dev/Lib/libAlis64.a" />
+				</Linker>
+			</Target>
+			<Target title="Release-32">
+				<Option output="Dev/Mario" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="Data" />
+				<Option object_output="Dev/Obj/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Option parameters="TS-1994X.mar" />
+				<Option projectLinkerOptionsRelation="2" />
+				<Linker>
+					<Add library="Dev/Lib/libAlis32.a" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-fexpensive-optimizations" />
+			<Add option="-Os" />
+			<Add option="-funsigned-char" />
+			<Add option="-fopenmp" />
+			<Add option="-fno-exceptions" />
+			<Add option="-ffast-math" />
+			<Add option="-fno-trapping-math" />
+			<Add option="-fno-enforce-eh-specs" />
+			<Add option="-funsafe-math-optimizations" />
+			<Add option="-mthreads" />
+			<Add option="-static" />
+		</Compiler>
+		<Linker>
+			<Add option="-s" />
+			<Add option="-static" />
+			<Add library="gdi32" />
+			<Add library="comdlg32" />
+			<Add library="gomp" />
+		</Linker>
+		<Unit filename="../Ani/M_Edit.cpp">
+			<Option virtualFolder="Mario/" />
+		</Unit>
+		<Unit filename="../Ani/M_Filt.cpp">
+			<Option virtualFolder="Mario/" />
+		</Unit>
+		<Unit filename="../Ani/M_Func.cpp">
+			<Option virtualFolder="Mario/" />
+		</Unit>
+		<Unit filename="../Ani/M_IO.cpp">
+			<Option virtualFolder="Mario/" />
+		</Unit>
+		<Unit filename="../Ani/M_ImpEx.cpp">
+			<Option virtualFolder="Mario/" />
+		</Unit>
+		<Unit filename="../Ani/M_Karta.cpp">
+			<Option virtualFolder="Mario/" />
+		</Unit>
+		<Unit filename="../Ani/M_Series.cpp">
+			<Option virtualFolder="Mario/" />
+		</Unit>
+		<Unit filename="../Ani/M_View.cpp">
+			<Option virtualFolder="Mario/" />
+		</Unit>
+		<Unit filename="../Ani/M_sFFT.cpp">
+			<Option virtualFolder="Mario/" />
+		</Unit>
+		<Unit filename="../Ani/M_sIO.cpp">
+			<Option virtualFolder="Mario/" />
+		</Unit>
+		<Unit filename="../Ani/Mario.cpp">
+			<Option virtualFolder="Mario/" />
+		</Unit>
+		<Unit filename="../Ani/Mario.h">
+			<Option virtualFolder="Mario/" />
+		</Unit>
+		<Unit filename="../Ani/Tide.cpp">
+			<Option virtualFolder="Mario/" />
+		</Unit>
+		<Unit filename="../Ani/Tide.h">
+			<Option virtualFolder="Mario/" />
+		</Unit>
+		<Unit filename="../Ani/Tide_Edit.cpp">
+			<Option virtualFolder="Mario/" />
+		</Unit>
+		<Unit filename="../Ani/World_Map.cpp">
+			<Option virtualFolder="Mario/" />
+		</Unit>
+		<Unit filename="../Ship/Ship.Rc">
+			<Option compilerVar="WINDRES" />
+			<Option virtualFolder="Mario/" />
+		</Unit>
+		<Unit filename="../Type.h" />
+		<Extensions />
+	</Project>
+</CodeBlocks_project_file>

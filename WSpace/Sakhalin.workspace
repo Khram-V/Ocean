@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_workspace_file>
+	<Workspace title="Ani &amp; Mario oldest working">
+		<Project filename="Alib.cbp" />
+		<Project filename="Ani.cbp" />
+		<Project filename="Mario.cbp" />
+		<Project filename="Tv.cbp" />
+		<Project filename="SpecrM.cbp" />
+		<Project filename="World.cbp" />
+		<Project filename="Hull.cbp" />
+		<Project filename="Waves.cbp" />
+		<Project filename="Sakhalin Maps.cbp" />
+	</Workspace>
+</CodeBlocks_workspace_file>

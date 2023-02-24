@@ -1,0 +1,10 @@
+-fopenmp
+-Ofast
+-funsigned-char
+-ffast-math
+-fno-trapping-math
+-fno-exceptions
+-fno-enforce-eh-specs
+-funsafe-math-optimizations
+-floop-parallelize-all
+-mthreads

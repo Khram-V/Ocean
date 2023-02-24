@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="World - Seismic maps" />
+		<Option pch_mode="2" />
+		<Option compiler="gnu_gcc_stable" />
+		<Option virtualFolders="Graphics/;Matrix/;World/" />
+		<Build>
+			<Target title="Release">
+				<Option output="Dev/World-64" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="Data" />
+				<Option object_output="Dev/Obj/" />
+				<Option type="0" />
+				<Option compiler="gnu_gcc_stable" />
+				<Option parameters="..\..\Ani\ANI.LTS" />
+				<Option projectLinkerOptionsRelation="2" />
+				<Linker>
+					<Add library="Dev/Lib/libAlis64.a" />
+				</Linker>
+			</Target>
+			<Target title="World-32">
+				<Option output="Dev/World" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="Data" />
+				<Option object_output="Dev/Obj/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Option parameters="..\..\Ani\ANI(1).LTS -bgi=5" />
+				<Option projectLinkerOptionsRelation="2" />
+				<Linker>
+					<Add library="Dev/Lib/libAlis32.a" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-fexpensive-optimizations" />
+			<Add option="-Os" />
+			<Add option="-w" />
+			<Add option="-funsigned-char" />
+			<Add option="-fopenmp" />
+			<Add option="-fno-exceptions" />
+			<Add option="-ffast-math" />
+			<Add option="-fno-trapping-math" />
+			<Add option="-fno-enforce-eh-specs" />
+			<Add option="-funsafe-math-optimizations" />
+			<Add option="-mthreads" />
+			<Add option="-static" />
+		</Compiler>
+		<Linker>
+			<Add option="-s" />
+			<Add option="-static" />
+			<Add library="libgdi32.a" />
+			<Add library="libcomdlg32.a" />
+		</Linker>
+		<Unit filename="../Ani/World_Main.cpp">
+			<Option virtualFolder="World/" />
+		</Unit>
+		<Unit filename="../Ani/World_Map.cpp">
+			<Option virtualFolder="World/" />
+		</Unit>
+		<Unit filename="../Ani/World_Seismic.cpp">
+			<Option virtualFolder="World/" />
+		</Unit>
+		<Unit filename="../Ship/Ship.Rc">
+			<Option compilerVar="WINDRES" />
+			<Option virtualFolder="Graphics/" />
+		</Unit>
+		<Extensions />
+	</Project>
+</CodeBlocks_project_file>

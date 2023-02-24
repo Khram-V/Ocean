@@ -1,0 +1,2188 @@
+ YEAR MO DA HR MN  SEC  LATID  LONGIT DEP  Ms   I   Hmax  D SOURCE REGION
+ Year Mn Dt Hr Mn Secn Latitu Lomgitu Dep Ms_ It__ Hmax
+;
+;     7  10 13 16 19   24     31      39  43  47   52
+;______________________________________________________
+-2000                   35.68   35.80          3.0        | Syrian coast
+-1628                   36.40   25.40     7.0  4.0 30.00  | Thera Is., S. Aegian Sea
+-1300                   40.00   26.00          3.0        | North Agean Sea, Troy
+ -760                   34.00   35.00          2.0        | ISRAEL & LEBANON COASTS
+ -590                   36.70   22.60     6.8  2.0        |
+ -525                   39.40   22.30     7.5  2.0        |
+ -480  9 29             37.90   23.30     6.3  2.0        | Saronic Gulf
+ -479                   39.70   23.30     6.7  2.0        | MACEDONIA
+ -426 10                38.90   22.70     7.0  2.0        | Maliakos Gulf
+ -373                   38.20   22.30     6.6  3.0 15.00  | Heliki, W.Corinthos Gulf
+ -330                   40.00   25.00     7.0             | EAST SPORADES ISLANDS
+ -227                   36.50   27.80     7.5  2.0        | Dodecanese Is.
+ -223                   38.80   42.70                     | Meliakos Gulf
+ -220                   36.50   28.20     7.2  2.0        |
+ -197                   36.40   25.40                     | Thera Isl.
+ -138                   44.10   10.00     7.0  2.0        |
+  -60                   36.00  -10.00     6.7  1.0        | SW Portugal
+  -58                   41.30   19.60                     | Albania
+  -57                   41.30   19.50     6.3  2.0        | Albania
+  -50                   43.50   28.50                     | Thrace
+  -50  1                43.00   41.00                     | Caucasus
+  -47  9                38.00  120.00          2.0        | Laizhou Bay, Bo Hai Sea, China
+  -26                   37.90   28.00     6.8  2.0        | CYPRUS
+   20                   43.00   41.00     6.5  2.0  3.00  | Kolhida coast, Black Sea
+   46                   36.40   25.40     6.5             | South Aegian Sea
+   50                   42.90   41.00  10                 | CIS:  CAUCASUS:  DLOSKURLY
+   62                   36.50   25.40     6.9  2.0        | Crete Isl., Cyclades
+   66                   35.20   23.50     6.0  2.0        | Crete Isl.
+   77  6 20             37.90   22.90     6.3  2.0        | SOUTH COASTS OF CRETE
+   79  9 25  7          40.80   14.40          2.0        | Campania, Gulf of Naples
+  103                   44.70   33.30     7.0  1.0  2.00  | Crimea, Black Sea
+  142                   36.60   28.00     7.0  3.0        | Dodecanese Isl.
+  148                   36.70   28.00     7.0  2.0        | ISLAND OF RHODES
+  173  6 27             39.00  118.00          2.0        | Yellow Sea, East China
+  177                   38.00   15.00          2.0        |
+  258                   42.00   12.50          2.0        |
+  262                   36.30   30.00          2.0        | South Asia Minor
+  342  7                41.30   19.50                     | CYPRUS
+  344                   40.30   26.50     6.8  1.0        | Dardanelles
+  346                   41.40   19.40     6.8             | Dyrrachium
+  348                   41.90   12.50     4.1  1.0        |
+  362                   38.00   15.50          3.0        |
+  365  7 21             35.30   25.70  70 8.0  3.0        | CRETE
+  368                   40.50   29.60     6.4             | Marmara Sea
+  407  4  1             41.00   29.00     6.6             | Marmara Sea
+  416  9 10            -10.00  120.00          4.0 50.00  | Java, Indonesia
+  426                   40.50   46.50  12 6.7  2.0        |
+  447  1 26             40.90   28.50     7.3  2.0        | Marmara Sea
+  450  1 26             40.40   28.40     7.0             | Marmara SEa
+  478  9 25             40.80   29.20     7.2             | Marmara Sea
+  543                   43.20   28.30     7.5  2.0  5.00  | Varna, Bulgaria
+  543  9  6             40.30   27.80     6.8  2.0        | SEA OF MARMARA
+  551  7  7             38.40   22.30     7.1  2.0        | ETOLIA
+  551  7  9             40.80   29.90     7.8  2.0        |
+  552  5                38.40   22.40     7.2  2.0        | Maliakos Gulf
+  554  8 15             37.00   21.70     7.0  2.0        | Dodecanese Isl.
+  556                   37.00   27.36     7.0  2.0        | Dodecanese Is.
+  557  8 15             41.00   29.50     7.5  2.0  2.00  | Burgas, Bulgaria
+  557 10 14             40.90   28.60     7.0  2.0        | Marmara Sea
+  684 11 29 15          32.50  134.00     8.4  3.0 10.00  | Nankaido, Japan
+  701  5 12             35.70  135.40     7.0  2.0        | Tango, Kyoto Pref., Japan
+  704  8  2             33.80  136.70     7.0  2.0        | Kumanonada, Japan
+  740 10 26             40.74   29.30     7.3  2.0        | Marmara Sea
+  744  6 30             32.40  130.50     6.4  2.0        | Shimabara, Yatsushiro, Japan
+  745  6  8             34.60  135.30     6.5  2.0        | Osaka Bay, Japan
+  746  1 18             45.40   12.25     4.9  2.0        |
+  766  7 20             31.60  130.70     6.5  1.5        | N.Kagoshima Bay, Japan
+  792  4 30             45.50   11.00          2.0        |
+  799  9 18             36.00  141.00          1.0  2.00  | E Kanto, Ibaraki Pref., Japan
+  800                   36.20   23.20          3.0        | Kyithira Str.
+  803 12 19             36.95   35.58          2.0        | GULF OF ISKENDERUN
+  818  8 10             35.20  139.30     7.9  1.0        | Kanto, Sagami Bay, Japan
+  842 10 24             49.50   -2.50     7.0  1.0        | Channel Isl., northern France
+  850 11 27             39.00  139.90     7.0  2.0        | Yomagata, Shonai, Japan
+  855                   34.00  137.00          1.0        | Kumano, Kii, Japan
+  855  5 22             35.30   51.20                     |
+  858  4 19             38.00   46.20          2.0        |
+  859                   36.08   36.25          2.0        |
+  863  7 10             37.10  138.00     7.0  2.0        | Naoetsu, Niigata Pref., Japan
+  869  7 13             38.50  143.80     8.6  4.0        | Sanriku, Japan
+  881  6 10             36.00   -8.00     6.5  3.0        | S of Portugal
+  887  8  2             37.50  138.10     6.5  2.0        | W.Echigo,Niigata Pref., Japan
+  887  8 26             33.00  135.30     8.6  3.0        | Nankaido, Japan
+  922                   33.80  136.70     7.0  1.0        | Kumanonada, Japan
+  958  2 23             35.30   51.20                     | IRAN:  REY (RAY),TALQAN
+  963  7 22             36.50   37.00          3.0        |
+  975 10 26             41.04   28.98          2.0        | CONSTANTINOPLE
+  986 10 26 18          40.80   29.20     7.5  2.0        | Marmara Sea
+  991                   36.20   48.00                     | Siriya
+ 1007  9 17             33.20   44.20                     |
+ 1026  6 16             34.80  131.80     7.5  3.0 10.00  | Masuda, Shimane Pref., Japan
+ 1034  1  4             32.80   35.53     6.2  2.0        | AKKO
+ 1038  3 27             39.00   16.30          3.0        |
+ 1039  2  2             38.40   27.30     6.8             | CONSTANTINOPLE
+ 1068  3 18             31.92   34.85          2.0        |
+ 1076 10 31             23.30  117.00                     | Zhao'an, South China Sea
+ 1088  4 22             41.40   43.20  10 5.3             | CIS:  GEORGIA  (TSUNAMI: JAPAN
+ 1088  6 10             40.50  143.00     7.0  1.5        | Sanriku,Iwate pref.. Japan
+ 1092  9 13             37.70  138.60                     | Teradomari, Niigata Pref.
+ 1096 12 17             34.00  137.50     8.2  2.0  7.00  | Enshunada, Japan:TOKKAIDO
+ 1099  2 22             33.00  135.50     8.2             | Nankaido, Japan
+ 1099 11 11             50.10   -5.30          2.0        | St.Michaels Mount, SW England
+ 1106  3                45.50   12.30          2.0        |
+ 1112  6 20             40.00   14.00          2.0        |
+ 1114  3 12             36.50   36.00     7.0  2.0        | SAMANDAG
+ 1134 10  1             52.00    3.00          1.0        | Southern North Sea
+ 1169  2  4             37.50   15.30     7.0  2.0        |
+ 1202  5 22             34.30   33.00     6.6  2.0        | CYPRUS
+ 1231  3 11             41.00   28.60     6.9  2.0        | Marmara Sea
+ 1241  5 22             35.20  139.40     7.0  1.0        | Kamakura,Sagami Bay, Japan
+ 1257 10  9             39.00  144.00     7.5             | Sanriku,Iwate-Miyagi, Japan
+ 1257 10  9  1          35.20  139.50     7.0  1.0        | Kamakura,Sagami Bay, Japan
+ 1265  8 10             40.70   27.40     6.6  2.0        | Marmara Sea
+ 1270  3                41.18   19.30     6.8  2.0        | North Ionian Sea
+ 1273                   41.30   19.70     6.5  2.0        |
+ 1293  5 27             35.20  139.40     7.1             | Kamakura,Sagami Bay. Japan
+ 1303  7 23             44.00    9.00          2.0        | Ligurian Sea
+ 1303  8  8  6          36.10   29.30     8.0  3.0        | Dodecanese Isl.
+ 1321                   45.40   12.30          2.0        |
+ 1329  6 28             37.80   15.00          2.0        |
+ 1331  3 13             44.17   12.25          2.0        |
+ 1331  8 15             33.70  135.20     7.0             | Tanabe,Wakayama Pref..Japan
+ 1341 10 31             41.00  139.50     7.0             | Jusanko,Tsugaru.Aomori .Japan
+ 1343 10 18 19          41.00   28.10     7.0  1.5  1.70  | Marmara Sea
+ 1343 10 20 14          41.00   28.10          2.0        | Marmara Sea
+ 1344  2 12             40.80   28.80     6.9  3.0        |
+ 1344 10 18             40.80   28.80     6.9  2.0        | Constantinopol, Marmara Sea
+ 1348  1 25             46.10   13.80          2.0        |
+ 1360 11 23             33.40  136.20     7.0  2.0        | Kumanonada. Japan
+ 1361  8  3             33.00  135.00     8.4  3.0        | Nankaido. Japan:KINAI
+ 1365  1  2             37.30   49.70                     |
+ 1382  5                52.00    2.00     7.0  1.0        | Britain, France, Brabant
+ 1389  3 20 14          38.60   26.30     6.7  2.0        | ISLAND OF CHIOS
+ 1392  1 27             46.15   12.22          2.0        | Easten Aegian Sea
+ 1402  6                38.10   22.40     7.0  2.0        | Corinthos Gulf
+ 1403 12                33.70  136.50     7.0  1.0        | Kumanonada. Japan
+ 1406 10 16             34.40  138.40     6.2             | Shizuoka, Japan
+ 1407  8 23             38.00  125.30          1.0        | Hae'ju coast, Korea
+ 1408  1 21             33.80  136.90     7.0  1.0        | Kumanonada. Japan
+ 1419  5 25             40.90   28.90     6.6  2.0        | Marmara Sea
+ 1420  9  7             35.50  141.00               2.00  | Off Ibaraki Pref..Japan
+ 1425                   44.40   34.30     7.0  1.0  2.00  | Yalta, Crimea, Black Sea
+ 1427                   36.40   25.40          0.0        | Thera Is., Agean Sea
+ 1433 11  7             34.90  139.50     7.1             | Off Izu-Oshima,Ibaraki. Japan
+ 1434  8  6             37.30  126.00          1.0        | Inch'on (Chemulpo), Korea
+ 1437 11 28             40.00   26.10                     | North Aegian Sea
+ 1448  9 19             37.50  138.20     7.0             | Off Sado,Niigata Pref..Japan
+ 1452                  -16.83  168.54          3.0        | Kuwae volcano, Vanuatu
+ 1452 12  5             41.50   16.50                     | Coast of Apulia, Southrn Italy
+ 1456 12  4             41.30   14.70          2.0        |
+ 1481  5  3             36.20   28.50     7.1  2.0  1.80  |
+ 1481 10  3             38.20   28.50     7.1  2.0        | ISLAND OF RHODES
+ 1489                   36.60   28.40          2.0        | Dodecanese Isl.
+ 1494  7  1 16          35.30   25.00     7.0  2.0        | Crete Isl.
+ 1495  9 12             35.10  139.50     7.1  2.0  5.00  | Kamakura,Sagami Bay. Japan
+ 1498  7  9             34.40  137.70     6.4             | Enshunada, Japan
+ 1498  8  2             10.00  -61.30          1.0        | Boca de la Sierpe, Venezuela
+ 1498  9 20             34.00  138.10     8.3  4.0 10.00  | Enshunada, Japan
+ 1498  9 20  0  0  1.0  33.50  135.20     7.5             | Nankaido, Japan
+ 1508  5 29             35.00   25.50     7.1  2.0        | SOUTHERN COASTS OF CRETE
+ 1509  6 17             31.50  121.50                     | YELLOW SEA
+ 1509  9 10             41.10   28.80     7.4  3.0  6.00  | Marmara Sea
+ 1509  9 14             40.80   28.10     7.7  2.0        | CONSTANTINOPLE
+ 1510  9 21             34.60  135.40     6.7             | Osaka Bay, Japan
+ 1510 10 10             34.50  137.60     7.0  1.0        | Enshunada, Japan
+ 1511  3 26             46.25   13.30  10 6.0             | LAGOON OF VENICE
+ 1511  3 26 14 30       46.25   13.15     6.1  1.0        | Trieste, North Adriatic
+ 1512 10                33.00  134.00          1.5        | Tokushima Pref., Sikoku Is.
+ 1513                  -17.20  -72.30  30 8.7  3.0        | Kalyao
+ 1519  9 24             36.30  126.00          1.0        | Ch'ungch'ong, Korea
+ 1520  4  4             33.60  136.30     7.0             | Kii,Kumanonada, Japan
+ 1530  9  1  9          10.70  -64.10     7.0  2.0  7.30  | Peninsula de Paria, I. Cubagua
+ 1531  1 26             38.57   -9.00     7.7  3.0        | Lisbon, Portugal
+ 1537                   19.20 -100.00                     | S. MEXICO
+ 1538  9 26             40.80   14.20          2.0        |
+ 1539 11 24 23          16.00  -87.00     7.0  1.0        | Cabo de Higueras, Gonduras
+ 1541 12 25             10.80  -64.20     7.0  1.0        | Venezuela
+ 1543  9  1 23          10.60  -64.10     7.0  2.0        | Cumana, Venezuela
+ 1546  1 14             38.30   25.80     6.5  2.0        |
+ 1548  9 13             38.00  122.00     7.5             | Bo Hai Bay, East China
+ 1556 10 21             37.00  126.30          1.0        | Asan, Ch'ungch'ong, Korea
+ 1562  7 25             33.00  130.00                     | Kumamoto, Yatsushiro, Japan
+ 1562 10 20             40.50   15.50          2.0        |
+ 1562 10 28 10         -38.70  -73.20     8.0  3.5 16.00  | South Central Chile
+ 1564  7 20 18 30       44.00    7.30          2.0        | Liguria, Cote d'Azur
+ 1570                   36.40   28.40                     | Dodecanese Isl.
+ 1570  2  8 13         -36.80  -73.00     8.8  3.0  4.00  | Concepcion, Southern Chile
+ 1571  5 20             38.00  138.00                     | Takada, Nigata Pref., Japan
+ 1571 11  1             55.00    8.00     7.0  1.0        | Holland
+ 1575  3 17  6         -33.40  -70.60     7.3  2.5  4.00  | Santiago, Central Chile
+ 1575  7 27             51.50    0.50     7.0  1.0        | The Thames River, England
+ 1575 12 16 19         -39.50  -73.10     8.5  2.5  4.00  | Valdivia, Southern Chile
+ 1579  3 16              8.70  -83.90     7.0             | Cano Is., Costa Rica
+ 1580  4  6             51.00    1.50  33 6.2  1.0  4.00  | Dover Strait, England
+ 1582  1 22 16 30      -16.00  -72.00  30 8.2             | PERU:  AREQUIPA
+ 1585  6 11             38.80  141.50                     | Miyagi, Miyagi Pref., Japan
+ 1586  1 18 14          35.00  136.80     8.2  1.0        | Ise Bay, Japan
+ 1586  7  9  0 30      -12.20  -77.70     8.5  3.5 26.00  | Off Lima, Peru
+ 1589  3 21             34.80  138.20     6.7             | Suruga and Boso, Japan
+ 1590                  -17.20  -72.90  40 7.7  1.5        | PERU:  CAMANA
+ 1591  7 26             37.40  -25.50          1.0        | Sao Miguel Is., Azores
+ 1594                   40.80   14.40          3.0        |
+ 1596  9  1 11          33.30  131.70     6.9             | JAPAN
+ 1596  9  4             33.30  131.70     6.9  2.0  5.00  | Beppu Bay,Kyushu. Japan:UITA
+ 1597  9 10             33.30  131.60     6.4             | Beppu Bay. Japan
+ 1597 10  6             39.00  121.00     7.0             | Shandong, East China
+ 1601                   35.50   25.50                     |
+ 1602  2  8             35.10  140.50     7.2  1.0        | Off Boso. Japan
+ 1603                   34.00  137.00                     | Kumanonada, TOKAIDO, Japan
+ 1604 11 24 18 30      -18.50  -70.35     8.4  3.5 16.00  | Arica, Northern Chile
+ 1605  1 31 10 11       34.30  140.40     7.9  4.0 30.00  | JAPAN:  SHIKOKU
+ 1605  2  3             33.00  134.90     8.1  3.0 10.00  | Nankaido. Japan:TOKKAIDO
+ 1605  2  3  0  0  1.0  34.00  137.80     8.0      10.00  | Enshunada. Japan
+ 1606  1 23             32.00  140.00     6.7             | Hachijo Is.-Tokaido, Japan
+ 1608  7  1              0.00  127.00          1.5        | Makian Is., Indonesia
+ 1609                   36.40   28.40     7.2  3.0        | Dodecanese Isl.
+ 1609  1 19             51.50    0.50          1.0        | Thames River, England
+ 1611 12  2             39.00  143.00     8.1  4.0 25.00  | Sanriku. Japan:YEZO
+ 1612 11 11             35.50   25.50     6.7  3.0        | Crete Isl.
+ 1613  8 25             38.83   14.70     5.6  2.0        |
+ 1614 11 26             37.50  138.00     7.7  1.0        | Off Naoetsu,Niigata Prf..Japan
+ 1615  6  5             44.90   35.50     6.0  1.0  2.00  | Feodosia, Crimea, Black Sea
+ 1615  9 16 24         -18.20  -71.00     7.9  1.5  4.00  | Arica, Northern Chile
+ 1616  7 28            -54.80  -64.90          1.0        | Straits of Le Maire
+ 1616  9  9             38.10  142.00     7.0  1.0        | Off Miyagi Pref..Japan:SENDAI
+ 1616 12  6             39.00  144.50     7.5  1.0        | Sanriku. Japan
+ 1618  1  9             36.50  141.00                     | Iinuma, Chosi. Japan
+ 1619  2 14 16 30       -7.90  -79.00  40 8.6             | PERU
+ 1619  5  1             32.50  130.60     6.4             | YATSUSHIRO, JAPAN
+ 1621  5  2              9.00  -79.50     6.0             | Veraguas, Panama
+ 1622  5  5             37.60   21.00     6.6             |
+ 1624  3 19             44.60   11.80          2.0        |
+ 1627  7 30 11          41.80   15.20     6.3  3.0        | Cargano
+ 1627  9 14             18.00  121.50     8.0  3.5        | N.Luzon Is.. Philippines:CAGAY
+ 1629  2 27             35.50   25.00     7.0  2.0        | CRETE
+ 1629  3  7  9          35.50   25.00  70 7.0  2.0        |
+ 1629  8  1             -4.30  129.60     7.0  3.0 15.00  | BANDA SEA, INDONESIA
+ 1630  3  9  9          36.00   24.00     6.8  2.0        | Kythira Str.
+ 1631 12 17  9          40.80   14.40          2.0        | Campania, Gulf of Naples
+ 1633  3  1             35.12  139.07     7.1  1.0        | TOKAIDO, JAPAN
+ 1633  5 14            -41.80  -74.00          1.5  2.00  | SC. CHILE
+ 1633 11  5             37.60   21.00     6.9  2.0        | Zante, Ionian Sea
+ 1636  7 31             35.00  129.00          1.0        | Pusan, Korea
+ 1636 10 12 18 30       38.10   20.30     7.2  1.0        | Ionian Sea
+ 1638  3 27 15  5       39.15   16.25     7.1             | Tyrrhenian Calabria
+ 1640  4  4             53.00    5.00     6.5  1.0        | NW Europe, Belgium, Netherland
+ 1640  7 31             42.10  140.70     6.5  2.0 10.00  | Uchiura Bay,SE.Hokkaido. Japan
+ 1640  9 16             23.50  116.50     5.8  1.0        | S. CHINA SEA
+ 1641 12 21             38.60  -28.10          2.0        | Velas, Sao Jorge Is., Azores
+ 1642  9  4             35.20  140.60     6.7             | Boso Pen.,  Japan
+ 1643  7 25             35.00  129.00          1.0        | Kyongsang, Korea
+ 1644 10 18             39.40  140.10     6.9  1.0        | Honjo,Akita. Japan
+ 1645 11 30 12          14.40  121.00     8.0             | PHILIPPINES:  LUZON:  S BATANG
+ 1645 11 30 20          14.40  121.00                     | PHILIPPINES:  LUZON:  CENTRAL,
+ 1646  4  5             41.00   29.00          2.0        | Marmara Sea
+ 1646  4  5 20          43.30   10.05          2.0        | CONSTANTINOPLE
+ 1647  5  7            -14.20  -75.70     8.5  2.0  2.80  | PERU
+ 1647  5 13            -14.20  -75.70  40 7.9             | PERU
+ 1648  2 29             15.00  121.00                     | Indonesia
+ 1649  1                38.30   15.70          3.0        |
+ 1649 12  9             35.50  126.00     6.5  1.0        | YELLOW SEA
+ 1650                   44.70   33.30     7.0  1.0  2.00  | Crimea, Black Sea
+ 1650  9 29 15          36.30   25.30     6.5  4.0 30.00  | South Aegian Sea
+ 1650 12 13             36.00  135.70          1.0        | Echizen (Fukui). Japan
+ 1652                   66.00  -18.00          1.0        | Einarsson, Iceland
+ 1653                   38.70  -27.20          2.0        | Azores, Terceira Is.
+ 1653  6                12.90  121.00          1.0        | NE.Mindoro Is., SULU SEA
+ 1655 11 13 19 38      -12.00  -77.00                     | PERU:  LIMA,CALLAO
+ 1657  3 15 23 30      -36.80  -73.00     8.0  2.5  8.00  | Concepcion, Southern Chile
+ 1657 10 28             34.50  135.30          2.0        | Choshi, JAPAN
+ 1657 12                -3.50  126.70          1.0        | Buru Is., Banda Sea, Indonesia
+ 1659  2 17 17          41.00   27.80                     | Smyrna, Aegian Sea
+ 1659 11 11             -6.90  129.20               1.50  | BANDA SEA, INDONESIA
+ 1661  1  8             23.00  120.00     6.4  1.5        | S. CHINA SEA
+ 1662 10 20             31.70  132.00                     | S.Kyushu, Japan
+ 1662 10 30 15          31.70  132.00     7.6  2.5        | Hiuganada, Japan
+ 1664                   27.80  128.20          1.0        | Torishima, Ryukyu. Japan
+ 1666  5 31             35.00  136.80     6.4  1.0        | Chita Penin,Aichi Pref.,Japan
+ 1667                   25.00  125.50     6.7             | Miyakojima. Japan
+ 1667  4  6  7          42.60   18.10     7.2  2.0        | South Adriatic Sea
+ 1667 11 30             38.40   27.10     6.6  1.0        | ASIA MINOR
+ 1668  7 10             38.40   27.10     6.6  1.0        |
+ 1668  7 25             35.30  118.60     8.5  2.0        | P'yongyang, Korea
+ 1668 11 23             38.60  -28.02          2.0        | Calheta, Sao Jorge Is., Azores
+ 1670  8 19             33.00  122.50     6.7  1.5        | E. CHINA SEA
+ 1670  9                34.50  135.20                     | Osaka Bay, Japan
+ 1670 12 17             35.50  141.00     6.4             | Off Boso. Japan
+ 1672                   36.50   25.50          2.0        | CYCLADES
+ 1672  4                39.70   26.00     6.8             | North Aegian Sea
+ 1672  4 14 16 15       44.10   12.60     5.7  1.0        | Central Adriatic
+ 1673  5 20              0.80  127.30                     | Ternate Is., N. MOLUCCAS
+ 1673  7 12             -4.00  127.00                     | Ambon, BANDA SEA
+ 1673  8 12              0.80  127.30          1.0        | Ternate Isl., Indonesia
+ 1674  2 17             -3.70  127.70     8.0  4.0 80.00  | Indonesia, Oma
+ 1674  5  6             -3.40  128.00     6.0             | BANDA SEA, INDONESIA
+ 1675  3                13.40  121.10          1.0        | SULU SEA
+ 1676                   38.73  -27.08          2.0        | Baia Praia, Terceira Is., Azor
+ 1676 11                39.00  142.00                     | Hitachi, Ibaraki, Aomori, Japa
+ 1676  7 12             34.50  132.00          1.5        | KASHIMA, JAPAN
+ 1677  4 13 13          38.70  144.00     8.1  2.0  6.00  | Sanriku. Japan
+ 1677 11  4  8 10       35.00  141.50     7.4  3.0  8.00  | Off SE.Boso Penin.. Japan
+ 1677 12  7 11 30       14.50  120.50          1.0        | PHILIPPINES:  LUZON:  CENTRAL
+ 1678  6 17  0 45      -12.50  -77.00     8.2  2.5        | PERU:  LIMA
+ 1680  8 29             34.00  138.00                     | ENSHUNADA, JAPAN
+ 1680 10  9  7          36.50   -4.40     7.0  2.0        | Alboran Sea
+ 1681  2 10             35.60   24.00                     | Crete Isl
+ 1681  3 10            -18.50  -70.30     7.5             | Arica, Northern Chile
+ 1681  6 26             38.00  130.00     7.0  1.0        | Yijo Sillok, Korea
+ 1682  8                40.10   44.30          2.0        |
+ 1682 10 19            -13.50  -76.50                     | PERU
+ 1686                  -12.00  -77.00                     | PERU
+ 1687  7 12  7         -32.80  -70.70     7.3             | NC. CHILE
+ 1687 10 20  9 30      -13.50  -76.50     8.5  3.5  8.00  | Off Callao, Lima, Peru
+ 1688  3  1             17.60  -76.70          2.0        | Port Royal, Jamaica
+ 1688  7 10 11 45       38.40   26.90     7.0  1.0        | Izmir, Aegian Sea
+ 1689                   39.50  142.00          1.0        | Sanriku coast, Japan
+ 1690  4  5             17.20  -62.50     7.0  1.0        | Nevis, Lesser Antilles
+ 1690  4 16             17.50  -61.50     8.0  2.0        | US Virgin I., Charlotte Amalie
+ 1692  6  7 16 43       17.80  -76.70     7.0  3.0 10.00  | Port Royal, Liganee, Jamaica
+ 1693  1  9 21          37.35   15.15     6.0             | Eastern Sicily
+ 1693  1 11 13          37.40   15.15     6.8  2.0        | Eastern Sicily
+ 1693  2 13             64.00  -19.70          1.0        | Iceland
+ 1694  6 19             40.20  140.10     7.0             | Noshiro. Japan Sea
+ 1694  9  8 17 45       40.80   15.60          2.0        |
+ 1696  7 25             36.90  140.90          2.0        | Onahama, Fukushima Pref., Japa
+ 1696 11 26             38.00  141.00          2.0        | Miyagi, Ishinomaki, SANRIKU
+ 1698  5 14 10          40.70   14.15          2.0        |
+ 1698 12 22             33.30  131.70     6.4             | Bungo, Ooita. Japan
+ 1699  1                37.50   15.00     7.0  2.0        | Eastern Cicily
+ 1699  3                33.50  129.50                     | Kyushyu Is., Japan
+ 1699  9  8             34.00  138.00          0.5        | ENSHINADA, JAPAN
+ 1700  1 27             39.30  142.00          1.0        | Otsuchi, Miyagi Pref, Kii Pen,
+ 1700  1 27  6          45.00 -125.00     8.5  4.0 10.00  | Cascadia Subductin Zone
+ 1700  4  1             32.70  129.70                     | Hizen, Nagasaki Pref.,  Japan
+ 1700  9 12             36.50  126.50     6.5  1.0        | Ch'ungch'ong, Korea
+ 1701 11  9             18.80  -73.10     7.0  1.0        | Gon(n)ave, Haiti
+ 1703  2  2 10          42.45   13.35          2.0        | Latium
+ 1703  5  1             44.40    8.55     3.2             | Liguria, Cote d'Azur
+ 1703  7                44.20    8.80          2.0        |
+ 1703 12 30 17          34.70  139.80     8.2  3.0 10.50  | Off SW.Boso. Japan:SAGAMI,MUSA
+ 1704  1                35.00  136.50                     | Suruga Bay, Shizuoka, Japan
+ 1704  5 27             40.40  140.00     6.9             | Taiji,Kii,Iwadate. Japan Sea
+ 1705 11 26            -18.60  -70.20               8.00  | N.CHILE:  ARICA
+ 1706  5  6             28.30  -16.73          2.0        | Garachico, Tenerife, Canary Is
+ 1707 10 28  4          34.10  137.80     8.4  3.0 11.00  | Enshunada. Japan:TOKKAIDO,TOSA
+ 1707 10 28  5 15       32.00  134.50     8.1  4.0 25.70  | Nankaido. Japan
+ 1708  2 13             34.30  137.00     6.8             | Enshunada. Japan
+ 1708 11 28             -3.00  128.00          2.0        | BANDA SEA, INDONESIA
+ 1710  3  6             -4.30  129.60          1.5        | BANDA SEA, INDONESIA
+ 1711  9  5             -4.00  129.00     7.0  1.5        | BANDA SEA, INDONESIA
+ 1711 12 20  5          34.30  134.00     6.7  1.0        | Harimanada,E.Sanuki. Japan
+ 1714  6 30             38.30   43.20          2.0        |
+ 1715  8 23            -18.50  -70.30     7.5             | Arica, Northern Chile
+ 1715 12 29             33.30  131.70     6.6             | Beppu Bay, Oita Pref. Japan
+ 1716  9 24             13.60  121.10                     | TAAL
+ 1718 10  5             34.20  136.90                     | Mie pref., Japan
+ 1722  9 24             34.70  136.70          1.5        | Aiti, Ivate, Ice bay, Kii pen
+ 1722 10                -6.00  106.80                     | Jakarta (Batavia), JAVA
+ 1722 12 27 17 30       37.15   -7.60     7.5  1.0        | Algarve, Portimao, Portugal
+ 1723  2 23 20          38.60   20.70     7.0  2.0        | Ionian Sea
+ 1724 10 28            -12.10  -77.10              26.00  | PERU:  CALLAO
+ 1725  3 27            -16.60  -72.70          1.5  2.00  | PERU
+ 1726  4  1             36.30  136.00     6.6             | Off Katsuyama,Fukui Pref.Japan
+ 1726  9  1  4  5       38.10   13.35     5.8  1.0        | Northern Sicily
+ 1726 10                10.50  -64.30     7.0  1.0        | Araya Penin, Venezuela
+ 1727  7  4             37.50   13.00          2.0        | Sicily Channel
+ 1730  7  8  8 30      -32.50  -71.50     8.7  3.5 16.00  | Valparaiso, Central Chile
+ 1731  1  8             62.20    6.95          2.0        | Western Norway
+ 1731  3 20             41.50   15.50          2.0        | Gargano
+ 1732                   34.50  139.00          0.5        | Izu Pen., Hachijo Is., Japan
+ 1732  2 25             17.00  -99.00          1.5  3.00  | S. MEXICO
+ 1732 11                39.30   20.10     6.5  1.0        | Ionian Sea
+ 1732 12  4             35.20  140.80     6.5             | Kujukuri Beach. Japan
+ 1735  2 27             10.82  125.01          1.5        | Balere, Visayan Isl., Philippi
+ 1737 10 17 15 30       52.50  159.50  40 8.3  4.0 63.00  | Kamchatka pen.USSR
+ 1737 12 17             50.00  157.00  50 7.5             | Kamchatka pen.-KURIL IS.USSR
+ 1737 12 24            -39.80  -73.20     7.7             | Valdivia, Southern Chile
+ 1738                   36.80   24.40     6.5  2.0        | MILOS I.
+ 1741  1 31  1 15       36.20   28.50     7.3  3.0        | Dodecanese Isl.
+ 1741  8 29             41.60  139.40     6.9  2.5 15.00  | W.Oshima,W.Hokkaido, Japan
+ 1742  1 19 16 30       43.53   10.30          1.0        | Leghorn Harbor, Tuscany
+ 1742  2  2             43.50   10.20                     |
+ 1742  2 20             37.90   22.60     6.8  2.0        | Corinthos Gulf
+ 1742  3 23  8         -36.80  -73.00                     | Conception, Southern Chile
+ 1742 11                51.50  157.00  40 7.0  1.5        | N.Kuril Islands. USSR
+ 1742 11 18             50.50  157.00  40 7.5  1.5        | N.Kuril Islands, USSR
+ 1743  2 20 23 30       39.00   20.30     6.9             | Apulia
+ 1744                   18.60  121.00          1.0        | N part of Luzon Is., Philippin
+ 1745  5 13             14.00  121.00                     | LUSON I., TAAL, PHILIPPINES
+ 1746 10 29  3 30      -12.50  -77.00     8.0  3.5 24.00  | PERU:  LIMA,CALLAO
+ 1746 12 26             38.60   -9.50     7.0  1.0        | Lisbon, Portugal
+ 1747  3                33.10  139.80          0.5        | Izu Pen., Hachijo Is. Japan
+ 1747  7                13.63  123.17                     | Naga, E. SAMAR
+ 1748  5 25 15          38.20   22.20     6.6  3.0 10.00  | W.Corinthos Gulf
+ 1749  8 12  9          13.60  121.10                     | TAAL, PHILIPPNES
+ 1750                   10.40  -64.50     7.0  1.0        | Cumana, Venezuela
+ 1750 12 17             46.00   12.30          2.0        |
+ 1751  5 20             37.20  138.10     6.6             | W.Naoetsu, Niigata Pref. Japan
+ 1751  5 25  5 30      -36.90  -73.00     8.5  1.5  3.50  | Concepcion, Southern Chile
+ 1751  7 24             38.20  141.00                     | Off Miyagi Pref., Japan
+ 1751  9 15 22          18.50  -70.70     7.0  1.0        | Port-au-Prince, Haiti
+ 1751 10 18 19          18.50  -70.70     7.0  2.0        | Azua de Compostela, Haiti
+ 1751 11 21             18.50  -73.50     7.0  2.0  7.00  | St.Martin, Antigua, Martinique
+ 1751 11 21 10 45       44.20    9.20          2.0        |
+ 1752  4 28             40.20   -8.90     7.0  1.0        | Buarcos, Portugal
+ 1754  4                25.30  121.40     6.0  0.5        | E. CHINA SEA
+ 1754  8 18             -3.50  128.50     6.5             | BANDA SEA, INDONESIA
+ 1754  9  1             16.70  -99.20     7.8  2.0  4.00  | MEXICO:  ACAPULCO
+ 1754  9  2 21 30       40.60   30.00     7.2             | Marmara Sea
+ 1754  9  7             -3.50  128.50                     | BANDA SEA, INDONESIA
+ 1755                   20.00  -76.00     7.0  1.0        | Santiago, Cuba
+ 1755 11  1  9 50       38.73   -9.13     8.5  4.0 30.00  | Gulf Cadiz, Lisbon, Portugal
+ 1755 11  5             55.00   -1.00          1.0  0.90  | Saltholm, Durnham, England
+ 1755 11 11             38.50  -10.00     7.0  1.0        | Lisbon, Portugal
+ 1755 11 16             38.50   -9.50     7.0  1.0        | Lisbon, Portugal
+ 1755 11 18             42.60  -70.00     7.0  1.0        | Boston, NA East Coast
+ 1755 12 21  9          37.00  -10.00     7.0  1.0        | Lisbon, Algarbia, Portugal
+ 1756  2                62.75    7.90          2.0        | Western Norway
+ 1756  2 27             51.20    0.00          1.0  1.80  | Ilfracombe, Devonsire, England
+ 1756  3 29             38.00  -10.00     7.0  1.0        | Lisbon, Portugal
+ 1756 10 22 15 30       37.70   22.80     7.0  2.0        |
+ 1757  7  9 11 45       39.10  -28.00     7.0  2.0        | Is. de Sao Jorge, Azores
+ 1757  7 15 18 40       49.90   -6.30     6.5  1.0        | Scilly Is, Cornwall, England
+ 1757  8 24             -6.10  106.80     7.5 -0.5  1.00  | Jakarta (Batavia), Indonesia
+ 1759 10 30             32.92   35.07          2.0  2.40  |
+ 1760  1 21             56.00   12.50     6.5  1.0        | Helsinsor, Denmark and Germany
+ 1761  3 31 12  5       37.00  -10.00     7.0  2.0  2.40  | SW Portugal
+ 1761  7 17             54.00    0.00          1.0        | Yorkshire coast, England
+ 1761  7 28             50.10   -5.10          1.0  1.50  | South coast of England
+ 1761  8 14             49.30    0.00          1.0        | Guernsey, Channel Isl.
+ 1762  5 26             60.50    4.50          1.0        | Bergen, Norway
+ 1762  9 27             51.50    0.00          1.0        | Thames River, England
+ 1762 10 31             38.10  138.70     7.0  1.0        | NW. HONSHU I.(SADO), JAPAN
+ 1763  1 29  9          40.80  142.00     7.4  2.0  5.00  | N.Sanriku,Off Hachinohe. Japan
+ 1763  3 11             41.00  142.50     7.8             | N.Sanriku,Off Hachinohe. Japan
+ 1763  3 15             40.70  142.00     7.1  1.0        | N.Sanriku,Off Hachinohe. Japan
+ 1763  8 19 12  0       50.00   -4.50          1.0        | Plymouth, England
+ 1763  9 12             -6.70  130.00          2.5        | BANDA SEA, INDONESIA
+ 1763  9 18             50.50   -2.50          1.0  3.00  | Weymouth, England
+ 1764  2 11             51.40   -3.00          1.0        | Bristol, Gloucester, Worcester
+ 1765                  -27.00  -72.00          2.0  2.80  | Valparaiso, Chile
+ 1765  5                23.13  113.33     6.0  2.0  9.00  | Guanzhou, South China Sea
+ 1765  7 23             65.30   23.50          1.0  1.20  | Pitea and Lulea, Sweden
+ 1766  3  8             40.90  140.70     6.9       0.90  | Mutsu Bay, Aomori Pref., Japan
+ 1766  5 22  5 30       40.80   29.00     6.5  1.0        | CONSTANTINOPLE
+ 1766  6 11 24  0       20.00  -75.50     7.0  2.0        | Jamaica
+ 1766 10 21             10.00  -64.00     7.0  1.0        | Cumana, Venezuela
+ 1767  4 24  6  0       14.50  -61.00     7.0  1.0        | Martinique and Barbados
+ 1767  9  5             53.30   -6.00          2.0  1.80  | Liffey River, Dublin, Ireland
+ 1767 11 22             22.00  113.30     7.0  1.0        | Macau, South China Sea
+ 1767 11 28             51.50    0.00          1.0        | London, England
+ 1768  6 22             -7.00  150.00     7.5  1.0        | W. SOLOMON SEA
+ 1768  7 22             26.20  127.50     6.5       1.20  | Okinawa. Japan
+ 1769                   38.24   22.12     6.5  1.0        | Corinthos Gulf
+ 1769  6  3             18.30  -72.20     7.0  1.0        | Port-au-Prince, Hispanola
+ 1769  8 29  5          32.30  132.00     7.4             | Hiuganada. Japan
+ 1770                   -5.00  102.00     7.0  0.5        | SW. SUMATRA
+ 1770  6  3  9 15       18.30  -72.20     7.0  1.0        | Mole Saint-Nicolas, Hispanola
+ 1770 12    23          14.20  121.00                     | W. LUZON
+ 1771  4 24             24.00  124.30     7.4  5.0 85.40  | Ishigaki Is., Ryukyu Archipela
+ 1771 11  9              0.78  127.40          0.5        | Ternate Is., Indonesia
+ 1772 11 24  7 45       38.80   26.70     6.4  2.0        | Aegian Sea
+ 1773  6  3             14.60  -91.20                     | Guatemala
+ 1774                   47.50  -57.50     7.0  2.0        | Southern coast of Newfoundland
+ 1775  2 11             19.00  -72.30     7.0  1.0        | HISPANIOLA, Haiti and Cuba
+ 1775  3                19.00  -71.00     7.0  1.0        | Hispaniola, Cuba
+ 1775  4 18             -4.00  127.00                     | Ambon, BANDA SEA, INDONESIA
+ 1775 10                35.30  139.80                     | Awa, Sagami, Boso Pen., Japan
+ 1775 12 18             19.00  -71.00     7.0  1.0        | Hispaniola, Cuba
+ 1777 11 14 17 30       62.30   17.30     6.5  1.0        | Sundsvall, Sweden
+ 1778  3  4             55.00   16.00          1.0        | Baltic Sea
+ 1778  7                32.80  130.60                     | Higo, Kumamoto Pref., Japan
+ 1779  3  4             55.00   16.00          1.0        | Baltic Sea
+ 1780  6 29  6          45.30  151.20  40 7.5  3.0 12.00  | SE.Urup Is.,S.Kuril Is..USSR
+ 1780  9  9             31.60  130.70                     | Kagoshima Bay. Japan
+ 1780 10  3 22  0       18.10  -78.10     7.0  2.0  3.20  | Jamaica, Savanna la Mar
+ 1780 10 31             31.60  130.70                     | Kagoshima Bay. Japan
+ 1781  2 26             36.20   46.00                     |
+ 1781  4 11             31.60  130.70          1.0        | Kagoshima Bay. Japan
+ 1781  8  1             18.20  -78.10     7.0  1.0        | Jamaica
+ 1782  5 22             24.00  121.00     7.0  3.0 10.00  | Taiwan Is., S. CHINA SEA
+ 1782  8 23 18 14       35.10  139.20     7.3  1.0        | Odawara, Sagami Bay. Japan
+ 1783  2  5 12  0       38.30   15.95  13 7.0  2.0        | Tyrrhenian Calabria
+ 1783  2  6  0  6       38.25   15.70     6.3  4.0        | Tyrrhenian Calabria
+ 1783  2  7 13 10       38.36   16.15   6 6.4  1.0        | Tyrrhenian Calabria
+ 1783  3  1  1 40       38.75   16.30     5.6  2.0        | Tyrrhenian Calabria
+ 1783  3 28 18 35       38.80   16.50  18 7.0             | Tyrrhenian Calabria
+ 1784  1  7             38.10   15.30          3.0        | Ionian Calabria
+ 1784  1 19             38.15   15.45          2.0        | Messina strait
+ 1784  3 28             16.50  -99.50                     | MEXICO:  GUERRERO,ACAPULCO
+ 1784  5 13 12 35      -16.50  -71.50  27 8.0             | PERU:  AREQUIPA,CAMANA,MOQUEGU
+ 1785  7 11  3          18.35  -64.40     7.0  1.0        | Tortola, Antigua
+ 1785  9  6             45.00   -2.00          1.0        | La Rochelle, France
+ 1787                   38.50  -27.50          1.0        | Azores
+ 1787  3 28             19.00  -66.00     8.0  2.5  4.00  | S. MEXICO
+ 1787  4  3             15.50  -97.00     7.2  1.0  4.00  | S. MEXICO
+ 1787 10 27 14 20       18.30  -77.50     7.0  1.0        | Jamaica
+ 1788  7  8             56.00   -2.00          1.0        | Dunbar, Scotland
+ 1788  7 21             57.00 -153.00     8.0  4.0 10.00  | Alaska
+ 1788  7 27             55.00 -161.00                     | Alaska
+ 1788  8  6             55.00 -161.00     8.0  4.0 88.00  | Sanak Is., Alaska
+ 1789  5  9 15          32.90  134.50     7.4             | SANRIKU, JAPAN
+ 1790 10  9             35.70   -0.60     7.0  2.0        | Alboran Sea
+ 1791  2  2             51.50    0.50          1.0  0.90  | Thames River, England
+ 1791  4 15  7          56.00  163.00  20 6.8             | Kamchatka pen. USSR
+ 1791  5 13             32.80  130.30          2.5 11.00  | RYUKYU TRENCH
+ 1791  9 13             34.50  135.40     6.5  1.0        | Osaka Bay. Japan
+ 1791 11  2 21          37.80   21.00     6.8  1.0        | Ionian Sea
+ 1792                   57.50 -154.00                     | ALASKAN PENINSULA
+ 1792  1 23             38.60  -28.00     7.0  1.0        | San Jorge, Azores
+ 1792  5 21             32.80  130.30     6.4  2.5 55.00  | Unzen, Shimabara Bay, Japan
+ 1792  5 21 00 01       52.30    4.50          1.0        | Sandvort, Holland
+ 1792  6 13             43.50  140.60     7.1  2.0  3.00  | Shakotan Pen,W.Hokkaido. Japan
+ 1792  8 22 18          54.00  162.00  20 8.4  2.0        | Kamchatka peninsula
+ 1792  8 29             34.50  136.70                     | JAPAN
+ 1792 12 10             53.50    9.70          1.0        | Hamburg, Germany
+ 1793  2  8  3 30       40.85  139.95     6.9             | W.Aomori(Tsug),NW.Honshu.Japan
+ 1793  2 17             38.30  142.40     7.1  2.0  4.50  | Sanriku. Japan:RIKUZEN,RIKUCHI
+ 1794  3 14             34.00   51.40                     |
+ 1794  6 11  5          38.30   22.30          2.0  3.00  | Corinthos Gulf
+ 1796  5 18             54.83 -168.00                     | E.ALEUTIAN IS.
+ 1796  5 29             54.00 -167.00                     | E.ALEUTIAN ISLANDS
+ 1797  2 10              0.00   99.00     8.0  3.0        | SW. SUMATRA
+ 1797 11 21             31.60  130.70                     | Kagoshima Bay. Japan
+ 1798  2 22             10.20  -82.90          1.0        | Matina, Costa Rica
+ 1799                  -11.00  -78.00          1.0        | PERU
+ 1799  1  7             64.00  -22.00          1.0        | Iceland
+ 1799  6 29             36.60  136.60     6.4  1.0        | Kanaiwa,Ishikawa Pref.. Japan
+ 1801  7                59.00   19.00          1.0        | Eskinstuna, Sweden
+ 1802  1  4  7          45.30   14.40     7.0  3.0        | Dalamatsia, Adriatic Sea
+ 1802  3 19             17.20  -62.40          1.0        | Leewards Is., Antigua I.
+ 1802  5  5             10.00  -60.00          2.0        | Rio Orinoko, Cumana, Venezuela
+ 1802  8                -3.70  128.20          1.5        | Ambon Is., Banda Sea, Indonesi
+ 1802 10 26             45.00   33.00     7.5  0.0  1.00  | Evpatoria, Crimea, Black Sea
+ 1802 11  7 10 45       36.50    2.90     6.5  1.0        | Algeria, Alboran Sea
+ 1802 12  9  5          37.70  138.30     6.6       2.50  | Sado, Ogi-minato. Japan(HONSHU
+ 1804  1 13 15 45       36.85   -2.85     7.0             | Alboran Sea
+ 1804  6  8  3          38.30   21.60     6.3             | Patras Gulf, Ionian Sea
+ 1804  7 10 15          39.05  139.95     7.3  1.5  5.00  | Kisagata,Akita Pref. Japan
+ 1804  7 31 22          36.30   52.40          2.0        |
+ 1805  7 26 20 57       41.40   14.50          1.0        |
+ 1805  7 26 21  1       41.51   14.51     6.6  1.0        | Campania, Gulf of Naples
+ 1806  3 24             18.90 -103.80                     | S. CALIF.
+ 1806  8 26 13 20       41.70   12.70          1.0        |
+ 1806 12  1 23         -12.10  -77.10  30 7.5  0.5  6.00  | PERU
+ 1808                   -0.20  -78.30                     | ECUADOR:  QUITO
+ 1808  4  2 16 43       44.80    7.25     5.6  1.0        | Marseilles, Cote d'Azur
+ 1808  8  8             33.90  134.80     6.5       1.50  | E.Awa,Tokushima Pref.. Japan
+ 1809  7  3             44.80    7.20          2.0        |
+ 1809  7  4             38.00   -9.00          1.0        | Lisbon, Portugal
+ 1809 12  4            -33.90   18.40          1.0        | Cape of Good Hope, South Afric
+ 1810                   69.45   20.15                     | Northern Norway
+ 1810  9 25             39.90  139.90     6.6             | Oga Penin.,Akita Pref. Japan
+ 1811  6  1  3 30       50.00   -4.50          1.5  3.00  | Plymouth, England
+ 1811 11 19            -33.00  -71.40          2.0  4.00  | Valparaiso, Central Chile
+ 1811 12 16  8 15       37.00  -90.00     8.6  1.0  6.00  | New Madrid, Missouri, USA
+ 1812  3 26             10.30  -64.10          2.0        | Venezuela, La Guaira
+ 1812 11 11 10 50       18.00  -76.50          2.0        | Jamaica, Annotto Bay
+ 1812 12  8 15          34.00 -118.00     7.0             | N.CALIFORNIA
+ 1812 12  9 18          44.80   10.40          2.0        |
+ 1812 12 21 19          34.20 -119.70     7.5  1.5  3.40  | USA:  CALIFORNIA:   PURISIMA
+ 1813  4  7             43.70   13.60          2.0        |
+ 1813  5 17             40.80   14.45          1.0        | Campania, Gulf of Naples
+ 1813  6 19             40.80   14.45                     | Campania, Gulf of Naples
+ 1814                  -10.10  123.50                     | Kupang, Timor Is., Indonesia
+ 1815  4 10             -8.20  118.00          1.5 10.00  | Tambora, Flores Sea, Indonesia
+ 1815 11 22             -8.00  115.00 150 7.5  1.5        | INDONESIA: BALI
+ 1816  4 29              5.00   96.50                     | INDONESIA
+ 1816 12 20             34.77  138.77                     | Matsuzaki, Izu Pen., Japan
+ 1817  1  8             39.95  -75.10     6.5  1.0        | Philadelphia, NA East coast
+ 1817  1 14 14 30       37.50   13.00          2.0        | Sicily Channel
+ 1817  8 23  8          38.30   22.10     6.5  3.0 15.00  | W.Corinthos Gulf
+ 1817 10 21            -40.30   -9.90          1.0        | St.Helena, South Atlantic
+ 1818  2 20 18 15       37.55   15.10     6.2  1.0        | Eastern Sicily
+ 1818  2 23 18 10       43.75    8.00          2.0        | Liguria, Cote d'Azur
+ 1818  3 18             -4.00  101.50     7.0  1.5        | SW. SUMATRA
+ 1818 11  8             -7.00  117.00 600 8.5  2.0  3.50  | DJAWA (JAVA)-FLORES SEA
+ 1818 12  9 18 52       44.75   10.90          2.0        | Liguria, Cote d'Azur
+ 1819                   18.70  145.40          1.0        | MARIANA ISLANDS
+ 1819  1  8 11 30       43.70    8.00          2.0        |
+ 1819  4 11  3         -27.00  -71.50     8.5  2.0  4.00  | Caldera, North Central Chile
+ 1819  8 31 14 30       60.20   13.65          1.0        | Hemnes, Norway
+ 1820  3  1             53.56 -168.10          0.5        | N coast of Umnak Is., Aleutian
+ 1820  3 17             38.80   20.80     6.6             |
+ 1820  5  4             19.20  -99.10     8.0  1.5  3.40  | MEXICO:  MEXICO CITY,ACAPULCO
+ 1820 12 29             -7.00  119.00  80 7.5  3.5 24.00  | INDONESIA:  SUMBAWA
+ 1821  1  9 18 45       37.80   21.30     6.5  3.0        | Patras Gulf, Ionian Sea
+ 1821 11 17             46.00   31.00     6.7  0.0        | Western Crimea, Black Sea
+ 1822  3 20             36.10   37.20                     |
+ 1822  4 10             37.45   14.25                     |
+ 1822  5  7 23           9.50  -83.00     7.6  1.0        | Costa Rica, Nicaragua
+ 1822  8 13 20          36.00   36.00     7.1  2.0        |
+ 1822 11 19  2 30      -33.70  -71.60     8.5  2.0  3.50  | Valparaiso, Central Chile
+ 1823  3  5 16 37       38.00   13.95     5.9  2.0        | Northern Sicily
+ 1823  9  9             -6.50  108.50 150 6.8 -1.5        | DJAWA (JAVA)
+ 1823 11 30  3 10       14.20  -61.10          2.0        | Saint-Pierre, Martinique
+ 1824                   55.00 -164.00          0.5        | ALASKA
+ 1824  6 26             29.40   52.30                     |
+ 1824  9 13             50.00   -4.50          1.0        | Plymouth, England
+ 1824  9 13  0  0  1.0  16.30  -61.50          1.5        | GuadelupeE
+ 1824 10 26             14.20  121.00          1.0        | W. LUZON
+ 1824 11 30  5 45       14.50  -61.00          2.0        | St. Pierre, Martinique
+ 1825  1  3             55.70   12.80          1.0        | Copenhagen, Denmark
+ 1825  1 19 11 45       38.80   20.70     6.8  1.0        | Ionian Sea
+ 1825  2    19          16.50  -87.50          1.0        | Roatan Is., Gonduras
+ 1825  3 21             54.80 -164.00          0.5        | E. ALEUTIAN ISLANDS
+ 1825  9 20  4 45       10.40  -61.30     7.0  1.0        | Demerara County, British Guian
+ 1826  1                27.00  132.00          2.5  6.00  | CHICHI JIMA,RYUKYU. JAPAN
+ 1826  3 18  0 20       43.80   13.00          2.0        |
+ 1826 10 22             55.00 -165.00                     | Alaska
+ 1827  1 18             38.00 -122.00                     | N. CALIF.
+ 1827  8  8             54.80 -159.55                     | Chernabura Is., Alaska Pen.
+ 1827  8  9  3          52.00  158.00          1.5        | Kamchatka peninsula, USSR
+ 1827 11 16 22 45       -1.80  -76.40  10 7.0             | Cilumbia
+ 1827 11 30  3          14.50  -61.00                     | Martinique
+ 1828  3 30 12 35      -12.10  -77.80  50 8.2             | Columbia
+ 1828  5 26             32.60  129.90     6.4             | Amakusa,Nagasaki Pref.. Japan
+ 1828 10  9  2 20       43.70    9.00     5.7  1.0        | Ligurian Sea
+ 1828 11  9  9 18       14.20  121.00     7.5  0.5        | W. LUZON
+ 1829  3                20.00 -160.00                     | HAWAII
+ 1829  5 23             41.00   29.00     5.6  1.0        | Marmara Sea
+ 1829  9 26 14 30      -33.10  -71.60     7.0             | C. CHILE
+ 1830  1 10             53.00    5.00          2.0        | Holland
+ 1830  1 18             14.60  120.90          0.0  1.00  | Manila, Philippines
+ 1830  9 16             14.50  120.90          1.0        | Manila, Philippines
+ 1830 12  3 21 40       12.40  -61.45                     | Grenada, Trinidad
+ 1831  5 26 11 30       43.80    7.80          2.0        |
+ 1831  7  2             37.10   12.50          0.0        |
+ 1831 12  3             11.00  -61.00          1.0        | Trinidad, St. Christopher
+ 1832  3  8 18 30       39.00   17.00     6.7  1.0        | Ionian Calabria
+ 1833  1 19             40.40   19.90     6.4  2.0        | Albania
+ 1833  3 10             16.60  -99.60          0.5        | Acapulco, Mexico
+ 1833 11 24             -3.50  102.20  75 8.2  2.5        | INDONESIA:  SUMATERA:  BENGKUL
+ 1833 12  7             38.90  139.15     7.4  2.5  9.00  | Off Niigata Pref..Japan:UZON
+ 1834  2  9             43.30  141.40     6.4  1.0        | Ishikari Bay,W.Hokkaido. Japan
+ 1834  3 13             16.00 -100.00     7.0             | Acapulco, Mexico
+ 1834  3 14             16.00  -74.00     7.0             | S. MEXICO
+ 1835  2 20 15 30      -36.50  -72.60     8.5  3.0 13.50  | Conception, Sourthern Chile
+ 1835  4 11             19.00 -155.00                     | Hawaii
+ 1835  7 20  4  6       37.90  141.90     7.6  2.0  5.00  | Off Miyagi Pref..Japan:SANRIKU
+ 1835  8 19             37.90  141.90                     | OFF NIYAGI PR.,SE.HOKKAIDO,JAP
+ 1836  4 25  0 20       39.55   16.70     6.2  2.0        | Ionian Calabria
+ 1836  7  3 12 30      -22.55  -70.26     7.5  1.0  2.00  | Northern Chile
+ 1836  9  5             37.70  142.00     5.9             | OFF MIYAGI PREF., JAPAN
+ 1837  7 26 12 51       14.50  -87.50                     | Martinique
+ 1837  8  2             18.20  -64.50                     | ANTILLES:  ST THOMAS
+ 1837  8  9             16.50 -100.00     6.5             | Acapulko
+ 1837  9                 5.50   96.00 100 7.2  0.5        | BANDA ATJEH
+ 1837 10 18             16.50 -100.00     7.0             | Acapulco
+ 1837 10 20             16.50 -100.00     6.8             | Acapulco
+ 1837 10 21             16.50 -100.00     6.5             | Acapulco
+ 1837 10 22             16.50 -100.00     6.5             | Acapulco
+ 1837 11  7 11  5      -42.50  -74.00     8.5  3.0  8.00  | Corral, Southern Chile
+ 1838  5  7            -36.70  -73.10               0.70  | C. CHILE
+ 1838  8 10 20 30       45.30   14.50          2.0        |
+ 1838 23  1             46.00   31.50     6.9  0.0  1.00  | West of Crimea
+ 1839  2 12            -33.60  -76.80                     | West of Valparaiso, Chile
+ 1839  5  1             42.50  145.00  40 7.0             | Kushiro,SE.Hokkaido. Japan
+ 1840                   19.25 -155.20                     | Kilauea, SE coast of Hawaii Is
+ 1840  1  4             -7.40  110.00 150 7.0             | S. JAVA SEA
+ 1840  1 16             37.00 -122.00                     | SANTA CRUZ, S. CALIFORIA
+ 1840  1 28            -12.16  -77.03                     | Chorrillos, Lima, Peru
+ 1840  2 14              0.78  127.38          0.5        | Ternate Is., Indonesia
+ 1840  3 22             12.40  123.50     6.5  1.0        | PHILIPPINES:  SORSOGON,MASBATE
+ 1840 11 14             39.80  -75.20     5.2  1.0        | Delaware river, Philadelphia
+ 1841  5 17 21 30       52.50  159.50  30 8.4  3.0 15.00  | Kamchatka peninsula, USSR
+ 1841  9 12 12  0       52.00   -6.00          1.0        | Kilmore, Wexford, Ireland
+ 1841 11 26             -5.00  130.00          1.5  3.00  | MOLUCCAS, INDONESIA
+ 1841 12 16             -5.00  130.00     6.0  1.5  1.50  | BANDA SEA, INDONESIA
+ 1842  5  7 17 30       18.50  -72.50     7.7  3.0  8.30  | Hispaniola, Haiti
+ 1843  1  5              1.50   98.00  70 7.2  2.0        | SW. SUMATRA
+ 1843  2  7             -7.20  114.00     6.0             | JAVA
+ 1843  2  8 10 30       16.50  -62.20     8.3  1.0  1.20  | Guadelupe, Antigua
+ 1843  2 17             17.00  -61.80          0.0        | Antigua
+ 1843  4 25  6          44.70  149.70  40 8.2  2.5  4.50  | Kushiro,Nemuro,E.Hokkaid.Japan
+ 1843  7  8  5 15      -39.90  175.00     7.5             | NEW ZEALAND, Wanganui
+ 1843  9 14 10 30       42.60   18.10     6.5  2.0        | DALMATIA
+ 1843 10 18             36.30   27.60     6.5  2.0        |
+ 1843 12 22 16  0       50.00   -2.50          1.0        | Channel Islands, England
+ 1844  3  8             38.00  139.00                     | Imamachi, Niigata Pref., Japan
+ 1844  3 22 10 13       43.40   16.70          1.0        |
+ 1844  5                11.20  -84.80     7.5             | Lake Nicaragua, Nicaragua
+ 1845                   60.00 -140.00          3.0        | YAKUTAT, ALASKA
+ 1845  2  8             -1.30  124.50     7.0             | N. MOLUCCA IS., INDONESIA
+ 1845  4  7             19.20  -99.10     8.5  1.5        | S. MEXICO
+ 1845  6 18             36.40   13.44                     |
+ 1845  7  5            -39.93  175.03          0.5        | Wanganui, N. New Zealand
+ 1845  9                32.74  129.88                     | Nagasaki, Japan
+ 1845  9 24             49.50    0.00          0.0        | Le Havre, France
+ 1846  1 25              2.00  126.50     7.2  0.5        | N. MOLUCCAS, INDONESIA
+ 1846  3                39.50  142.50     6.9  1.0  1.80  | Iwate Pref., Japan
+ 1846  8 14 12 53       43.50   10.55     5.6  2.0        | Tuscany
+ 1846  8 25 17 23       43.50   10.50          2.0        |
+ 1846 12  3             43.30   10.70          2.0        |
+ 1847  5 23            -12.10  -77.10          1.5  2.00  | PERU
+ 1847  8 27             38.87  141.77          1.5        | Iwate Pref., Miyagi Pref., Jap
+ 1847 10 19            -29.90  -71.40                     | NC. CHILE
+ 1848  6                52.95  158.55                     | Avacha Bay, Kamchatka
+ 1848  7 12            -17.66 -149.50          2.0        | Tahiti, SE Pacific
+ 1848 10 15 14 10      -41.20  174.20     7.1  0.5  0.30  | N. NEW ZEALAND, Lower Wairau
+ 1848 10 17            -41.00  175.00     7.0  0.5        | NEW ZEALAND
+ 1849  1 25  6 56       14.00  143.30     7.5  2.0  3.50  | MARIANA I., LADRON
+ 1849 10 28  9          55.00  166.00  20 7.5  2.0        | Kamchatka peninsula, USSR
+ 1849 12 17 10 10      -29.90  -71.40     7.5  2.0  5.00  | Coquimbo, North Central Chile
+ 1850                   20.60  134.80                     | West of Mariana Is.
+ 1850  7 20             39.50  142.00                     | Sanriku. Japan
+ 1850 12 19             49.70   -1.60          1.0        | Cherbourg, France
+ 1851  2 28 14 58       36.50   28.70     7.2  2.0  0.90  | Fetiye, South Asia Minor
+ 1851  3                37.80 -122.40                     | San-Francisco, N. California
+ 1851  4  3 17          36.20   29.00          2.0  1.80  | Fetiye, South Asia Minor
+ 1851  5  4             -5.00  130.00          1.5 14.50  | JAVA/S.JAVA
+ 1851  5 15 16 10       37.80 -122.40                     | Salinas, N.California
+ 1851  5 16 13          16.20  -61.40                     | Guadeloupe
+ 1851  5 23             35.30   27.30          1.0        | Dodecanese Isl.
+ 1851  5 26 18 14      -27.00  -71.60     7.2  2.0  3.00  | Caldera, North Central Chile
+ 1851  7 28 18 33       43.75   10.30     4.1  1.0        |
+ 1851 10 12  7          40.70   19.70     6.6  2.0  0.60  | Albania
+ 1851 11 13  2 51       40.00 -122.00                     | N. CALIFORNIA
+ 1852  7  7  7 25       20.00  -75.80                     | Santiago-de-Cuba
+ 1852  7 17             19.50  -75.50          2.0        | Santiago de Cuba, Cuba
+ 1852  9 16 10 30       13.90  120.40     7.5  1.5        | Luzon Is., Philippines
+ 1852 11 11              1.50   98.00     6.8             | JAVA
+ 1852 11 19             -3.70  128.15                     | Ambon, Indonesia
+ 1852 11 24 23  0       37.82 -122.50                     | San-Francisco, N. California
+ 1852 11 26             -4.30  129.50 100 8.2  2.5  8.00  | INDONESIA:  MALUKU:  BANDANAIR
+ 1852 11 29             32.50 -115.50     7.0  1.0        | N. MEXICO
+ 1852 12  4             17.00 -100.00     7.0             | S. MEXICO
+ 1852 12 24             -5.00  130.50     7.0  2.0        | BANDA SEA
+ 1853                   58.64 -137.57          3.0120.00  | Lituya Bay, Alaska
+ 1853  7 15 14          12.10  -63.60     6.7  1.0        | Venezuela
+ 1853  8 18  8 30       38.30   23.40     6.5  2.0        | South Evoikos Gulf
+ 1853 11                47.00  154.00  40 7.0  2.0        | S.Kuril Islands
+ 1853 12               -21.30 -175.20     7.5  1.0        | Tongatapu Is., Tonga
+ 1854  1  4             -3.50  128.60     6.0             | BANDA SEA, INDONESIA
+ 1854  1 15             20.90  134.80                     | West of Mariana Is.
+ 1854  1 27 18 10       57.00 -152.00                     | GULF OF ALASKA
+ 1854  5 31 12 59       33.00 -117.00          1.0        | S. CALIFORNIA
+ 1854  6 27             51.00  158.00  40 7.0  2.0        | N.Kuril Islands, USSR
+ 1854  7  9        2.0  36.00  136.00                     | JAPAN:  IGA
+ 1854  7  9        1.0  51.00  158.00  40 7.0             | N.Kuril Islands.USSR
+ 1854  7 24             33.00 -117.00               0.30  | S.CALIFORNIA
+ 1854  8  4              8.50  -83.00     7.2  1.0        | Costa Rica-Panama
+ 1854  8  6              8.60  -83.10     7.2  2.0        | Costa Rica-Panama
+ 1854  8 18             33.00 -117.00               0.10  | S. CALIF.
+ 1854  9 27             -0.78  127.40          0.5        | Ternate Is, Molucca Sea, Indon
+ 1854 10  4 18 19       38.00 -122.00               0.10  | N. CALIFORNIA
+ 1854 10 22  3 45       38.00 -122.00                     | N. CALIF.
+ 1854 10 26             38.00 -122.00                     | CALIFORNIA
+ 1854 11  1             38.00 -122.00               0.60  | N. CALIFORNIA
+ 1854 11 10             38.00 -122.00                     | N. CALIFORNIA
+ 1854 12 23             34.10  137.80     8.3  3.0 28.00  | Enshunada,Nankaido. Japan
+ 1854 12 24  8          33.20  135.60     8.4  3.0  0.10  | JAPAN:  NANKAIDO
+ 1854 12 29  2 45       43.70    7.80                     |
+ 1855  1 23  9 32      -41.40  174.50  25 8.0  3.0  9.00  | NEW ZEALAND:WELLINGTON,W.Waira
+ 1855  2 17             37.70  -27.20     7.0  2.0 10.00  | Terceira Is., Azores
+ 1855  3 20  0 30       41.00 -124.20     6.0             | N. CALIFORNIA
+ 1855  7 11  4 15       34.10 -118.10     6.5  1.0        | Southern California
+ 1855  8 11            -33.00  -71.70               0.70  | SC. CHILE, Valparaiso
+ 1855  9 25 10 45       16.00  -86.00     6.5  1.0        | Honduras, Trujillo Bay
+ 1855 10 22  3 54       38.00 -122.00                     | N. CALIFORNIA
+ 1855 11  7             34.50  137.60     7.0  1.0  3.00  | Enshunada. Japan
+ 1855 11 11             35.65  139.80     7.0             | Tokyo Bay. Japan
+ 1856                   -5.00  146.00     7.0  2.0        | Astrolabe Bay, New Guinea
+ 1856  1  6             36.70  -28.20          2.0        | Velas, Sao Jorge, Azores
+ 1856  2 15 13 25       37.60 -122.30     5.5 -1.0  0.60  | N. CALIFORNIA
+ 1856  3               -44.75  171.20          1.0  2.60  | Canterbury, New Zealand
+ 1856  3  2              3.50  125.50          2.0  5.00  | SULAWESI -N. MOLUCCA IS.
+ 1856  3  2 10  0       54.50   -0.50          2.0        | Whitby, Yorkshire, England
+ 1856  7 25             -8.50  116.00                     | DJAWA (JAVA)-FLORES SEA
+ 1856  7 26             54.60 -165.00                     | E. ALEUTIAN IS.
+ 1856  8  9             15.80  -84.30          2.0  5.00  | Honduras, Rio Patuca
+ 1856  8 21 11 50       37.10    5.70          2.0        | Algeria
+ 1856  8 21 21 45       37.10    5.70                     |
+ 1856  8 22 11 40       36.85    5.70          2.0        | Algeria
+ 1856  8 23  4 30       40.50  143.50     7.8  2.0  6.00  | Hachinohe,SE.Hokkaido. Japan
+ 1856  9                35.40  139.80                     | Tokio Bay, Japan
+ 1856  9 24             33.00 -117.00               3.60  | TOKAIDO
+ 1856 10 12  0 45       35.50   26.00     8.3  2.0        | CRETE
+ 1856 11 13             38.40   26.20     6.6  2.0        | Chios, East Aegian Sea
+ 1857  4 17             -5.50  147.00     8.0  1.5        | BISMARCK SEA
+ 1857  5 13             -8.00  115.50  50 7.0  2.0  3.00  | DJAWA (JAVA)-FLORES SEA
+ 1857  7 13 22          34.80  138.30     6.4             | Suruga Bay. Japan
+ 1857  9 17 22          40.20   29.00                     | SEA OF MARMARA
+ 1857 11 17              1.00  125.00          1.5        | N. MOLUCCA IS., INDONESIA
+ 1858  1 24             58.90   22.70          1.0        | Hiiuma Island, Estonia
+ 1858  2 21  9  2       37.90   22.90     6.5             | Korinthos Gulf
+ 1858  4 24            -30.00  -71.40     6.5  1.0  1.40  | NC. CHILE
+ 1858  9                26.50  128.00          1.0        | Okinava Is., Ryukyo, Japan
+ 1858  9 15            -44.00  170.50          1.0        | E.South Is., SE. NEW ZEALAND
+ 1858 12 13              1.00  126.00     7.4  1.5        | N. MOLUCCA IS., INDONESIA
+ 1859  6 28              1.00  126.50     7.0  3.0  9.00  | N. MOLUCCA IS., INDONESIA
+ 1859  7 20 20          -4.50  130.00          1.0        | Lantor Is., Banda Sea, Indones
+ 1859  7 29              0.00  125.50     7.2  1.5        | N. MOLUCCA IS., INDONESIA
+ 1859  8 21 11 55       40.00   25.90     6.3  2.0        |
+ 1859  8 25             13.00  -87.50     6.5  2.0        | Honduras-Nicaragua
+ 1859  9 24  3          37.60 -122.30                     | N. CALIFORNIA
+ 1859  9 25             -5.50  130.50     6.7  0.5        | BANDA SEA, INDONESIA
+ 1859 10  5 12         -27.00  -70.40     7.7  2.5  5.50  | Caldera, North Central Chile
+ 1859 10 20             -9.00  111.00          1.0        | S. JAVA SEA
+ 1859 12  8             13.70  -89.80  40 7.0  1.5        | Acajutla Bay, El Salvador
+ 1859 12 17              1.00  125.00                     | Belang, N.MOLUCCA I.,INDONESIA
+ 1859 12 25              0.00  126.00          1.0        | Sulawesi, N.MOLUCCA I.,INDONES
+ 1860  3 17             16.50 -100.00                     | Near Acapulko, S. MEXICO
+ 1860  4  8 10 30       19.00  -71.00     7.0  1.0        | Hispaniola, Haiti
+ 1860  4 23            -12.00  -77.10               0.70  | PERU
+ 1860  8                 1.50  125.00                     | Minahasa Pen, Sulawesi, Indone
+ 1860 10  6             -1.40  128.50                     | CERAM
+ 1860 12  1             20.00 -155.00          1.5  3.60  | N. PACIFIC?
+ 1861  2 16             -1.00   97.80  70 8.5  3.0        | INDONESIA:  LAGUNDI,SIMUK,TELL
+ 1861  3  9              0.00   98.00  20 7.0  2.0        | SW. SUMATRA (BANDA SEA)
+ 1861  4 26              1.00   97.50  70 7.0  1.5        | SW. SUMATRA
+ 1861  5  4             38.00 -122.00                     | N.Calif
+ 1861  5  5             38.00 -122.00                     | N. CALIFORNIA
+ 1861  6  5             -6.30  107.30          1.0        | DJAWA (JAVA)
+ 1861  9 25             -1.50  100.00     6.5  1.5        | SW. SUMATRA
+ 1861 10 20 17 30       37.70  141.60     7.4  1.0  4.00  | Off Miyagi. Japan
+ 1861 12 26  6 28       38.20   22.20     6.6  2.0  2.10  | W.Corinthos Gulf
+ 1862  1  1  8 45       38.30   22.30          2.0        |
+ 1862  1 28             21.10 -156.75          1.0        | Wailaua, Molokai Is., Hawaii
+ 1862  3  4             14.60  120.70     6.0  0.5        | Manila, W. LUZON
+ 1862  4  8             -6.70  108.60          1.0  2.00  | Cirebon, Java, Indonesia
+ 1862  5 27 20          32.70 -117.20     5.8       1.20  | S. CALIFORNIA
+ 1862  6  6             24.00  121.00                     | Kagi, Taiwan
+ 1863                   47.30  -56.00          1.0        | S.E coast of Newfoundland
+ 1863  3 16 21          -6.00  106.20                     | Serang, Java, Indonesia
+ 1863  3 22 22 15       36.50   28.00                     |
+ 1863  6  3 11 20       14.20  121.00     6.5  1.0        | PHILIPPINES:  MANILA
+ 1863  8 17            -19.00  168.50     7.5  1.0        | NEW HEBRIDES ISLANDS
+ 1863  9 20             44.60  141.50     6.4             | NW.Hokkaido Island, Japan
+ 1864  5 23             -1.00  135.00     7.8  1.5 12.00  | N. West Irian, Indonesia
+ 1864  9 16             52.00   -6.50          1.5        | Kilmore, Wexford, Ireland
+ 1865  1  8            -12.00  -77.10          1.5  2.00  | PERU
+ 1865  3  1             26.50  128.00                     | Okinawa, Japan
+ 1865  7 16  2          53.00 -166.00                     | Unalaska Is., Aleutians
+ 1865 10  4             37.00 -122.00                     | SAN FRANCISCO, CALIFORNIA
+ 1865 10  8 20 46       37.20 -121.90     6.2  0.5        | N. CALIFORNIA
+ 1865 10 19             13.30  123.40     6.0             | SULU SEA, PHILIPPINES
+ 1865 11 18            -21.60 -175.60     8.0  2.0  2.00  | Tonga Isl.
+ 1866  1  2 10          40.40   19.60     6.6  2.0        | Albania  COASTS
+ 1866  1 19 12 30       38.30   28.30     6.8  2.0        |
+ 1866  1 28             36.40   25.30     6.0  2.0        |
+ 1866  1 31             36.24   25.24     6.1  0.0        | South Aegian Sea
+ 1866  2  2             38.25   26.25     6.8  2.0        | Chios, East Aegian Sea
+ 1866  2  6 13 45       36.00   23.00     6.3  3.0  8.00  | Kythira Strait
+ 1866  3  2 15 30       40.40   19.50     6.3  2.0        | Albania
+ 1866  3  6             40.80   19.50     6.1  2.0        | Albania
+ 1866  3 13 17          40.30   19.30     5.6  2.0        | Albania
+ 1866  8  9            -33.85  151.12          0.0        | Sidnei, Australia
+ 1866  8 15            -33.85  151.12          0.0        | Sidnei, Australia
+ 1866  9  5 13          58.00 -152.00                     | ALASKA PEN.
+ 1866  9 12            -14.20 -169.60          1.0        | Manua Is., Am. Samoa
+ 1867  2  4  4 19       38.40   20.50     7.2  1.0        | Ionian Sea
+ 1867  3  7 18 15       39.20   26.40     7.0  1.0        |
+ 1867  4 10             33.50   44.90          1.0        | LIXOURI
+ 1867  8  5            -33.85  151.12          0.0        | Sidnei, Australia
+ 1867  9  7             11.00  -64.00                     | Venezuela, Isla de Margarita
+ 1867  9 20  3 15       36.40   22.20     7.1  2.0        | Gythio, Kythira Strait
+ 1867 11 18 18 45       18.40  -64.30     7.5  3.0 10.00  | St. Thomas, Virgin Is.
+ 1867 12 18             25.10  121.40     7.0  2.0        | Chilung, Taiwan
+ 1868  3 17  6 45       18.40  -64.90     7.0  1.0  0.60  | Puerto Rico, Arroyo, Naguabo
+ 1868  4  3  2 24       19.20 -155.30     7.5  3.4 20.00  | SE coast of Hawaii Island
+ 1868  4 10             19.20 -155.30                     | SE coast of Hawaii Island
+ 1868  5 15             55.00 -161.00          2.5  6.00  | ALASKA PENINSULA
+ 1868  5 25             17.00 -100.00                     | ACAPULCO, MEXICO
+ 1868  6 13             19.20 -155.30                     | Coast of California
+ 1868  8 13             11.00  -64.00          1.0        | Venezuela, Isla de Margarita
+ 1868  8 13 20 45      -17.70  -71.60  25 8.8  4.0 18.00  | Arica, Northern Chile
+ 1868  8 16  6 30        0.40  -78.10     7.7             | Ecuador
+ 1868  9 14            -36.70  -73.20          0.5  1.00  | C. CHILE
+ 1868 10  2            -17.00  -72.50          0.5  1.00  | PERU
+ 1868 10  2  7 30       19.27 -155.12          1.0  6.00  | Kahaualea, Hawaii Island
+ 1868 10 16            -33.10  -71.70          0.5  1.00  | C. CHILE
+ 1868 10 21 15 53       37.70 -122.10     6.8  0.5  4.50  | N. CALIFORNIA
+ 1869  1 27            -36.60  -72.90               0.70  | C. CHILE
+ 1869  2  6            -39.90  -73.40               0.70  | SC. CHILE
+ 1869  2 10 12 59       37.78 -122.40                     | San-Francisco, California
+ 1869  2 13  4 30       37.78 -122.40                     | San-Francisco, California
+ 1869  4 22            -12.10  -77.10          1.0  1.40  | Kalyao, PERU
+ 1869  6  1             37.80 -122.47                     | Fort Hornet, San-Francisco, CA
+ 1869  6  2             36.81 -121.90                     | Fort Point, California
+ 1869  6 25            -19.60  -70.20               0.70  | N. CHILE
+ 1869  7 24             20.00 -155.00          3.0  9.10  | S. PACIFIC?
+ 1869  8  9            -30.00  -71.40          1.5  3.00  | NC. CHILE
+ 1869  8 11            -33.89  151.23          0.0        | Sidnei, Australia
+ 1869  8 16  7          12.30  123.10     7.0             | SULU SEA
+ 1869  8 19            -16.00  -73.50     6.5             | PERU
+ 1869  8 24 17 10      -18.60  -70.00  30 7.4  1.5  2.00  | Arica, Northern Chile
+ 1869 11 11             44.70   35.00     6.0  0.0  1.00  | Crimea, Black Sea
+ 1869 12 28  3 10       38.85   20.80     6.4  2.0        | Albania
+ 1870  6 24 18 45       31.20   29.60     7.2  2.0        |
+ 1870  8  1  2 40       38.40   22.50     7.0  2.0        |
+ 1870  8 12            -33.89  151.23          0.0        | Sidnei, Australia
+ 1870 10 28  9 45       39.28   16.28          2.0        |
+ 1871  2  5            -13.66  -76.41          1.0        | Chincha Is., PERU
+ 1871  2 18             20.70 -157.00                     | HAWAII
+ 1871  2 20  8 41       20.70 -157.00     7.0             | HAWAII
+ 1871  3  2              2.30  125.40          3.5 25.00  | SULAWESI -N. MOLUCCA IS.
+ 1871  3 25 15 15      -35.00  -72.50     7.5  0.5  1.00  | Valparaiso, Central Chile
+ 1871  6 18             40.50  -73.90     3.7  1.0        | Long Island, NA East coast
+ 1871  8 19            -33.10  -71.70          0.5  1.00  | C. CHILE
+ 1871  8 21            -13.00  -77.00     7.0  1.0  2.00  | PERU
+ 1871  8 25              0.50  123.00                     | Gorontalo, Sulawesi, Indonesia
+ 1871 10  5  0 50      -20.10  -71.30     7.3             | Iquique, Northern Chile
+ 1871 12 28            -41.50  -73.00          0.5  1.00  | S. CHILE
+ 1872                   63.00  -19.00                     | Iceland
+ 1872  1 13             20.70 -157.00                     | HAWAII
+ 1872  1 22             20.70 -157.00                     | HAWAII
+ 1872  1 26             16.00  119.00     6.0  1.5        | W. LUZON I., PHILIPPINES
+ 1872  3 14  8 26       34.90  132.00     7.1  1.0  3.00  | Off Shimane Pref. Japan:HONSHU
+ 1872  3 26 10 19       37.70 -118.10     7.8             | S. CALIF.
+ 1872  8 23 18  2       52.20 -166.40          0.5  1.30  | Fox Is., C.ALEUTIAN ISLANDS
+ 1872  9 16             33.00 -117.00               0.10  | Fox Is., SAN FRANCISCO, CALIF
+ 1872 11 17             44.20  -68.80          0.0  0.50  | North Haven, Fox Island, Maine
+ 1873  3                -5.50  146.00     8.0  2.0  5.00  | Maclay Coast, New Guinea
+ 1873  7  7            -23.60  -70.40          2.0  2.80  | N. CHILE
+ 1873 10 14             10.20  -80.00                     | Panama
+ 1873 10 25 22          38.00   22.30                     |
+ 1873 11 19            -23.60  -70.40          2.0  2.80  | N. CHILE
+ 1873 11 23  5  9       42.00 -124.00     6.7       3.00  | N. CALIF.
+ 1874  3 11  4 30       15.30  -61.40     7.0  1.0        | Dominique, Lesser Antilles
+ 1874  5                58.60 -137.60          1.0 24.00  | Lituya Bay, SE Alaska
+ 1875  2 24             20.00 -105.00     6.5             | S. MEXICO
+ 1875  3 17 23 51       44.20   12.40     5.2  1.0        | Central Adriatic
+ 1875  3 28            -21.00  167.00     8.0  2.5  5.00  | Loyalty Islands
+ 1875  5 10            -18.50  168.00     7.0  1.0        | Vanuatu Isl.
+ 1875  7 25             44.50   33.30     5.5  0.0  1.00  | West of Crimea
+ 1876  5 28             -3.00  127.20  50 6.8 -1.0        | CERAM
+ 1876 12 18             25.10  127.10                     | TAIWAN
+ 1877  2  4             20.00 -155.00                     | HAWAII
+ 1877  2 24             20.00 -155.00                     | HAWAII
+ 1877  4 16             35.00 -120.00          2.0  3.60  | N. CALIFORNIA/S. CALIFORNIA
+ 1877  4 19             35.00 -120.00          2.0        | N.CALIF./ S.CALIF.
+ 1877  5  4             19.50 -155.50                     | HAWAII
+ 1877  5 10  2 16      -21.06  -70.25  25 8.8  4.0 21.00  | Iquique, Northern Chile
+ 1877  5 14            -12.00  -77.00          1.0        | Ancon, Peru
+ 1877  6 15            -19.60  -70.20               0.70  | Pisagua, NC. CHILE
+ 1877  8 23            -20.20  -70.10          0.5  1.00  | N. CHILE
+ 1877 10  9            -23.70  -70.40          0.5  1.00  | Antofagasta, PERU -N. CHILE
+ 1877 10 11              2.30  -78.78                     | Buenoventura, Colombia
+ 1878  1 10            -19.60  169.40     7.5  2.5 12.00  | Vanuatu Is.
+ 1878  1 14             34.42 -119.68                     | CALIFORNIA
+ 1878  1 20             20.00 -155.00          1.5  3.00  | HAWAII
+ 1878  1 23            -16.30  -71.30  40 7.9       2.00  | Southrn Peru - Norhern Chile
+ 1878  1 27            -12.00  -77.00          1.5        | PERU
+ 1878  2  3            -16.30  -71.30               4.00  | Kalyao, PERU - N. CHILE
+ 1878  2  4             -4.00  152.00     7.5  2.0        | Rabaul,New Britain
+ 1878  2 11            -19.60  169.40     8.0  1.5        | NEW HEBRIDES ISLANDS
+ 1878  2 14            -36.80  -73.00               0.70  | C. CHILE
+ 1878  3 12            -20.20  -70.10               0.70  | N. CHILE
+ 1878  4 12            -20.20  -70.10          0.5  1.00  | N. CHILE
+ 1878  4 19 19          40.60   29.70     6.6  2.0        | Nikomedia, Marmara Sea
+ 1878  6 12            -23.60  -70.40               0.70  | Antofagasta, Northern Chile
+ 1878  8               -19.00  168.50                     | NEW HEBRIDES
+ 1878  8 29             53.60 -166.40          1.5        | E. ALEUTIAN ISLANDS
+ 1878  9 29            -20.22  -70.17          0.5        | Iquique, N. Chile
+ 1878 10 11             50.83  142.10                     | Due, W. cost of Sakhalin
+ 1878 11 22             35.00 -120.00          1.5  2.00  | Southern California
+ 1878 11 23            -33.10  -71.70          0.5  1.00  | C. CHILE
+ 1879  8  8            -33.10  -71.70          1.5  2.00  | Valparaiso, SC. CHILE
+ 1879  8 10 21  7       35.00 -120.00                     | S. CALIFORNIA
+ 1880  4 14             62.10    7.10          3.0        | Western Norway
+ 1880  4 26  7 45       37.27   14.68          2.0        |
+ 1880  7 18  4 40       15.50  120.60 100 7.5             | E. of Luzon I., Philippines
+ 1880  8 15 12 48      -31.60  -71.20     7.7  0.5  1.00  | Illapel, Central Chile
+ 1880  9 29  4          55.80 -155.60     6.3             | ALASKAN PENINSULA
+ 1880 10 26 22 20       57.00 -136.00     6.3  1.0  1.80  | SITKA, S. ALASKA
+ 1880 11                37.00  137.30                     | Toyama Pref., Japan
+ 1881  4  3 11 40       38.20   26.20     6.5  2.0        | Chios, East Aegian Sea
+ 1881  4 11             38.20   26.20                     | Chios, East Aegian Sea
+ 1881  7 12            -16.00  179.00     7.0  1.0  1.80  | Fiji Is.
+ 1881  7 14            -20.20  -70.10          1.0  1.40  | N. CHILE
+ 1881  8 12  5 15       17.80  -71.80               0.46  | Jamaica, Kingston
+ 1881 10 25             43.30  147.30  40 7.0             | S.Kuril Islands. USSR
+ 1881 10 27            -19.60  -70.20               0.70  | N. CHILE
+ 1881 11 24            -21.00 -175.00     7.0             | Tonga Is.
+ 1881 12 15 20          38.40   21.40          2.0  2.00  | Aetoliko Lagoon
+ 1882  2 23            -27.90  -70.10               0.70  | NC. CHILE
+ 1882  4 22  9 30       45.10   -2.10          1.0  1.20  | La Rochelle, France
+ 1882  9  7  7 50        7.30  -77.80  40 8.0  1.0        | PANAMA
+ 1882  9  7  8 10        9.00  -79.50                     | PANAMA, SAN BIAS ARCHIPELAGO
+ 1882  9  7  9 18        9.50  -78.70     7.9  1.5  3.00  | Panama, San Blas Archipelago
+ 1882  9 14            -19.60  -70.20               0.70  | N. CHILE
+ 1882 10 10             -4.50  129.90     7.5  0.5        | Bandanaire,BANDA SEA,INDONESIA
+ 1883  3 12             21.55 -106.50          2.0        | Las-Tres-Marias Is., S. MEXICO
+ 1883  3 24            -14.00 -172.00          1.0        | Samoa Islands
+ 1883  6 27 10          39.50   20.00          2.0        | North Ionian Sea
+ 1883  8 26             -6.10  105.40          1.0        | S.INDONESIA:  JAVA
+ 1883  8 27  2 59       -6.10  105.40          4.0 35.00  | INDONESIA: Krakatau explosion
+ 1883 10  6 19  4       59.40 -153.40          3.0  9.10  | Cook Inlet, ALASKA PENINSULA
+ 1884  1                -6.10  105.40                     | INDONESIA
+ 1884  1 14            -35.00  -56.20     7.0  1.0        | Montevideo, Uruguay
+ 1884  1 25             38.00 -122.00                     | N.CALIFORNIA
+ 1884  8 10 19  7       40.60  -74.00     5.6  1.0  2.00  | Charleston, South Carolina
+ 1884 11  5              9.10  -79.40     7.5             | Panama-Colombia
+ 1884 11 12             40.00 -122.00         -3.0  0.10  | N. CALIFORNIA
+ 1884 11 15             34.50  133.60                     | Tamashima, Okayama Pref, Japan
+ 1885  1 16  1 13       41.68   12.78          2.0        | Liguria, Cote d'Azur
+ 1885  4 30             -2.50  127.50     7.2  0.5        | CERAM
+ 1885  7 29              0.00   99.50     6.8             | SW. SUMATRA
+ 1885  8  3              1.50  124.70                     | Manado, Sulawesi, Indonesia
+ 1885 11 12            -20.20  -70.10          0.5  1.00  | N. CHILE
+ 1885 11 19             40.00 -122.00                     | N. CALIF.
+ 1885 11 24             40.00 -125.00                     | N. CALIFORNIA
+ 1885 12 14              5.60   95.33                     | Banda Aceh, Sunda Is., Indones
+ 1886  1 31              5.50   96.00                     | Cota-Raja, Aceh, Indonesia
+ 1886  5 19              5.50   96.00                     | Sigli, Aceh, Indonesia
+ 1886  8 27 21 32       37.10   21.50     7.5  2.0        | Peloponnesus, Ionian Sea
+ 1886  8 29            -20.20  -70.10                     | N. CHILE
+ 1886  8 31 21 50       32.90  -80.00     7.7  1.0        | Charleston, South Carolina
+ 1887  2  2 15          10.70  122.60                     | PANAI I., PHILIPPINES
+ 1887  2  5             20.00 -155.00                     | HAWAII
+ 1887  2 23  5 21       43.90    8.00     6.4  2.0        | Liguria, Cote d'Azur
+ 1887  5  3             30.50 -109.50  80 7.0  2.0        | North part of California Bay
+ 1887  5 10            -35.21  174.20               2.00  | Bays of Islands, New Zealand
+ 1887  7  8             38.00 -122.00                     | N.CALIFORNIA
+ 1887  9 23             11.00  122.50                     | Tiburon, Ieremie, Philippines
+ 1887  9 23  6 55       19.70  -74.40          1.0        | Jeremie, Hispaniola, Jamaica
+ 1887 10  3 22 53       38.25   22.50     6.4  1.0        | Galadaxidi, Corinthos Gulf
+ 1888  3 13             -5.60  148.10   0      3.0 15.00  | Ritter Volcano, Bismark Sea
+ 1888  3 14 17  0      -19.00  -71.10          1.0        | Arica, Chile
+ 1888  3 21              5.70   95.08                     | Breueh Is., Bengal Bay, Philip
+ 1888  4 23             63.45   10.40                     | Mid-Norway
+ 1888  7 30  8 27       37.83   15.15          2.0        | SAN-REMO
+ 1888  9  9 15  4       38.20   22.10     6.1  1.0        | Galadaxidi, Corinthos Gulf
+ 1889  5 25 18 23       13.70  121.00                     | PHILIPPINES:  MINDANAO,MINDORO
+ 1889  5 26             13.50  121.00     6.8 -3.0        | SULU SEA, PHILIPPINES
+ 1889  8 16             -6.00  106.00          1.0        | Anyer, Java, Indonesia
+ 1889  9  6              1.00  125.60  70 8.0  2.5  1.50  | N. MOLUCCA IS., INDONESIA
+ 1889 11 23             -7.00  113.50     6.0  1.0        | DJAWA (JAVA)
+ 1889 12  8  5 15       42.05   15.50          1.0        | Gargano
+ 1891  1 15  3 55       36.50    1.80          2.0        | Algeria
+ 1891  5 19              5.50   96.00                     | Sigli, Aceh, Indonesia
+ 1891  6 20             -3.70  128.60                     | Ambon,Saparua,BANDA SEA,INDONE
+ 1891  6 22 18 40      -37.92  174.79                     | Aotea, New Zealand
+ 1891  7 30             25.50 -106.00     7.0  2.0        | N. MEXICO
+ 1891 10  5             -9.00  124.00  80 7.0  0.5        | TIMOR SEA
+ 1891 11 29 23 21       48.10 -123.40          1.0  2.40  | WASHINGTON
+ 1892  5 16 21 10       14.00  143.30     7.5  0.5        | USA:  GUAM: AGANA
+ 1892  5 17 20           2.50   99.50     7.5  1.0        | SUMATRA, MALAYA
+ 1892  6  7              3.70  125.60          1.0        | SULAWESI -N. MOLUCCA IS.
+ 1892  8 18  0 24       51.80   -5.20     6.5  1.0        | Pembrokeshire, Wales, England
+ 1892 11 15 11 20       40.54   13.00                     |
+ 1892 11 18             -3.00  127.80  70 7.0 -1.0        | CERAM
+ 1892 12  9  1 42       37.10  136.70     6.6             | SW.Noto Penin.. Japan
+ 1893  2  9 18          40.60   25.55     6.8  2.0  1.00  | Samothraki, N.Aegian Sea
+ 1893  2 19  1 30       17.80  -78.70          1.0        | Kingston, Jamaica
+ 1893  3 31             38.00   38.30     6.7             |
+ 1893  4 17  5  6       37.70   20.90     6.4  1.0        | Zante, Ionian Sea
+ 1893  6  4  2 27       43.30  147.50  40 6.6  1.5  2.50  | E.Shikotan,S.Kuril.USSR
+ 1893  6 13 10 42       42.50  145.50     6.6  1.0  3.00  | SE.Nemuro, Japan
+ 1893  6 14             40.10   19.70     6.6  2.0        | Avlona, Albania
+ 1893  7 31            -17.74  168.30     6.0             | Port-Vila, SE Pacific
+ 1893  8 27            -17.74  168.30                     | Port-Vila, SE Pacific
+ 1894  1 17             37.10   58.30          2.0        |
+ 1894  3 22 10 23       42.30  145.10  40 8.1  2.0  4.00  | SE.Hokkaido Is.,Japan
+ 1894  4 27 19 40       38.70   23.00     7.0  2.0  3.00  | North Evoikov Gulf
+ 1894  7 10 18 33       40.00   29.00     6.6  2.0        | Constantinopol, Marmara Sea
+ 1894 10 22  8 35       38.90  139.80  40 7.0             | NW.Yamagata Pref., Japan
+ 1894 11 16 18 52       38.25   15.90     6.0  2.0        | Tyrrhenian Calabria
+ 1894 11 21             49.00  -34.50     6.5  2.0 12.20  | Waves at west coast of Ireland
+ 1894 12 27  7          38.60   14.50                     |
+ 1895  1 20 18  7       38.28   15.80  25 4.1  2.0        |
+ 1895  1 28             20.00 -155.00                     | HAWAII
+ 1895  3  6 18 25       -8.50  150.00     7.5  2.0  6.00  | E.Solomon Sea
+ 1895  3 30             34.00 -120.50                     | S. CALIFORNIA
+ 1895  9  1 11  9       40.70  -74.80     5.0  1.0        | Long Island, New York
+ 1895 10 14             38.00 -122.00                     | N.California
+ 1895 11  1             41.70   12.20          2.0        |
+ 1896                   62.50  -19.50          1.0        | Iceland
+ 1896  1  9 13 17       36.50  141.00  80 7.2 -2.5  0.28  | Kashimanada. Japan
+ 1896  2  6 13          17.80  -78.80          1.0        | Kingston, Jamaica
+ 1896  6 15 10 33       39.60  144.20  30 7.4  3.8 38.20  | Sanriku,Japan
+ 1896 10 10             -3.50  102.50 130 6.8             | SW. SUMATRA
+ 1896 10 16  6 15       43.70    8.10          1.0        |
+ 1896 12 17             35.00 -120.00          1.5  2.50  | SANTA BARBARA, CALIFORNIA
+ 1897  2 19 21 50       38.10  141.90     7.8       1.00  | Off Miyagi Pref.. Japan(SENDAI
+ 1897  3 15             -6.80  120.80  15 5.5  1.0        | FLORES SEA, INDONESIA
+ 1897  4 17             60.38 -146.43                     | Hinchinbrook Is., Alaska
+ 1897  6 20             16.00  -95.00     7.0             | S. MEXICO
+ 1897  8  5  0 12       38.30  143.30  60 7.7  1.0  3.00  | Off Miyagi Pref..Japan(SANRIKU
+ 1897  9 20 19  6        6.00  122.00  60 7.4             | NEW ZEALAND
+ 1897  9 21  5 12        6.00  122.00  60 8.5  2.5  6.00  | PHILIPPINES:  W.MINDANAO,SULU,
+ 1897  9 21  5 15        7.10  122.10     8.7  1.0        | SULU SEA
+ 1897  9 21  7 14      -41.37  174.82          0.0  1.00  | Wellington, New zealand
+ 1897 10 12             11.20  125.00          1.5        | Takloban, Philippines
+ 1897 10 19  7 15        6.50  122.00                     | PHILIPPINES:  MINDANAO:  ZAMBO
+ 1897 12 29  6 32       19.80  -70.70          1.0        | Hispaniola, Purto Playa
+ 1898  3 31  7 43       38.20 -122.40     6.2             | OAKLAND, CALIF.
+ 1898  4 22 23 37       39.40  143.60  30 7.4 -2.0  0.20  | Off Miyagi Pref..Japan(SANRIKU
+ 1898  4 23  8 37       39.50   43.60     7.8             |
+ 1898  6  2 21 40       37.60   22.30     7.0  2.0        | Corinthos Gulf
+ 1898  7 23            -37.00  -74.00     6.5       0.70  | SC. CHILE
+ 1898 12  3  5 50 30.0  37.75   21.00     6.1  1.0        | Zante, Ionian Sea
+ 1899                   -3.50  152.50     7.0  2.0        | New Ireland East coast
+ 1899  1 22  9 56       37.20   21.60     6.6  2.0  1.00  | Ionian Sea
+ 1899  2  3             36.80  -28.10          2.0        | Velas, Sao Jorge Is., Azores
+ 1899  9  4  0 22       60.15 -142.00  25 8.3  1.5  3.10  | Yakutat Bay, SE Alaska
+ 1899  9 10 21 30       60.00 -142.00  25 8.6  3.5 60.00  | Yakutat Bay, SE Alaska
+ 1899  9 29 17  3       -3.00  128.50  60 7.5  3.0 12.00  | BANDA SEA, INDONESIA
+ 1899 10 19  9 16       -5.00  148.00     7.5  1.5        | MELANESIA ISLANDS
+ 1899 11 24 18 43       31.90  131.40  30 7.2 -1.0  0.32  | Hiuganada. Japan
+ 1899 12 25 12 25       33.50 -116.50     7.0  0.5        | S. CALIFORNIA
+ 1900  8 11  4 40       62.00 -138.00  33                 | SE. ALASKA
+ 1900  9 11 21 30       -4.00  152.00  33 6.8  3.0        | Bismark Sea,New Guinea
+ 1900  9 17 21 45       -5.00  148.00  33 7.5  1.5        | New Britain
+ 1900 10  8             -3.50  136.00  33 7.8  1.5        | N.West Iran.Indonesia
+ 1900 10 29  4 42       10.30  -65.90          3.0 10.00  | Venezuela, Puerto Tuy
+ 1901  3  3  7 45       36.00 -120.50     6.7             | MONTEREY BAY, CALIFORNIA
+ 1901  3 31 11 30       43.40   27.93                     | Bulgaria
+ 1901  6 15  9 34       39.00  143.00  33 6.0             | Off Iwate Pref.. Japan
+ 1901  6 24  7  2       28.30  129.30  33 7.7 -1.5  0.24  | Amami,Oshima,Ryukyu Tr.. Japan
+ 1901  8  9  9 23       40.50  141.50  30 7.8  0.0  0.60  | Off Hachinohe,Sanriku. Japan
+ 1901  8  9 13  1      -22.00  170.00  33 8.1  0.0  1.20  | TONGA ISLANDS
+ 1901  8  9 18 33 45.0  40.60  142.30  30 7.9  0.0  1.20  | Off Hachinohe,Sanriku. Japan
+ 1901  8  9 23 38       40.40  141.70  33 6.1 -4.0  0.04  | Off Hachinohe. Japan
+ 1901  9 10  8 30       14.00  122.30  33 7.0  0.0  1.20  | E.Luzon Is.Philippines:TAYABA.
+ 1901 12 30 22 34       52.00 -177.00  33 7.8             | Central Aleutian Islands
+ 1901 12 31  9  2 30.0  51.45 -171.02  25 7.1             | KENAI, COOK INLET
+ 1902  1 18 23 23       14.70  -91.60  50 6.3             | Ocos, Guatemala
+ 1902  2 26             13.50  -89.50  30 7.0  2.0        | Guatemala-Salvador
+ 1902  4 19  2 24       14.90  -91.50  30 8.0  1.0        | Ocos, Guatemala
+ 1902  5 18             14.70  -61.20          0.0        | St. Pirre, Martinique
+ 1902  7  5 14 56 30.0  40.80   23.10     6.6  1.0  0.30  | Saloniki, Thermaikos Gulf
+ 1902  8 21 19 17        6.30  123.60     7.2             | CELEBES
+ 1902  8 30 21 25       14.60  -61.10          0.0  1.00  | Martinique, Fort-de-France
+ 1903  2                13.00  145.00                     | GUAM
+ 1903  3 30             -3.00  127.50  33 6.5             | Banda Sea.Indonesia
+ 1903  5 13             37.80   15.70  33      1.0        |
+ 1903  6  2 13 17       57.00 -156.00 100 8.3             | Cook Inlet
+ 1903  7 16             16.50 -100.00                     | Acapulco
+ 1903  8                59.70 -153.40                     | Cook Inlet, Alaska
+ 1903  9  7             24.00  121.00                     | Taiwan
+ 1903  9 26            -20.20  -70.10  33      0.0  0.70  | N.CHILE
+ 1903 10  6  6 30       20.00 -155.00                     | HAWAII
+ 1903 10  8             19.00 -155.50                     | Hawaii
+ 1903 11 17             20.00 -155.00                     | HAWAII
+ 1903 11 24             20.00 -155.00                     | HAWAII
+ 1903 11 29             21.50 -157.00          3.0 15.70  | Hawaii
+ 1903 12  7 14 44      -28.50  -71.00  33 6.5  0.0  0.70  | N.Central CHILE
+ 1904  1 20 14 52        7.00  -79.00  33 7.7             | Costa Rica-Panama
+ 1904  2  2              1.06  120.80                     | Tolitoli, Sulawesi, Indonesia
+ 1904  3 17  4 20       47.54 -124.37  33                 | Washington-Oregon
+ 1904  3 30             47.50 -124.50                     | Washington-Oregon
+ 1904  6 25 21  0 30.0  52.00  159.00  30 8.1  0.5  2.00  | Kamchatka
+ 1904  7  5             -3.60  128.60          1.0        | Saparua Is., BANDA
+ 1904  8  7 22 49      -42.00  179.00  33 7.2             | NEW ZEALAND, CAPE TURNAGA
+ 1904  9  7             -8.00  109.00                     | Chilaiap, S.JAVA
+ 1904 12 20  5 42        9.20  -82.80     7.5             | Panama, Costa Rica
+ 1905                  -13.50 -172.40   0                 | Samoa, Savaii Island
+ 1905  1 15 23          61.87    6.83          2.0 40.00  | Bodal and Nesdal, Loen, Norway
+ 1905  1 20  2 32 30.0  39.60   22.85     6.3  1.0        | West Aegian Sea
+ 1905  1 20 18 23        9.85  -84.70  45 6.8             | Coco Is., Costa Rica
+ 1905  7  4             59.50 -139.80          2.5 35.00  | Russell Fjord, SE Alaska
+ 1905  7  6 16 21       38.50  142.50  40 7.8             | Off Fukushima Pref., Japan
+ 1905  9  8  1 43       38.70   16.05     6.9  2.0        | Tirrehenian Calabria
+ 1905 10  4             44.70   37.40     6.0  1.0  1.00  | Anapa, North Caucasus
+ 1905 12  8             11.00  123.50  33 6.5             | Luzon Is., Philippines
+ 1906  1 31 15 36        1.00  -81.50  25 8.6  3.0  5.00  | Tumaco, Colombia-Ecuador
+ 1906  2  7              1.00  -81.00          0.5        | Columbia-Ecuador
+ 1906  4  4             40.80   14.24          2.0        | Campania, Naple Gulf
+ 1906  4 18 13 12       37.70 -122.50  33 8.2 -2.0  0.10  | San Andreas
+ 1906  5  7            -18.50  -70.30  33      0.0  1.50  | Peru-N.CHILE
+ 1906  6  1  4 30        0.00  145.00  33 7.5             | MARSHALL IS.
+ 1906  7  1              9.30  166.60                     | Marshall Is.
+ 1906  8  7             33.00 -117.00         -3.0  0.10  | CALIFORNIA
+ 1906  8 17  0 40      -33.00  -72.00  25 8.4  2.0  2.00  | Valparaiso, Central Chile
+ 1906  9 14 16  4       -7.00  149.00  33 8.1  1.5  1.50  | New Britain
+ 1906  9 28 15 24       -6.20  -77.50 150 7.9             | SAMOA ISLANDS
+ 1906 10  2  1 50       -4.00  149.00  60 7.6  1.5  1.30  | New Ireland
+ 1906 11  6             46.00 -125.00  33                 | Washington-Oregon
+ 1906 11 28 20 58      -19.00 -172.00  33 7.0             | Samoa Islands
+ 1906 12 26  6 53      -18.00  -71.00  60 7.9             | PERU - N. CHILE
+ 1907  1  4  5 19        2.00   94.50  60 7.6  2.0        | SW.Sumatra.Indonesia
+ 1907  1 14 21 36       18.20  -76.70     7.0  2.0  9.10  | Anotto Bay, Jamaica
+ 1907  3 30              3.00  122.00 500 7.2  1.5  4.00  | Celebes Sea.Indonesia
+ 1907  4 15  6  8       16.70  -99.20  25 8.2  1.0  2.00  | Mexico
+ 1907  5  7 10 16       -2.80  144.50  33 7.1             | Bismark Sea, New Guinea
+ 1907  9 24 12 58       59.50 -135.20  33 5.5             | Linn-Chanal Bay, S.Alaska
+ 1907 10  6            -13.50 -172.50                     | Sawai'i Is., Samoa
+ 1907 10 23 21 28       38.02   16.01     5.9  2.0        | Ionian Calabria
+ 1907 12 15 17 35       -3.10  142.50  33 7.3             | Bismarck Sea.New Guinea
+ 1908  1  1            -21.20 -175.50  33      0.5        | Tonga Islands
+ 1908  2  6             -2.00  100.00 130 7.5  1.0        | SW.Sumatra
+ 1908  2 14 11 25       61.00 -146.20     6.0             | ALASKA GULF
+ 1908  3 23  2 16      -10.00  129.00  33 6.6             | INDONESIA
+ 1908  5 31             44.00   34.00     6.5             | Crimea
+ 1908  9 21  6 31       19.40 -154.90  33 6.8  0.0  1.20  | Hawaii
+ 1908 12 12 12  8      -14.00  -78.00  60 8.2  1.0  2.00  | PERU
+ 1908 12 28  5 20 27.0  38.20   15.70  10 7.2  3.5 13.00  | Mesina Strait
+ 1909  3 12 23 19       34.50  141.50  50 6.7             | Off Boso Penin.. Japan
+ 1909  3 13 14 29       35.60  141.00  80 7.5             | Off Boso Penin.. Japan
+ 1909  6  3 18 41       -2.00  101.00  40 7.7  1.0        | Sumatra Fault
+ 1909  6  8  5 46      -26.50  -70.50  60 7.6             | N. CHILE
+ 1909  7 30 10 51       17.00 -100.50  33 7.4             | S.Mexico
+ 1909  8 14  6 30       35.40  136.30  33 6.9  0.0  1.80  | Anegawa, Shiga Pref.. Japan
+ 1909  9 22             29.50  -92.00          2.0  3.00  | Vermillion, Louisiana
+ 1909 12  9 23 28       12.00  144.50 100 7.1             | GUAM, PACIFIC
+ 1910  2 25             -4.20  152.20  33 6.0             | New Britain, Rabaul
+ 1910 11 21 12 45       38.00 -122.00         -1.5  0.30  | N.CALIFORNIA
+ 1910 12 18              4.00  127.00  33 6.7 -1.0        | Sulamesi-N.Moluccas.Indonesia
+ 1910 12 30              9.00  125.50  60 6.2  1.0        | S.CHINA-SULU-CELEBES SEA
+ 1911  1 27             14.00  121.00                     | TAAL, LUZON, PHILIPPINES
+ 1911  2 18 21 35 12.0  40.90   20.80     6.7  1.0  0.50  | Orchida Lake
+ 1911  5  8             -4.20  152.20                     | Blanche Bay, New Britain
+ 1911  5 11              5.40   -0.75          1.0        | Lome, Gold Coast, Africa
+ 1911  6 15 14 25       28.00  131.00 160 8.0  1.5        | Amami-Oshima,Ryukyu tr.. Japan
+ 1911  7 12  4  7        9.00  126.00  60 7.7             | PHILIPPINE TRENCH
+ 1911  9 15 13 10      -20.00  -72.00  33 7.2             | N. CHILE
+ 1911  9 22  5  1 24.0  60.50 -149.00  60 6.9  0.5        | ALASKA GULF
+ 1911 11  3             10.00  -61.40          1.0        | Trinidad, British West Indies
+ 1912  1 24 16 22 51.0  38.10   20.65     6.8             | Ionian Sea
+ 1912  6  8  4 42       40.50  142.00 100 6.6             | E.Aomori Pref.,Sanriku. Japan
+ 1912  8  9  1 29       40.60   27.20     7.6             |
+ 1912 10 31 17 24        9.50  138.00  33 7.0             | Yap Is., Caroline Islands
+ 1912 12  6              9.50  138.00     7.0  0.5        | Yap Is., Caroline Islands
+ 1913  2 22  2 36      -41.80  171.50  33 6.8  0.5  1.50  | NEW ZEALAND, Tasman Sea
+ 1913  3 14  8 45        4.50  126.50  25 7.9             | Molucca Pasage
+ 1913  3 24             27.50   53.80                     |
+ 1913  7 28  5 39      -17.00  -74.00     7.0  0.0  0.70  | PERU
+ 1913  8  6 22 14      -15.80  -72.80  80 7.9             | PERU
+ 1913  9  9             39.30  -74.50          2.0  4.60  | Longport, New Jersy
+ 1913 10  2              9.30  -79.90         -2.0  0.03  | Gatun, Panama
+ 1913 10  2  4 23        7.10  -80.60  30 7.0  0.0        | Azyero Pen., Panama
+ 1913 10 11  4  6       -7.00  148.00  33 7.8       0.10  | New Guinea
+ 1914  1 12            -12.00  -76.60  33      1.5  1.00  | PERU
+ 1914  1 12  9 28       31.60  130.60  33 7.1  1.5  3.00  | Kagoshima Bay,Seikaido. Japan
+ 1914  1 15  4 28       43.50   10.20          1.0        |
+ 1914  2 26  4 58      -17.90  -68.00     7.2             | PERU
+ 1914  5 26 14 22       -2.00  137.00  60 7.9  2.0  0.10  | N.West Iran.Indonesia
+ 1914  5 28              9.40  -80.00         -1.0  0.15  | Gatum, Panama
+ 1914  6 25 19  7       -4.50  102.50     7.6             | Sumatra
+ 1914 11 27 14 39 46.0  38.80   20.60     6.3  2.0  3.40  | Ionian Sea
+ 1914 12  3 22 30       -3.70  128.16                     | Ambon, Maluku, Indonesia
+ 1915  2 11            -14.20 -169.60          1.0  2.40  | Manua Is., American Samoa
+ 1915  5  1 05 00 10    48.40  155.50  40 8.3             | Matua I., N. Islands
+ 1915  5 23  5 50       -4.00  133.43          0.0  0.50  | Kaimana, Irian Jaya, Indonesia
+ 1915  7 26             -3.50  102.00                     | Lais, Sumatra Is., Indonesia
+ 1915  8  2             -5.00  155.00          2.5        | W.SOLOMON SEA
+ 1915  8  7 15  4  3.0  38.50   20.70  14 6.7  2.0  0.80  | Ionian Sea
+ 1915  9  7  1 20       13.50  -89.50  80 7.9  0.5        | Guatemala-Nicaragua
+ 1915 11  1  7 24 43.0  38.90  142.70  60 7.7  0.0  1.00  | Off Miyagi Pref,Sanricu. Japan
+ 1915 11  6             -1.00  136.00     6.0             | NW.IRIAN
+ 1915 11 19             18.00  119.50  33 6.4  0.5        | W.Luzon Island.Philippines
+ 1915 11 26              9.40  -80.00         -2.0  0.01  | Gatun, Panama
+ 1916  1  1 13 20       -4.00  154.00  25 7.9  2.0  1.50  | Solomon Islands
+ 1916  1 31              8.95  -79.54                     | Panama
+ 1916  4 26  2 21 52.0   9.20  -83.10     7.5  1.0  1.20  | Panama, Costa Rica
+ 1916  7  3 23 21 41.0  38.80   15.20          2.0 10.00  | Stromboli, Aeolian Isl.
+ 1916  7 30             10.50  -67.80                     | Ocumare de la Costa, Venezuela
+ 1917  1 21             -8.00  115.40  33 6.5             | Bali Island.Indonesia
+ 1917  1 25             24.50  118.00     6.3  1.0        | South China Sea
+ 1917  1 30  2 45 30.0  55.20  164.50  20 8.1             | Kamchatka pen.,USSR
+ 1917  1 31  4  2        5.60  124.80  33 6.4             | Sulu-Celebes Seas.PHILIPPINES
+ 1917  3 16             -3.62  115.92          1.0  1.50  | Kalimantan, Indonesia
+ 1917  5  1 18 26      -29.20 -177.50  60 7.9  3.0 12.00  | Kermadec Islands
+ 1917  5  6 12 19       23.20  121.60  33 5.8 -0.5  0.50  | E.China Sea
+ 1917  6 26  5 49      -15.60 -171.00  25 8.3  2.0 12.00  | Samoa Islands(TONGA ISLANDS)
+ 1917  7 29 21 52 24.0  -3.05  143.80  33 7.7  0.0  0.90  | Bismarck Sea.New Guinea
+ 1917  8 23             -3.58  128.60          1.0        | Saparua Is., Banda Sea, Indone
+ 1917 11 16  3 19      -29.00 -177.50  60 7.5             | Kermadec Islands
+ 1917 12  6             44.67  -63.61          1.0 12.00  | Halifax, Nova Scotia, Canada
+ 1918  2 13  6  7 12.3  23.57  117.32   1 7.5             | Southern China
+ 1918  5 20 17 55 11.8 -28.92  -71.84  40 7.9             | N. CENTRAL CHILE
+ 1918  7  3  6 52  5.0  -3.50  142.50  33 7.4             | Papua New Guinea
+ 1918  7 18              3.10  125.50                     | BANUA WUHU, INDONESIA
+ 1918  8 15 12 18 18.9   5.77  123.64  57 8.3  2.5 12.00  | Celebes Sea.Indonesia,Mindanao
+ 1918  9  7 17 15 43.7  45.60  151.10  40 8.2  3.0 12.00  | E.Urup,S.Kuril Islands
+ 1918 10 11 14 14 30.0  18.50  -67.50  60 7.5  2.5  6.00  | Aguadilla, Puerto Rica
+ 1918 10 24  3 42 50.0  18.50  -67.50          1.5  2.60  | Puerto Rico, Mona Passage
+ 1918 10 25             30.00  -94.50          1.0        | Galveston. Texas
+ 1918 11  8  4 38       44.90  151.40  40 7.9  0.5  2.00  | Urup Is., South Kuriles
+ 1918 12  4 11 47 46.6 -27.42  -72.72  25 7.8  2.0  5.00  | Caldera, North Central Chile
+ 1919  1  1  1 33 46.4   7.28  126.88   9 7.4       0.86  | Philippines
+ 1919  1  1  3  0  4.2 -20.13 -177.95 215 8.3       0.40  | TONGA TRENCH
+ 1919  4  9             19.20 -156.00               4.00  | Hawaii Island
+ 1919  4 30  7 17  7.7 -19.49 -172.53   1 8.3  1.5  2.50  | Tonga Islands
+ 1919  5  6 19 40 38.3  -5.48  152.63 232 8.1  1.0  2.50  | Solomon Islands
+ 1919  5 22 17 45       38.80   15.20  10      2.0        | Stromboly, Aeolian Isl.
+ 1919  6 29 23 14       13.50  -87.50  60 6.7             | Corinto, Nicaragua
+ 1919 10  2             19.50 -156.00          1.0  4.30  | SW Hawaii Is.
+ 1919 10 22  6  6       41.23   12.35  10 5.6             |
+ 1919 12 12             11.00  -85.70                     | El Ostial, Nicaragua
+ 1919 12 26             44.00   33.00                     | Crimea
+ 1920  1 29              0.86  122.92                     | Kuandang, Sulawesi, Indonesia
+ 1920  2  2 11 22 16.2  -6.60  151.08  35 7.7             | New Britain
+ 1920  8 20 16 15 31.3 -39.58  -70.42  35 7.0  1.0  1.40  | Talcahuano, South Central Chil
+ 1920  9 20 14 39  2.3 -20.00  168.58  12 8.3             | Vanuatu Islands
+ 1920 11 26             40.30   20.00     6.3  2.0        | Albania
+ 1920 12 16             60.20    5.30          1.0        | Waves at four points of W.Norw
+ 1920 12 18  2  1 20.0  41.10   19.60   9 5.8  2.0        | Albania
+ 1921  5 14              0.00  118.10  20 6.2  0.5        | Makassar Strait.Indonesia
+ 1921  9 11  4  1 25.6 -13.08  110.42  25 7.5 -2.0        | Java
+ 1921  9 29              8.00  127.00  10 7.5  0.5  1.90  | E.Mindanao, Philippines
+ 1921 11 11 18 36 22.6   8.26  127.28   1 7.5  1.0        | Philippines
+ 1921 12 16             19.73 -155.09  33                 | Hilo, Hawaii Isl.
+ 1922  1  6 14 10 36.0 -19.00  -76.00  35 7.2             | PERU
+ 1922  1 19 21 58 50.0  -7.00  143.00  35 7.5  1.0  1.80  | Coral Sea
+ 1922  2 22             -3.34  128.92                     | Amahai, Banda Sea, Indonesia
+ 1922  2 28  1 14       10.20  124.10  33 6.2             | W.Luzon Island.Philippines
+ 1922  3  1  9  1        9.00  123.20  33 6.0  0.5        | Celebes Sea, Indonesia
+ 1922  4 10             -0.98  100.33                     | Padang, Sumatra, Indonesia
+ 1922  5  2 20 24       18.00  -65.50          0.0  0.60  | South of Viequez, Puerto Rico
+ 1922  7  8              4.66   95.66                     | Calang, Aceh, Indonesia
+ 1922  8  8  3 49  6.0  37.50   23.12     5.6             | West Aegian Sea
+ 1922  9  1 19 16  8.2  24.38  122.08  39 7.6             | Taiwan
+ 1922 11 11  4 32 46.9 -28.31  -70.28  57 8.3  2.5  9.00  | Caldera, North Central Chile
+ 1922 12 25  3 33      -43.30  173.00  35 6.2       0.40  | SE.New Zealand
+ 1923  1 22  9  4 19.1  40.39 -124.95  10 7.2 -3.0  0.10  | Cape Mendocino, N.California
+ 1923  2  3 16  1 47.6  54.08  160.52  21 8.3  3.0  8.00  | SE off Kamchatka
+ 1923  2 17            -35.30  -72.40          1.5  1.50  | Central CHILE
+ 1923  3  2 16 48 44.6   7.63  124.85  94 7.2  0.5        | Cotabato
+ 1923  3  4            -26.28  -80.10          2.0 35.00  | San Felix Isl., Chile
+ 1923  4 13 15 31  2.6  55.03  163.03  72 7.2  3.0 14.00  | E.Kamchatka peninsula.USSR
+ 1923  5  4 22 26 50.6 -27.06  -69.87 104 7.0             | North Central Chile
+ 1923  6  1 17 24 49.2  35.63  141.79  58 7.2  0.0  0.30  | Kashimanada. Japan
+ 1923  6  6             40.57  -73.93          1.0        | Rockaway, Queens, New York
+ 1923  6  8             40.56  -74.00          1.0        | Coney Island, Queens, New York
+ 1923  7 18              9.50  125.00  33 5.5  1.0        | Sulu Sea.Philippines
+ 1923  8                36.30  128.00          0.0        | Korea
+ 1923  8 12 12 11      -18.50  -70.30  33      0.0  0.70  | N.CHILE
+ 1923  9  1  2 58 41.2  35.65  138.82  73 8.2  3.0 13.00  | Sagami Bay, Tokaido, Japan
+ 1923  9  2  2 46 44.2  35.29  139.72  19 7.7  0.0  0.30  | Sagami Trough, Tokaodo, Japan
+ 1923 11  2 21  8 11.3  -4.63  154.01 139 7.2       1.00  | Bismarck Archipelago
+ 1923 11  4  0  4 47.9  -5.66  153.01 155 7.2             | New Britain
+ 1924  1  9             47.00   -2.00          1.0  4.40  | D'Yeu, Lockmaria, Vendee
+ 1924  3 15 10 31 22.3  49.18  142.79  17 6.8             | Tatar Strait
+ 1924  4 14 16 20 33.9   6.79  126.08  14 8.3  0.5        | Philippine
+ 1924  4 15             16.00  119.00  33 6.9  1.5        | Luzon Is., Philippines
+ 1924  5  6 16  9 28.2  15.91  119.06  12 6.5  1.5        | W.Luzon Island.Philippines
+ 1924  5 30             22.00 -160.00          2.0  5.00  | HAWAII
+ 1924  6  2             16.00  120.00                     | PHILIPPINES
+ 1924  6 26  1 37 33.6 -56.24  158.17  15 7.8             | Macquarie Island
+ 1924  7 21            -51.00  -75.50          1.0        | Chatham Isl., S.Chile
+ 1924  8 28             64.10  -21.60     6.5  1.0        | Reykjavik, Iceland
+ 1924  8 30  3  5 14.4   9.04  126.18 115 7.2  0.5        | Philippines
+ 1924 10  4             21.00 -158.00         -3.0  0.10  | HAWAII
+ 1924 12 28 22 55  8.9  43.34  146.34  60 6.8             | Kuril Islands. USSR
+ 1925  1  7             42.70  -70.60          0.0        | Cape Ann, Massachusetts
+ 1925  1  8             -5.47  122.60                     | Baubau, Butung Is, Indonesia
+ 1925  2 23 23 53 50.1  60.97 -147.57  51 6.0  1.0        | Gulf of Alaska
+ 1925  5  2             29.30  -94.80                     | Galveston, Texas
+ 1925  5  5 10  6 12.5   9.72  123.02  16 6.8  0.5        | W.Luzon Island.Philippines
+ 1925  5 15 11 57  2.9 -25.19  -70.19  12 7.1             | N. CENTRAL CHILE
+ 1925  5 25  3 43 15.0  12.52  121.99  35 6.8  0.5        | W.Luzon Island.Philippines
+ 1925  5 25 10  7        9.20  123.20                     | PHILIPPINES:  S NEGROS:  DUMAG
+ 1925 10  4 16          57.50 -137.00  33 7.1 -1.0  0.30  | Alaska/ California
+ 1925 11 13 12 14 60.0  12.54  124.74 109 7.2  0.5        | Philippines
+ 1925 11 16 11 54 58.0  18.29 -106.93   5 7.0  3.0 11.00  | S.MEXICO
+ 1925 12 22             10.00  138.00                     | YAP, CAROLINE IS.
+ 1926  1  9             44.25  -68.38          1.0  3.00  | Bernard, Maine, East coast
+ 1926  1 25  0 36 33.9  -9.92  158.71  84 7.4             | SOLOMON IS.
+ 1926  3 16 17 37 31.8 -16.09 -171.84  50 6.0  2.5        | Tonga Islands
+ 1926  3 20  9  3       20.50 -155.50          0.0  1.50  | HAWAII
+ 1926  6 28             35.00  128.00          2.0        | South coast of Korea
+ 1926  7  1 14  8 52.8  -3.26  100.69   3 6.8             | JAVA, IND.
+ 1926  7 30 13  0       49.20   -2.10                     | Jersey, English Channel
+ 1926  8 17 14 25       38.85   14.75 100 6.0  1.0        | Salina, Aeolian Isl.
+ 1926  8 22 10 40       38.52  -28.60     6.5  0.0  0.60  | Horta, Faial Is., Azores
+ 1926  8 30 11 38 12.0  36.50   23.30     7.2  1.0        | Argolicos Gulf
+ 1926  9 16 17 59 20.3 -10.49  159.69 131 7.0  1.5        | Solomon Is.
+ 1926 10 24             59.45 -135.32                     | ALASKA
+ 1926 11  5  7 55       12.30  -85.80 135 7.0             | Offshore Nicaragua
+ 1926 12  9 22 42      -28.00  -71.00  33 6.0  0.5  1.50  | N.Central Chile
+ 1926 12 19             38.50   -9.50          1.0        | Lisbon, Portugal
+ 1927  1  1  8 16 35.0  29.00 -115.00  35 5.8  1.0        | San Pedro, US-Mexico border
+ 1927  1 24  5 18 22.0  59.00    3.00     5.1             | Western Norway
+ 1927  3  7  9 27 40.9  35.84  134.91   2 7.6  3.0 11.30  | N.Tango,Kyoto,SW.Honshu. Japan
+ 1927  6 26 11 20 48.0  44.40   34.40     6.0  1.0  2.00  | Crimea, Black Sea
+ 1927  8  5 21 13  1.1  37.86  142.20  65 7.1 -3.0  0.10  | Off Miyagi Pref.,Sanriku.Japan
+ 1927  8 18 19 28       34.48  141.34  75 6.8 -2.0  0.40  | Off Boso Penin.,Kashima. Japan
+ 1927  9 11 22 15 49.0  44.30   34.30     6.8  2.0  2.00  | Crimea, Black Sea
+ 1927 10 12  8 31       55.33 -131.64         -3.0  0.10  | Ketchikan, SE.ALASKA
+ 1927 10 24 15 59 54.5  57.63 -136.54   1 7.1 -3.0  0.10  | S.ALASKA
+ 1927 11  4 13 51  3.7  35.04 -120.68  10 7.3  1.0  1.80  | USA:N.to S.California:LOMPOC
+ 1927 11 21 23 12 14.0 -44.70  -73.00  35 7.1  2.0  2.80  | Puerto Aysen, Southern Chile
+ 1927 12  1             -0.50  119.50  33 6.0  3.0 15.00  | Celebes Sea.Indonesia:SULAWESI
+ 1927 12 28 18 20 30.8  53.80  161.43  14 7.3  1.0  0.10  | Kamchatka
+ 1928                   48.60  -58.00          1.0        | NW coast of Newfoundland
+ 1928  2  9             49.00 -125.00  33 5.8             | British Columbia.Canada
+ 1928  3 22  4 17  9.6  16.84  -96.02  15 7.5             | MEXICO
+ 1928  3 26             -6.10  105.40                     | JAVA
+ 1928  3 31            -23.60  -70.40                     | N. CHILE
+ 1928  3 31  0 29 47.0  38.10   27.40     6.5  0.0  0.30  | East Aegian
+ 1928  4  9 17 34 25.7 -13.13  -70.17  83 6.9  1.0        | PERU
+ 1928  4 22 20 13 46.0  37.90   23.00     6.3  2.0  2.10  | East Corinthos Gulf
+ 1928  4 27 20 35  3.9 -13.68  -70.24  45 6.7             | PERU
+ 1928  5  2 21 54 32.0  39.60   29.10     6.2  1.0  0.60  | Strymonic Gulf
+ 1928  5 18 15 46      -21.00  174.00                     | Tonga, Haapai Isl.
+ 1928  5 27  9 50 31.7  39.97  142.50  68 7.1 -1.0  0.90  | Sanriku. Japan
+ 1928  5 30             43.00  142.00  33                 | Sapporo, Japan
+ 1928  6 15  6 12 43.1  12.78  121.13  45 7.0             | S.China-Sulu-Celebes Seas,PHIL
+ 1928  6 16             16.20  -98.00  33 7.8  1.5        | S.Mexico,Guerrero:PUERTO ANGEL
+ 1928  6 17  3 19 31.8  16.65  -96.50   2 7.8  1.0  2.50  | Guerrer, Mexico
+ 1928  7 18 19  5  5.6  -5.44  -78.77  15 7.0             | PERU
+ 1928  8  4             -8.35  121.70   0      2.0 10.00  | Paluweh, Flores Sea.Indonesia
+ 1928  9 13             10.70  -63.20          1.0        | Carupano, Venezuela
+ 1928 11 20 20 35 13.4 -23.23  -69.50  49 7.1             | N. CHILE
+ 1928 12  1  4  6 14.0 -35.06  -71.72  26 8.4  0.5  1.50  | Constitucion, Central Chile
+ 1928 12 19 11 37 13.2   6.87  124.84  12 7.3             | Cotabato
+ 1929  1 17 11 45 39.0  10.60  -65.60     6.9  1.0        | Cumana, Venezuela
+ 1929  3  7  1 34 39.8  50.93 -169.78   1 8.1 -2.0  0.20  | E.Aleutian Islands,USA: FOX I.
+ 1929  5 21 16 35 34.5  31.79  131.72  45 7.1             | Hiuganada,Seikaido. Japan
+ 1929  5 26 22 40  0.2  51.24 -130.64   1 7.0             | British Columbia.Canada
+ 1929  6 13  9 24 40.5   7.95  126.76  51 7.2             | MINDANAO, HINAT., Philippines
+ 1929  6 16 22 47 27.6 -41.85  172.17   1 7.5  0.5  2.50  | New Zealand, South Island
+ 1929  8  9            -23.60  -70.40          2.5  7.50  | Northern Chile
+ 1929  8 19             39.35  -74.42          2.0  4.62  | Atlantic City, New Jersy
+ 1929 11 18 20 31       44.00  -56.00     7.2  2.5 15.00  | Grand Banks, Newfoundland
+ 1930  3 17             -6.10  105.40                     | JAVA/S.JAVA
+ 1930  5  2             63.30    9.85          2.0        | Mid-Norway
+ 1930  6 19             -5.60  105.30  33 6.0             | S.Java Sea
+ 1930  7 19             -9.30  114.30  33 6.5             | S.Java Sea
+ 1930  8 31  0 40 36.6  33.90 -118.60   0 5.2 -0.5  6.10  | S.CALIFORNIA
+ 1930  9 11  9 52       38.80   15.20          2.0        | Stromboli, Aeolian Isl.
+ 1930  9 30 21 20 49.1  -4.46  145.46   6 7.0             | Bismarck Sea.New Guinea
+ 1930 12 24             -1.30  144.30  33 5.8  2.5 10.50  | Bismarck Sea.New Guinea
+ 1930 12 28            -28.50  -71.00  33 6.0  0.0  1.00  | N.Central CHILE
+ 1930 12 29  3 26      -28.50  -71.00  33 6.0  0.5  1.00  | NC. CHILE
+ 1931  2  2 22 46 51.7 -39.82  176.13  41 7.9  0.0        | N.NEW ZEALAND
+ 1931  2 13  1 27 26.9 -39.90  176.84  87 7.1 -1.0  0.10  | N.NEW ZEALAND
+ 1931  2 19            -39.50  177.00                     | N.NEW ZEALAND
+ 1931  3  9  3 48 51.6  40.39  142.79   7 7.8 -1.0  0.80  | Aomori,Hachinohe,Sanriku.Japan
+ 1931  3 18  8  2 27.3 -33.81  -71.30  70 7.1             | N. CENTRAL CHILE
+ 1931  6  7             54.00   14.00  70 6.0             | Dogger Bank
+ 1931  8  7  2 11 41.3  -3.01  142.08  24 7.1             | BISMARK ARCHIPELAGO
+ 1931  8 31             38.65  -27.15          2.0        | Horta Feteira, Ilha de Fajal
+ 1931  9 25  5 59 56.3  -5.41  102.45  87 7.5             | SW.Sumatra
+ 1931 10  3 19 13 21.7 -10.77  161.20  50 7.9  2.5  7.50  | Solomon Islands.
+ 1931 11  2 10  3  3.9  32.07  131.92  45 7.6  0.0  0.80  | Hiuganada,Seikaido.Japan:KYUSH
+ 1931 12  1             22.00  -84.00          1.0        | Cuba, Playa Panchita
+ 1932  2  3  6 15       19.80  -75.40     6.7  1.0        | Santiago de Cuba, Cuba
+ 1932  5  7             36.60   53.40  12                 |
+ 1932  6  3 10 36 54.2  19.46 -104.17  25 8.1 -0.5  0.70  | Central Mexico,Jalisco
+ 1932  6 12             18.90 -104.50     7.0             | MEXICO:  CUYUTLAN,MANZANILLO
+ 1932  6 18 10 12 17.8  19.53 -103.72  71 7.8 -2.0  0.10  | Central Mexico, Jalisco
+ 1932  6 22 12 59 27.5  19.09 -104.41   1 6.9  1.5 10.00  | Central Mexico
+ 1932  9  9             -3.60  128.30  33 6.2             | Java Trench
+ 1932  9 15 13 55  6.0 -39.15  177.06 110 6.8             | N.New Zealand
+ 1932  9 26 19 20 42.0  40.50   23.90  40 7.0  1.0  2.00  | Strymonic Gulf
+ 1932 11  4             10.50  -64.50          1.0        | Cumana, Venezuela
+ 1933  1  8  4          49.20  154.60  33 6.0  2.0  9.00  | N.Kuril Islands.USSR
+ 1933  1 23            -20.00  -71.00                     | N. CHILE
+ 1933  2 23  8  9 22.9 -20.45  -70.12  67 7.2             | Iquique, Northern Chile
+ 1933  3  2 17 30 56.7  39.27  144.60   4 8.3  3.5 29.30  | Sanriku, Japan
+ 1933  3 11  1 54  9.2  33.53 -118.07   5 6.3 -3.0  0.10  | S.CALIFORNIA
+ 1933  4 23  5 57 35.0  36.70   27.20  50 6.4             |
+ 1933  6 18 21 37 34.0  38.31  142.48   5 7.3 -2.0  0.18  | Off Miyagi Pref.,Sanriku.Japan
+ 1933 10  2 15 29 25.2  -2.20  -81.04  10 6.9             | Columbia-Ecuador
+ 1933 12 25             12.80  124.00          1.0        | E.Samar Island.Philippines
+ 1934  2 14  3 59 39.0  17.47  119.15  15 7.6             | W.Luzon Island.Philippines
+ 1934  4  7  3          62.24    7.42          2.0 62.00  | Tafjord, Fjora, Norway
+ 1934  6  2             66.00  -18.25     6.2             | Dalvik, Fyjafjorour, Iceland
+ 1934  7 18  1 36 27.8   8.01  -82.56  25 7.7  1.0  2.00  | Costa Rica-Panama
+ 1934  7 18 19 40 19.6 -11.88  166.49  10 8.2             | Vanuatu Islands
+ 1934  7 19  1 27 30.1  -0.73  133.36  15 7.0             | Java Trench
+ 1934  7 21  6 18 37.5 -11.10  165.41 158 7.3             | New Hebrides Islands
+ 1934  8 21             33.75 -118.23          3.0 12.00  | S.CALIFORNIA
+ 1934 12  4 17 24 40.0 -19.51  -69.52  88 6.9             | Peru - N. CHILE
+ 1935  7 19  0 49 44.6  36.69  141.68   1 6.5 -2.0  0.20  | Off Ibaraki Pref.,Japan Trench
+ 1935  8 22 22  0       38.60  -27.60          2.0        | Ilha de Faiac, Porto Comprio
+ 1935  9 20  1 46 43.7  -4.06  141.43  60 7.9             | Bismarck Sea.New Guinea
+ 1935 10 12 16 45 20.9  40.31  143.26   1 7.2 -1.0  0.33  | Off Miyako,Sanriku.Japan
+ 1935 10 18  0 11 59.2  40.43  143.57   1 7.2 -2.0  0.20  | Off Miyako,Sanriku.Japan
+ 1935 11 21 11 41       19.50 -155.50   8      1.0        | HAWAII
+ 1935 12 28  2 35 27.0  -0.15   98.19   7 8.1             | SW.SUMATRA
+ 1936  4  1  2  9 26.9   4.18  126.55  54 7.7  1.5  3.00  | Sulawesi-N.Molucca.Indonesia
+ 1936  7 13 11 12 19.2 -24.76  -70.07  54 7.3       1.00  | Taltal, Northern Chile
+ 1936  8 23 21 12 15.8   5.20   94.75  56                 | EAST OF JAVA, IND.
+ 1936  9 13             61.87    6.83          2.0 70.00  | Bodal and Nesdal, Loen, Norway
+ 1936 10 27 15 50       58.64 -137.57          3.0150.00  | Lituya Bay, Alaska
+ 1936 11  2 20 45 59.9  38.32  142.14  54 7.2  0.0  0.70  | Off Kinkazan,Sanriku.Japan
+ 1936 11 13 12 31 29.2  56.16  163.13   1 7.3  2.0 13.00  | Kamchatka Peninsula.USSR
+ 1937  4 16  3  1 37.6 -20.76 -177.14 345 8.1       0.90  | TONGA
+ 1937  5 28             -4.20  152.20          1.5  2.00  | Bismarck Sea.New Guinea
+ 1937  5 29             -4.20  152.20          1.5        | Bismarck Sea.New Guinea
+ 1937  7 20  7  1       43.20   16.40     5.2             |
+ 1937  8 20 11 59 19.2  14.44  121.68   8 7.5             | Philippine Fault
+ 1937  9 21 21  2 41.2  55.28  161.98  58 5.7  1.0        | Kamchatka
+ 1938  2  1 19  4 21.1  -5.10  131.53  30 8.2  1.5        | Banda Sea
+ 1938  3                62.35    6.95          2.0        | Western Norway
+ 1938  3  6  1 56 27.2  -4.12  153.69  48     -2.0  0.10  | SOLOMON IS.
+ 1938  3 22 15 22 16.7  52.61 -131.97  11 6.3             | British Columbia, Canada
+ 1938  5 12 15 39  3.9  -6.26  147.65  23 7.5  1.0  2.00  | New Guinea
+ 1938  5 19 17  8 36.0  -0.38  119.51  48 7.9  1.5  3.00  | N.Molucca Islands.Indonesia
+ 1938  5 23  7 18 33.4  36.48  141.66  37 7.6  0.0  0.80  | Off Shioya,Fukushima. Japan
+ 1938  5 28 16 42  1.8  43.34  144.75   9 6.0 -1.0        | Lake Kucharo,E.Hokkaido. Japan
+ 1938  6 10  9 53 43.1  25.25  125.06  21 7.7  0.0  1.50  | Miyakojima,Ryukyu Trench.Japan
+ 1938  9 21             40.00  -74.00          2.5  9.00  | New Jersy coast
+ 1938 10 10 20 48 14.1   2.41  126.67  70 7.3 -2.0  0.10  | INDONEZIA
+ 1938 11  5  8 43 19.1  36.97  141.91   5 7.7  0.0  1.10  | Off Fukushima,Sanriku.Japan
+ 1938 11  5 10 50 18.6  37.15  141.92  49 7.7             | Japan
+ 1938 11  6  8 53 50.8  37.27  142.33   3 7.6 -2.0  0.21  | Off Fukushima,Sanriku. Japan
+ 1938 11  6 21 38 43.0  36.87  142.58   4 7.0  0.0  1.30  | Off Fukushima,Sanriku. Japan
+ 1938 11  9  2 22 25.6  37.49  141.23   2 6.5             | OFF FUKUSHIMA PREF., JAPAN
+ 1938 11 10 20 18 42.2  55.34 -158.45   1 8.7 -2.0  0.30  | Alaska Peninsula.USA
+ 1938 11 13 22 31 29.9  36.86  142.21   5 7.0  0.0  0.70  | Off Fukushima,Sanriku. Japan
+ 1938 11 16 11  8  4.1  37.37  142.05   1 6.9             | Off Fukushima Pref. Japan
+ 1938 11 22  1 14  1.7  36.70  142.43   6 6.6 -2.0  0.20  | Off Fukushima,Sanriku.Japan
+ 1938 11 30  2 29 57.9  37.02  142.12   7 6.9 -2.0  0.19  | Off Fukushima,Sanriku.Japan
+ 1939  1 25  3 32      -36.20  -72.20   0 7.8             | CENTRAL CHILE
+ 1939  1 27 20 10 15.0  38.50   14.70  15                 |
+ 1939  1 30  2 18 28.6  -7.13  155.35  24 7.8  1.0  2.00  | Solomon Islands
+ 1939  3 20  3 22 30.0  32.42  131.60  55 6.5  0.0  0.80  | Hiuganada,Seikaido. Japan
+ 1939  4  2  1          53.00  158.50          1.0  2.00  | Avacha Bay, Kamchatka
+ 1939  4 18  6 22 42.8 -27.37  -71.02  38 7.4             | N. CENTRAL CHILE
+ 1939  4 30  2 55 28.7  -9.30  159.36  30 8.0  3.0 10.50  | Solomon Islands
+ 1939  5  1  5 58 30.5  39.90  139.88  22 7.0 -2.0  0.30  | NW.Honshu,Oga pen.,Akita.Japan
+ 1939  5  6 17  0  7.2  13.74  120.94  14 6.5             | SULU SEA
+ 1939  5  8  1 46 48.0  37.00  -24.50     7.0  0.0        | Angra, Ponta Delgada, Azores
+ 1939  6 22              5.25   -0.10     6.5  1.0        | Accra, Gold Coast, Africa
+ 1939  7 24             12.10  -61.70                     | Grenada
+ 1939  8 15  3 52       21.70  -83.10     6.0  1.0        | Cuba, Cabo Frances
+ 1939 12 21 21  0 40.9   0.01  122.68 105 8.6             | N.Molucca Islands.Indonesia
+ 1939 12 26 23 57 16.0  40.70   39.60     8.0  1.0        | South Black Sea
+ 1940  1 15 13 19 24.0  38.10   13.50  15                 |
+ 1940  5 24 16 33 57.0 -10.98  -77.47  41 8.4  1.5  2.00  | PERU: LIMA,CALLAO
+ 1940  8  1 15  8 25.1  44.47  139.52  35 7.5  2.0  3.50  | Japan Sea
+ 1940 10  4  7 54 51.1 -20.33  -70.61  31 7.3             | N. CHILE
+ 1940 10 11 18 41 10.1 -42.44  -72.65  15 7.0             | S. CENTRAL CHILE
+ 1941  1 13 16 27 42.7  -4.63  152.57  51 7.0  0.0  0.30  | New Britai, Gazelle Peninsula
+ 1941  2  9  9 44  9.6  40.72 -125.20  24 6.6             | N.-S. CALIFORNIA
+ 1941  3 16 18 48  5.0  38.30   12.20  85 6.2             |
+ 1941 11 18 16 46       32.00  132.00  10 7.8  0.0  1.20  | Hiuganada,Seikaido.Japan;SHIKO
+ 1941 11 25 18  3 54.0  37.41  -19.01  25 8.2  0.0  0.30  | Cascais, Portugal
+ 1941 12  5 20 47  3.3   8.61  -83.18  32 7.5 -1.0  0.23  | Punta Dominical, Costa Rica
+ 1941 12  6             10.00  -85.20  33 7.0 -3.0  0.10  | Puntarenas, Costa Rica
+ 1942  5 22 10 30 41.4   4.29  -74.75  13 5.8  1.0        | Colombia
+ 1942  8 24 22 50 27.6 -15.28  -75.26  28 8.6  1.0  2.00  | PERU
+ 1943  4  6 16  7      -30.80  -72.00  60 7.9 -2.0  0.30  | Los Vilos, North Central Chile
+ 1943  6 13  5 12       41.25  143.35  20 7.2 -1.0  0.60  | Off Hachinohe,SE.Hokkaid.Japan
+ 1944  4  9  2 30       48.60 -118.10   0           9.10  | Roosevelt Lake, Washington
+ 1944  8 20  6 30       38.80   15.20          2.0        | Aeolian Isl.
+ 1944  9 14             40.40  -73.70          2.5  8.00  | New York and New Jersy coast
+ 1944 12  7  4 35       33.80  136.61  30 8.0  2.5 10.00  | Enshunada,Tonankai,Tokaido.Jap
+ 1945  1 12 18 38       34.68  137.06  33 6.8  0.0  1.00  | Mikawa Bay,Tokaido. Japan
+ 1945  2 10  4 57 56.0  41.00  142.06  20 7.1 -1.0  0.35  | Off Hachinohe,Mariana-Japan Tr
+ 1945 11 27 21 56       24.50   63.00  25 8.3  3.0 15.20  | ARABIAN SEA
+ 1946  3 26            -38.68  178.02                     | NEW ZEALAND
+ 1946  4  1 12 28 56.0  52.75 -163.50  50 7.4  4.0 42.20  | Unimak Is.,E.Aleutian Islands
+ 1946  6 23 17 13       49.80 -124.50  33 7.3  3.0 30.00  | East of Vancouver Is., Canada
+ 1946  8  2 19 18      -26.50  -70.50  50 7.9             | N. CENTRAL CHILE
+ 1946  8  4 17 51  5.0  19.25  -69.00  60 8.0  2.0  4.70  | Hispaniola, Dominican Republic
+ 1946  8  8 13 28 28.0  19.50  -69.50     7.6  0.0  1.00  | Puerto Rico, Hispaniala
+ 1946  9 30  1         -13.00  -76.00  70 7.0             | PERU
+ 1946 11  1 11 14 24.0  51.50 -174.50  40 7.0             | Aleutian Islands
+ 1946 11 13  6          48.10  153.10                     | N.Kuril Islands.USSR
+ 1946 12 20 19 19       33.03  135.61  30 8.2  2.0  6.60  | Nankaido.Japan
+ 1947  1 26             13.20  -87.50                     | HAWAII
+ 1947  3 25 20 32      -38.85  178.87  12 7.0  2.5 10.00  | New Zealand
+ 1947  5  6 20 30       -6.50  148.50  60 7.6       6.00  | MELANEZIA
+ 1947  5 17  7  6      -38.42  178.88  12 7.2  1.5  6.00  | New Zealand
+ 1947 10  6 19 55 34.0  36.90   22.00     7.0  1.0  0.60  | South Ionian Sea
+ 1947 11  4  0  9  9.6  43.81  141.01  30 7.1  1.0  2.00  | Off Rumoe,NW.Hokkaido Is.Japan
+ 1948  1 24 17 46       10.50  122.00  25 8.3  1.5        | Philippine
+ 1948  2  9 12 58 13.0  35.50   27.20  16 7.1  2.0  1.20  | Dodecanese Isl.
+ 1948  4 17 16 11       33.28  135.61  40 7.3 -1.0  0.60  | Nankaido
+ 1948  4 22 10 42 43.0  38.70   20.60   8 6.5  2.0  1.00  | Ionian Sea
+ 1948  6  2              5.50   94.00  33 6.5             | Malay Peninsula, SUMATRA
+ 1948  9  8 15  9      -21.00 -174.00  25 7.8 -1.0  0.10  | Tonga Islands
+ 1948 12  4  0 22       21.60 -106.70  33 7.0  1.5        | Mexico:MARIA MADRE ISLAND
+ 1948 12 26 11 12 21.0 -22.50  -69.00 100 7.0  0.0  0.70  | Tocopilla, Northern Chile
+ 1949  1 27 10 59 58.8  54.60  163.60 150 5.6       0.10  | KAMCHATKA
+ 1949  2  9 13 28 30.0  38.20   20.00  15                 | DODECANESE
+ 1949  4 13 19 55       47.20 -122.50  70 6.9             | PUGET SOUND, WA
+ 1949  4 16 10 55       47.30 -122.50   0      1.5  8.00  | Point Defiance, Takoma, WA
+ 1949  4 20  3 29      -38.00  -73.50  70 7.3             | S. CENTRAL CHILE
+ 1949  7 23 15  3 30.0  38.60   26.30  25 6.7  2.0  2.00  | East Aegian Sea
+ 1949  7 27             47.80 -118.30   0      2.0 19.70  | Columbia River, Washington
+ 1949  8 22  4  1       53.70 -133.20  25 8.1       0.60  | Queen Charlotte
+ 1949  9 27 15 30 42.0  60.20 -148.90  50 6.9             | GULF OF ALASKA
+ 1949 10 19 21  1       -5.50  153.20  60 7.2 -1.0  0.10  | Solomon Islands
+ 1949 11  5             17.00  121.50  80 6.0 -4.0        | PHILIPPINES
+ 1949 12 17 15  7 55.0 -54.00  -71.00  33 7.7 -0.5  0.70  | Porvenir, S. Chile
+ 1949 12 29  3  3       18.00  121.00  33 7.2  1.5        | Manila
+ 1950  1 30  0 57      -53.50  -71.50  33 7.0             | S. CHILE
+ 1950  3 13 18 11      -37.80  177.20  33 5.8             | N.New Zealand
+ 1950  8  3             10.60  -68.00          1.0        | Venezuala, Porto Cabello
+ 1950  8 15             62.30    6.50          0.5  1.00  | Norwegian coast & England
+ 1950 10  5 16  9       10.40  -85.20  60 7.7 -2.0  0.10  | Nicaragua-Costa Rica-Panama
+ 1950 10  8             63.45   10.40                     | Mid-Norway
+ 1950 10  8  3 23       -3.80  128.30  60 7.6  1.5        | Banda Sea
+ 1950 10 23 16 13       14.30  -91.80  30 7.1 -1.0  0.20  | Guatemala-Nicaragua
+ 1950 11  7  5 59 41.0 -14.00  167.00  60 7.2  0.0        | Solomon Sea
+ 1950 12 10  2 50      -14.60  -76.30  80 7.0 -0.5  0.70  | PERU
+ 1950 12 14 14 15       16.30  -98.20  50 7.5 -1.0  0.30  | Acapulco, S.Mexico
+ 1951  2 22  1 45 42.0  -3.60  142.60  33      1.5        | Bismarck Sea.New Guinea
+ 1951  2 23 16 45       48.70 -118.10   0      1.5  3.00  | Upstream of Kettle Falls, WA
+ 1951  8  3  0 24       13.00  -87.50 100                 | Potosi, Honduras
+ 1951  8 21 10 57       19.50 -156.00  12 6.9  0.0  1.20  | Hawaii
+ 1951 12  2 13  0       13.50  -60.00          2.0        | Puerto Rico and Barbados
+ 1952  3  4  1 22 45.6  41.80  144.13  45 8.3  2.0  6.50  | SE.HOKKAIDO IS., Japan
+ 1952  3  9 17  3 46.2  41.70  143.71  20 7.1 -2.0  0.30  | Off Tokachi,SE.Hokkaido. Japan
+ 1952  3 17  3 58       19.10 -155.00  33 4.5  0.5  3.00  | Hawaii
+ 1952  3 19 10 57        9.50  127.20  25 7.9 -2.0  0.30  | MINDANAO, Philippines I.
+ 1952  4 10             48.50 -118.10   0      2.0 19.80  | Roosevelt Lake, Washington
+ 1952  5 13 19 32       10.30  -85.30  64 7.0 -3.0  0.10  | Costa Rica-Panama
+ 1952  7 13 11 59      -18.70  170.30  33 7.0             | NEW HEBRIDES
+ 1952  8 17 16 30       18.40  -68.40          2.0        | Puerto Rico, Dominican Rep.
+ 1952  9 16  2 50       31.90  140.00         -2.0  0.30  | S.Hachijo,Chichi Jima. Japan
+ 1952  9 23  4 20       31.90  140.00         -2.0  0.30  | S.Hachijo,Chichi Jima.Japan
+ 1952  9 24  3 23       31.90  140.00                     | S.Hachijo,Chichi Jima.Japan
+ 1952  9 26  3 33       31.90  140.00         -3.0  0.10  | S.Hachijo,Chichi Jima.Japan
+ 1952 10 13             48.50 -118.15   0      1.0  2.00  | Colombia River Valley, WA
+ 1952 11  4 16 58 21.6  52.75  159.50  20 8.5  4.0 18.60  | SE of Kamchatka peninsula
+ 1952 12  2             13.30  -59.65          1.0        | NW coast of Barbados
+ 1953  2  1             51.80    2.40          1.0  4.00  | Flanders, Belgium, Norfolk
+ 1953  2 14             48.40 -118.10   0      0.0  1.00  | Roosevelt Lake, Washington
+ 1953  2 15  9 32      -12.00  -77.50  33 5.5 -0.5  0.70  | PERU
+ 1953  2 16  3 43       48.50 -118.15   0      1.0  4.80  | COLUMBIA RIV.VALLEY,WASHINGTON
+ 1953  3 11             31.90  140.00          1.8  0.10  | S.Hachijo,Chichi Jima.Japan
+ 1953  3 17 13  4 42.0  50.00  156.40  70 6.2  1.0  3.00  | N.Kuril Islands.USSR
+ 1953  4 23 16 24       -4.00  154.00  60 7.5  1.0        | Solomon Islands
+ 1953  5  6 17 16      -36.50  -72.60  60 7.6             | CENTRAL CHILE
+ 1953  5 31 19 58 35.0  19.70  -70.40  33 7.2  0.5  0.60  | Puerto Plata, Dominican Rep.
+ 1953  6 27             -2.40  147.40          1.0  2.00  | Melanesia
+ 1953  8 12  9 23 52.0  38.10   20.60     7.2  1.0        | Ionian Sea
+ 1953  8 19 19  0       48.60 -118.10   0      0.0  1.00  | Roosevelt Lake, Washington
+ 1953  9 10  4  6  3.0  34.80   32.00     6.5  1.0        |
+ 1953  9 14  0 28      -18.20  178.30  10 6.8  1.5  3.00  | Suva, Fiji Islands
+ 1953 11 25 17 48 54.4  33.98  141.71  60 7.4  1.5  3.00  | Off Boso-Oki,Kashima.Japan
+ 1953 12 12 16 35       -3.60  -80.60  30 7.8  0.5  1.80  | Colombia-Ecuador-PERU
+ 1954  2                38.80   15.20          2.0        | Aeolian Isl.
+ 1954  9  9  1  4 37.0  36.30    1.45   5 6.6  0.0        | Alboran Sea
+ 1954 10                65.95  -35.90          2.0 18.00  | Aputiteq Point, SE Greenland
+ 1954 11 18 20 44 58.0  38.86  142.15  30 6.1             | Off Miyagi Pref. Japan
+ 1955  1 18             11.30  -69.40  33 5.5  2.0        | La Vela, Venezuela
+ 1955  4 19 16 47 19.0  39.35   23.00     6.2  2.0        | Volos Gulf
+ 1955  4 19 20 24  5.0 -29.90  -71.60  33 7.1  1.0  2.00  | Coquimbo, North Central Chile
+ 1955  8 20             23.80 -163.80                     | UNNAMED PACIFIC ISLAND
+ 1955  9  8             -7.00  155.50  33 6.5  0.0        | Solomon Islands
+ 1955  9 14  5          43.00  131.60   6 4.4             | Primorie, USSR Far East coast
+ 1955 10 10  8 57 47.0  -5.00  152.50  33 7.3  0.0        | New Britain
+ 1956  1  8 20 54 23.7 -19.11  -70.63  65 7.1             | N. CHILE
+ 1956  3  5 23 29 42.6  44.30  144.08  20 6.2 -1.0  0.40  | NE.Hokkaido Island.Japan
+ 1956  3 30  6 11 19.8  56.10  160.70   0 4.9 -2.0  0.30  | Kamchatka Paninsula.USSR
+ 1956  7  9  3 11 40.0  36.70   25.80  20 7.5  4.0 25.00  | South Aegian Sea
+ 1956  7  9  6 23       36.90   25.50     5.6             |
+ 1956  8 12 16 59 37.6  33.90  138.92  35 6.5 -1.0  0.40  | S.off Izu Penin.. Japan
+ 1956 11  2 16  4 33.0  39.30   23.10     5.6  1.0  1.20  | Volos Gulf
+ 1956 12 18  2 31 11.3 -25.50  -70.18  45 7.0             | N. CHILE
+ 1957  3  9 14 22 32.2  51.57 -175.34  28 8.1  3.5 22.80  | Central Aleutian Islands
+ 1957  6 22 23 50 31.4  -1.94  136.62  35 7.3  1.0  1.80  | N.West Iran, Indonesia
+ 1957  7 28  8 40  9.8  16.88  -99.29  36 7.9  1.5  2.60  | S.Mexico:GUERRERO
+ 1957  7 29 17 15 20.0 -23.32  -71.10  14 7.0             | N. CHILE
+ 1957  9 26             -8.20  107.30  33 5.5             | S.Java Sea
+ 1957 10 26             -2.00  116.00  33 6.0             | Makassar Strait.Indonesia
+ 1957 11  1  5         -20.00 -155.00          1.0  2.70  | Hawaii
+ 1958  1 19 14  7 25.0   0.99  -79.48  20 7.3  1.5        | Colombia-Ecuador
+ 1958  4  5 17 31  1.0  50.13 -125.35   0     -1.0  0.45  | Ripple Rock, Vancouver Is.
+ 1958  4  9            -12.05  -77.15  33      0.0  0.50  | Callao, Peru
+ 1958  4 21 22 37 40.2  -4.58  104.09 179 6.5             | SW.Sumatra.Indonesia
+ 1958  7 10  6 16 00.0  58.64 -137.5      7.9  3.0525.00  | Lituya Bay, Alaska
+ 1958  9 17 12 24  3.0  49.30  156.40  40 5.0 -2.0  0.23  | N.Kuril Islands.USSR
+ 1958 10  7            -16.80  168.50  33                 | TONGA
+ 1958 11  4  8 31       28.25  141.00  60 6.0             | NAMPO IS
+ 1958 11  4 22 55      -50.00 -115.00     6.0 -3.0  0.10  | E.PACIFIC RISE
+ 1958 11  6 22 58 11.5  44.22  148.60  57 8.1  2.5  5.00  | South Kurils Is.
+ 1958 11 12 20 23 34.0  44.01  148.80  48 7.5 -2.0  0.20  | Iturup,S.Kuril Islands.USSR
+ 1959  1 22  5 10 31.2  37.56  142.49  34 7.1 -2.0  0.80  | Japan
+ 1959  2  7  9 36 57.4  -3.84  -81.58  33 7.2 -2.0  0.20  | ECUADOR/PERU
+ 1959  2 23             40.63   22.97          2.0  0.90  | Aegian Sea
+ 1959  4  9 12 24 21.0  44.30  149.00  40 5.0 -3.0  0.10  | S.Kuril Islands.USSR
+ 1959  5  4  7 15 45.6  53.40  159.64  30 7.7  1.0  2.00  | N.Kuril Islands.USSR
+ 1959  5  7             69.80   20.90          2.0  4.00  | Northern Norway
+ 1959  8 17 21  4 45.9  -7.91  156.33  11 7.2       2.40  | Solomon Islands
+ 1959  8 26  8 25 37.0  18.15  -94.42  32 6.8 -3.0  0.10  | MEXICO
+ 1959 10 26  7 35 10.3  37.53  143.05  14 6.5 -1.0  0.30  | Off Fukushima,Sanriku. Japan
+ 1959 10 27  6 52 51.0  45.92  151.19  48 7.2 -4.0        | S.Kuril Islands, USSR
+ 1960  1 13 15 40 25.5 -15.92  -72.85  63 5.7  3.0  0.25  | PERU: AREQUIPA,CHUQUIBAMBA,CA.
+ 1960  2 29 23 42       30.50   -9.50     6.8  2.0        | Adagir, Morocco
+ 1960  3 20 17  7 31.7  39.85  143.42  19 7.7 -2.0  1.00  | Iwate-Oki, Sanriku.Japan
+ 1960  3 23  0 23 27.1  39.67  143.42  22 6.8 -2.5  1.50  | Sanriku. Japan
+ 1960  5 21 10  2 55.4 -37.83  -73.39  19 7.3  0.5  1.20  | Talcahuano, S.Central Chile
+ 1960  5 22 19 10 46.5 -38.31  -72.65  60 8.6  4.0 15.20  | Corral, Southern Chile
+ 1960  6 11 15 14 14.6  -9.39  152.36  30 6.5  0.0        | W.Solomon Sea
+ 1960  7 29 17 31 43.0  40.37  142.43  53 6.7 -2.0  0.60  | Off Iwate Pref.,Sanriku. Japan
+ 1960 11  1  8 45 57.1 -38.42  -74.86  10 7.1             | S. CENTRAL CHILE
+ 1960 11 20 22  2  0.1  -6.64  -80.55  31 6.9  2.5  9.00  | Northern PERU
+ 1961  1 10 14 22 26.2  50.02  156.18  68 7.1 -4.0        | N.Kuril Islands, USSR
+ 1961  1 16  7 20 13.4  36.14  141.90  35 6.9 -2.0  0.20  | Kashima,off Ibaraki Pref.Japan
+ 1961  1 16 11 19 40.0  36.07  141.69  39 6.4 -1.0        | Off Ibaraki Pref.. Japan
+ 1961  1 16 12 12 26.8  36.25  141.98  12 6.5 -2.0        | Off Ibaraki Pref.. Japan
+ 1961  2 12 21 53 47.0  43.70  147.71  45 6.9 -0.5  1.00  | Shikotan,S.Kuril Islands.USSR
+ 1961  2 26 18 10 53.0  31.72  131.54  54 7.6             | JAPAN
+ 1961  3 18            -10.50  162.00          1.0  3.60  | San Cristobal, Solomon Is.
+ 1961  5 23  2 45       36.70   28.50     6.5  1.0        | Aegian Sea
+ 1961  6  6             27.90   55.10  30 5.3  1.0  0.90  | Aegian Sea
+ 1961  6 16              9.80  -71.50          1.0        | Venezuala, Lago de Maracaibo
+ 1961  7 18 14  3 41.9  29.66  131.74  37 6.9 -3.0  0.10  | SE.Yakushima,Kagoshima,Ryukyu
+ 1961  7 23 21 51  8.9 -18.39  168.39  24 7.1  0.5  1.50  | Vanuatu Islands
+ 1961  8  1  5 39 55.1  -9.93  160.67  32 6.6  0.0  1.00  | Solomon Islands
+ 1961  8 11 15 51 37.0  42.86  145.20  58 7.1 -4.0  0.15  | Off Kushiro,SE.Hokkaido. Japan
+ 1961  8 17 21 16 31.4  46.34  149.54 154 7.0 -4.0        | S.Kuril Islands, USSR
+ 1961 10 18 16 51 55.7 -36.76  -73.41  12 6.5             | CENTRAL CHILE
+ 1961 11 15  7 17 14.3  42.73  145.31  52 6.8 -3.5  0.15  | Off Kushiro,SE.Hokkaido. Japan
+ 1962  3 12 11 40 15.3   8.09  -82.68  19 6.8 -3.0  0.10  | Costa Rica-Panama
+ 1962  4 12  0 52 43.1  38.08  142.74  24 7.1 -1.0  1.00  | Off Miyagi Pref,Sanriku. Japan
+ 1962  4 23  5 58 14.0  42.44  143.84  72 6.9 -3.5  0.14  | SE.Hokkaido,Hiroo-oki. Japan
+ 1962  5 11 14 11 56.8  17.14  -99.70  46 7.2  0.0  0.80  | S.Mexico
+ 1962  5 19 14 58 13.1  16.99  -99.69  16 7.1             | S.Mexico
+ 1962  5 21 12 21 12.0  41.83  142.72  60 5.7 -3.0  0.10  | S.Kuril Islands.USSR
+ 1962  5 28 22 57 47.0  39.80   25.00     4.5  1.0        | North Aegean Sea
+ 1962 12 21  8 42 48.7  52.36 -168.49  24 6.6             | E.ALEUTIAN IS.
+ 1963  2  7 19 28       38.20   22.20          2.0  5.00  | W.Corinthos Gulf
+ 1963  2 13  8 50  7.2  24.37  122.10  62 7.3 -2.0  0.20  | E.Taiwan-Ryukyu Islands
+ 1963  3 16  8 44 51.4  46.64  154.64  50 7.3 -4.0        | North Kurils
+ 1963  3 30  1 57  8.0  43.40  147.60  45 4.3             | BRITISH COLUMBIA
+ 1963  3 31            -30.10 -178.20  39 6.0             | KERMADEN
+ 1963  6 28 21 55 41.5  46.48  153.51  35 7.0 -4.0        | Kuril Islands, USSR
+ 1963  9 18             40.75   29.00     6.1  2.0        | Marmara Sea
+ 1963  9 24 16 30 16.6 -10.70  -78.22  65 7.0             | PERU
+ 1963 10 12 11 27  0.0  44.42  149.28  47 7.0 -2.0  0.03  | Iturup,S.Kuril Islands.USSR
+ 1963 10 13  5 17 56.3  44.77  149.78  34 8.1  2.5  5.00  | South Kurils
+ 1963 10 20  0 53 11.3  44.78  150.54  30 7.2  3.0 15.00  | Urup,Kuril Islands.USSR
+ 1963 12 16  1 51 30.9  -6.50  105.38  53 6.5             | Djawa(Java)
+ 1963 12 18  0 30  5.1 -24.78 -176.59  56 7.2             | Tonga Islands
+ 1964  3 20 16  0       60.00 -150.00               0.15  | Seward, Alaska
+ 1964  3 28  3 36 12.8  61.02 -147.65   7 8.4  4.5 68.00  | Gulf of Alaska, Alaska pen.
+ 1964  4  2  1 11 58.1   5.99   95.41 133 7.0             | Malay Peninsula, Malasia
+ 1964  5  7  7 58 14.1  40.41  139.02  20 6.9 -2.0  0.90  | Oga-Oki, NW.Honshu Is., Japan
+ 1964  5 19             41.00  -73.00         -1.0  0.28  | New Jersy, US East coast
+ 1964  5 19 15 37 37.3  56.98 -152.78  22 5.3             | NE.COAST U.S., ALASKA
+ 1964  6 16  4  1 40.2  38.44  139.23  11 7.5  2.0  5.80  | Niigata, NW.Honshu Is., Japan
+ 1964  7 24  8 12 39.2  47.16  153.88  16 6.8 -2.0  0.15  | Simushir,Kuril.USSR
+ 1964 11 17  8 15 41.5  -5.75  150.72  51 7.6  0.0  0.50  | Bismarck Sea, Papua New Guinea
+ 1964 12 10 15 11  7.6  40.47  139.06  35 6.3 -3.0  0.10  | Off Akita,NW.Honshu Is. Japan
+ 1965  1 24  0 11 17.2  -2.46  125.96  30 7.6  1.5        | Ceram Island, MALUKU.Indonesia
+ 1965  2  4  5  1 22.0  51.23 -178.52  30 8.2  2.5 10.70  | Rat Is.,W.Aleutian Islands
+ 1965  2 23 22 11 48.2 -25.67  -70.71  39 7.0             | N. CHILE
+ 1965  3 22 22 56 27.4 -32.00  -71.53  45 6.0             | N. CENTRAL CHILE
+ 1965  3 30  2 27  4.9  50.31 -177.93  20 7.5 -2.0  0.10  | Rat Is.,W.Aleutian Islands
+ 1965  4 21             -2.40  126.00  33 7.6             | Indonesia
+ 1965  6 11  3 33 46.8  44.61  148.94  46 7.0 -3.0  0.10  | Iturup,Kuril-E.Hokkaido. USSR
+ 1965  7  2 20 58 41.3  52.98 -167.57  56 6.5       2.50  | E.Aleutian Islands
+ 1965  7  6  3 18 42.0  38.40   22.30  18 6.3  1.0  3.00  | Corinthos Gulf
+ 1965  8 11 22 31 52.2 -15.80  167.26  46 7.3  2.0  7.00  | Vanuatu Is.
+ 1965  8 13 12 40  7.8 -15.80  167.96  18 7.0  1.0  2.00  | New Hebrides Islands
+ 1965  8 23 19 46  1.5  16.17  -95.85  10 7.8 -1.0  0.40  | MEXICO
+ 1965  9 17 16 21 21.0  36.33  141.33  42 7.2 -4.0        | Japan
+ 1965  9 28             14.00  121.00                     | TAAL, LUZON, PHILIPPINES
+ 1965 10  3 16 14 56.1 -42.96  -75.38  20 6.5             | S. CENTRAL CHILE
+ 1965 11  6  9 21 47.8 -22.21 -113.87  18 6.1             | N. CHILE
+ 1966  1 14             17.80  -62.10  42 5.5 -1.0  0.20  | ATLANTIC
+ 1966  3 12 16 31 19.7  24.31  122.70  28 7.5 -3.0  0.10  | E.Formosa,E.Taiwan-Ryukyu Is.
+ 1966  5  8             59.60   10.65          2.0  4.00  | Eastern Norway
+ 1966  6 15  0 59 42.7 -10.34  160.89   2 7.6 -3.0  0.10  | Solomon Islands
+ 1966  7 12             44.75   37.30     5.8 -1.0  0.20  | North Caucasus
+ 1966 10 17 21 41 57.5 -10.80  -78.68  34 7.8  1.5  3.00  | Northern PERU
+ 1966 12 28  8 18  7.3 -25.50  -70.66  30 7.8  0.5  0.90  | Taltal, Northern Chile
+ 1966 12 31 18 23 11.1 -11.89  166.44  83 8.1  1.5  0.10  | Vanuatu Is.
+ 1966 12 31 22 15      -12.10  165.70  83 7.0  0.0  0.80  | Vanuatu Is.
+ 1967  3 19  4  1 35.9  45.63  151.20   8 7.0             | Kuril Islands.USSR
+ 1967  4 11  5  9 13.9  -3.47  119.07  19 5.5  1.5        | Makassar Strait.Indonesia
+ 1967  4 12  4 51 37.0   5.07   96.22  17 7.5  1.5        | Malay Peninsula
+ 1967  7 29             10.99  -67.29 102 6.1 -1.0  0.07  | La Guiara, Venezuela
+ 1967  8 13 22 15 10.1  -4.38  152.48  17 6.4 -1.0  0.10  | Bismarck Sea, Papua New Guinea
+ 1967  9  3 21  7 32.4 -10.61  -79.69  38 7.0  1.5  2.00  | PERU
+ 1967 11 15 21 31 55.9 -28.80  -71.16  36 6.1             | N. CENTRAL CHILE
+ 1967 12  4             18.20  -66.50                     | Puerto Rico
+ 1967 12 21  2 25 24.8 -21.86  -69.95  45 7.5 -0.5  0.70  | Tocopilla, Northern Chile
+ 1968  1 29 10 19  7.1  43.60  146.71  39 7.3 -1.0  0.26  | SE.Hokkaid.Japan-Shikotan.USSR
+ 1968  2 19 22 45 42.0  39.40   25.00   7 7.1  1.0  1.20  | North Aegian Sea
+ 1968  4  1  0 42  5.0  32.48  132.19  30 7.6  1.5  3.00  | Niuganada, Seikaido. Japan
+ 1968  4 18 19 38 15.0  44.10    8.00     3.6  1.0        | Liguria, Cote d'Azur
+ 1968  5 16  0 49  0.5  40.90  143.35  26 8.1  1.8  6.00  | Tokachi-oki, Japan
+ 1968  5 16 10 39  0.2  41.60  142.79  10 8.0 -0.5        | Tokachi-Oki, Japan
+ 1968  5 16 23  4 52.5  39.88  143.22   9 8.0 -0.5        | Japan
+ 1968  5 20 21  9 45.7  44.80  150.36  29 7.0 -4.0        | S.Kuril Islands, USSR
+ 1968  6 12 13 41 51.0  39.50  142.89  31 7.3  0.0  0.80  | Iwate-Oki, Sanriku. Japan
+ 1968  7 25  7 23  9.6 -30.81 -178.15  66 7.0 -2.0  0.10  | Kermadec Islands
+ 1968  8  1 20 19 24.8  16.38  122.08  50 7.3 -0.5  0.60  | E.Luzon Islands.Philippines
+ 1968  8 10  2  7  4.0   1.42  126.26  19 7.6 -2.0  0.40  | N.Molucca Islands.Indonesia
+ 1968  8 14 22 14 20.2   0.06  119.70  17 7.7  3.0 10.00  | N.Celebes, Banda Sea.INDONESIA
+ 1968  9  3             41.50   32.50     5.7  2.0        | South Black Sea
+ 1968  9 20  6  9       10.70  -62.70     7.0  1.0        | Venezuela, Trinidad
+ 1968  9 25 10 38 38.4  15.55  -92.66 122 5.6  1.0  1.80  | S.Mexico-Guatemala-Nicaragua
+ 1969  1 19  7  2  9.0  44.89  143.21 237 7.6 -4.0        | NE.Hokkaido, Japan
+ 1969  2 23  0 37  4.6  -3.18  118.80  60 6.9  1.5  4.00  | Makassar Strait.Indonesia
+ 1969  2 28  2 40 32.0  36.01  -10.95  22 7.3  1.0  1.14  | Corringe Bank
+ 1969  4 21  7 19 28.4  32.15  131.87  37 6.5 -3.0  0.20  | Hiuganada, Ryukyu Trench
+ 1969  6  2  9 48  4.0  59.42 -144.54  35 5.2             | ALASKA
+ 1969  8  2  4 30 29.7  -6.50  146.91   8 5.4 -1.0        | Lae, New Guinea
+ 1969  8 11 21 26 37.6  43.56  147.83  27 7.8  2.0  5.00  | South Kuriles
+ 1969  8 26  3  0      -32.50   18.00          1.0  3.00  | Dwarskersbos, South Africa
+ 1969 11 22 23  9 35.1  57.73  163.60   8 7.3  3.0 15.00  | Kamchatka,Bering Strait
+ 1969 12 18 13 32  4.9  46.23  142.48 327 7.1 -4.0        | Tatar Strait
+ 1969 12 25 21 32 27.3  15.79  -59.70   7 7.6  0.0  0.46  | Antigua, Leeward Isl.
+ 1970  1 10 12  7  8.9   6.79  126.68  60 7.3 -3.0  0.10  | Davao, Philippines
+ 1970  2  4             31.55  139.55  33                 | vlc.Baiones. Japan
+ 1970  4  7  5 34  6.6  15.77  121.66  30 7.3  1.0        | Luson Island,N.Visayan S.PHILI
+ 1970  5 31 20 23 32.2  -9.25  -78.84  74 6.6  1.0  1.80  | Off Chimbote. PERU
+ 1970  6 14  0  0  8.8 -51.99  -74.33   1 6.5             | S. CHILE
+ 1970  6 19 10 56 15.5 -22.27  -70.50  51 7.0             | N. CHILE
+ 1970  7 25 22 41 13.7  32.24  131.68  45 6.8 -1.5  0.60  | Niuganada,Seikaido. Japan
+ 1970  9 27             -5.16  152.78  50 5.0             | MELANEZIA
+ 1970  9 28 19  1      -44.64  173.60     5.1             | NEW ZEALAND
+ 1970  9 30  9 52 22.1  20.72  122.01  15 5.3  0.5        | Philippines: BATAN ISLANDS
+ 1970 10 31 17 53       -4.90  145.50  42 7.0  1.0        | Madang, New Guinea
+ 1970 11 28 11  8 45.3 -20.98  -69.86  45 6.0             | N. CHILE
+ 1970 12  4             43.70   39.50     5.1  0.0  0.70  | Easter Black SEa
+ 1971  4  4 10 15 34.1 -56.12 -122.55   2 6.8             | S. CHILE
+ 1971  5  2  6  8 25.9  51.43 -177.24  20 7.1 -3.0  0.10  | Andreanof Islands, Aleutian
+ 1971  5  9  8 25  1.6 -39.75 -104.95  22 6.1             | SC. CHILE
+ 1971  7  8             -6.93  129.55  33 6.3             | JAVA TRENCH
+ 1971  7  9  3  3 19.8 -32.56  -71.09  59 7.5  0.3  1.20  | Valparaiso, Central Chile
+ 1971  7 14  6 11 30.4  -5.52  153.91  43 7.8  1.0  3.00  | New Ireland,Bis.Sea.New Guinea
+ 1971  7 21             -5.87  153.99  27 5.9      10.00  | MELANEZIA
+ 1971  7 26  1 23 22.1  -4.89  153.18  37 7.7  1.5  3.40  | New Ireland,Bis.Sea.New Guinea
+ 1971  8  2  7 24 58.3  41.38  143.46  52 7.1 -1.5  0.20  | Off Urakawa,Hokkaido. Japan
+ 1971  9  5 18 35 28.6  46.56  141.19  17 6.9  1.0  2.05  | Tatar Strait, SW.off Sakhalin
+ 1971  9  6            -10.28  165.45  33                 | New Hebrides Islands
+ 1971  9  6 13 37 11.6  46.76  141.38  21 6.9 -1.0  1.00  | Tatar Strait
+ 1971  9  8 11 48 28.3  46.45  141.13  24 6.9 -3.0  0.09  | Tatar Strait
+ 1971  9  8 16 59 55.5  46.30  141.05  21 6.7 -3.0  0.07  | Tatar Strait
+ 1971  9 25  4 36 15.0  -6.55  146.67 111 6.3  1.0  1.80  | Bismarck Sea.New Guinea
+ 1971  9 27 19  1 47.0  46.42  141.16  20 6.6 -4.0  0.03  | Tatar Strait
+ 1971 10  3 13 24 38.5 -14.55  171.75   4 6.5 -3.0  0.10  | MELANEZIA FIJI
+ 1971 11  6 21 59 58.2  51.64 -179.12   0 6.8 -3.0  0.10  | Central Aleutian Islands
+ 1971 12 15  8 29 56.4  56.02  163.17  26 7.8 -0.5  0.47  | Kamchatka.USSR
+ 1972  1 25  2  6 21.4  22.55  122.32  10 7.1 -3.0  0.10  | E.Taiwan:TAITUNG,HSINKONG,TA.
+ 1972  2 29  9 23  1.5  33.38  140.89  58 7.4 -0.5  0.40  | Chichi Jima-Hachijoshima,Japan
+ 1972  3 22 10 27 43.9  49.06  153.54 139 7.0 -4.0        | N.Kuril Islands, USSR
+ 1972  6  8 18 53 46.1 -30.37  -71.52  60 6.5             | N. CENTRAL CHILE
+ 1972  7 30 21 45 13.8  56.70 -136.10   8 7.6 -3.0  0.10  | SE.Alaska:SITKA,JUNEAU
+ 1972  8 17 23 44  7.9  -6.00  152.93  13 7.0  1.0  1.50  | W.Solomon Sea, New Ireland Is.
+ 1972  8 25  8 10       -6.70  147.00   0      1.0        | Voco Point, Lae, New Guinea
+ 1972  9  6 11 42 24.5  32.73  130.39  10 5.2             | JAPAN:  ARIAKE SEA
+ 1972 10  6             -6.06  149.83  59 6.4             | MELANEZIA
+ 1972 10  9             -5.50  148.10                     | RITTER ISLAND, NEW GUINEA
+ 1972 12  2  0 19 53.9   6.47  126.65  80 7.4 -1.0  0.50  | Midanao Islands.Philippines
+ 1972 12  4 10 16 13.9  33.33  140.71  71 7.5 -1.0  0.50  | Chichi Jima-Hachijoshima,Japan
+ 1972 12 29  4 51  2.1 -30.61  -71.19  54 6.0             | N. CENTRAL CHILE
+ 1973  1 30 21  1 12.5  18.48 -102.00  43 7.5 -3.0  0.10  | S.Mexico:FARIAS,TECOMAN
+ 1973  2 28  6 37 49.5  50.49  156.58  27 7.5  0.0  1.50  | Kamchatka-Kuril Is.USSR
+ 1973  3 17  8 30 51.8  13.37  122.79  33 7.0             | PHILIPPINES:  QUEZON CITY
+ 1973  6 17  3 55  2.9  43.23  145.79  48 7.7  1.0  4.50  | Kuril.USSR-SE.Nemuro-Oki,Japan
+ 1973  6 24  2 43 25.5  43.32  146.44  50 7.1 -0.5  0.63  | Kuril-SE.Nemuro,Hokkaido,Japan
+ 1973 10  5  5 45 27.3 -32.99  -71.92  14 6.5 -1.5  0.40  | Valparaiso, Central Chile
+ 1974  1 31 23 30  5.3  -7.46  155.89  34 7.0  1.0        | Solomon Islands.
+ 1974  2  1  3 12 33.1  -7.38  155.57  40 7.1  2.0  4.50  | Solomon Islands
+ 1974  5  8 23 33 25.2  34.52  138.74   2 6.3 -2.5  0.20  | Off Izu Penin.,Tokaido, Japan
+ 1974  6 25  5  5 19.0 -54.64 -131.62  33 6.1             | S. CHILE
+ 1974  8 20 10 44      -38.45  -73.43  36 7.0             | S. CENTRAL CHILE
+ 1974  9 27  5 47 29.4  43.18  146.65  43 6.7 -2.0  0.20  | South Kurile
+ 1974 10                54.00 -128.70   0      1.5  2.80  | Kitimak Inlet,British Columbia
+ 1974 10  3 14 21 29.1 -12.27  -77.79  13 7.6  1.0  1.80  | PERU; CALLAO
+ 1974 10 16  5 37  4.4  -6.72  155.09  48 5.6 -0.5  0.50  | RITTER ISLAND, NEW GUINEA
+ 1975  1 15  9 42       -5.00  130.00     5.9             | INDONESIA:  MALUKU:  BANDANAIR
+ 1975  3 13 15 26 42.5 -29.94  -71.34   4 6.9             | N. CHILE
+ 1975  4 21  3 49 17.9  -3.19  147.06  33 5.1             | NEW BRITAIN
+ 1975  4 27             54.00 -128.70   0      2.5  8.20  | Kitimak Inlet,British Columbia
+ 1975  5 10 14 27 38.7 -38.18  -73.23   6 7.8             | SC. CHILE
+ 1975  5 26  9 11 51.0  35.90  -17.36  15 7.9  1.0        | AGFZ
+ 1975  6 10 13 47 14.5  43.02  147.73  15 7.0  2.0  5.50  | Kuril Is.USSR-E.Hokkaido.Japan
+ 1975  7 20 14 37 39.9  -6.59  155.05  49 7.9  1.5  5.00  | Bougainville, Solomon Islands
+ 1975 10 31  8 28  2.6  12.54  125.99  50 7.6 -1.0  0.60  | Off Samar, Philippine Trench
+ 1975 11 29 14 47 40.4  19.33 -155.02   5 7.2  3.0 14.30  | Kalapana, Hawaii Is.USA
+ 1975 12 17  9  2      -18.50 -178.60  33 5.2 -1.0  0.25  | Samoa Islands
+ 1975 12 26 15 56 38.7 -16.26 -172.47  33 7.8  0.0  0.75  | Samoa Islands
+ 1976  1 14 15 56 34.9 -29.21 -177.89  69 7.8             | Kermadel Island
+ 1976  1 14 16 47 33.5 -28.43 -177.66  33 8.2  0.0  0.90  | Kermadec Island
+ 1976  1 21 10  5 24.1  44.92  149.12  41 7.0 -2.5  0.37  | South Kurils
+ 1976  2  4  9  1       15.20  -89.20     7.5  0.0  0.45  | Guatemala, Gulf of Honduras
+ 1976  2  4  9  1 43.4  15.32  -89.10   5 7.5             | GUATEMALA, CHIMALTENANGO
+ 1976  8  2 22 55      -20.60  169.30  22 6.9             | Vanuatu Is.
+ 1976  8 16 16 11  7.3   6.26  124.02  33 7.9  2.5  5.00  | Moro Gulf,Mindanao.Philippines
+ 1977  4  2  7 15 22.7 -16.70 -172.10  33 7.6 -3.0  0.10  | Tonga Trench:SAMOA ISLANDS
+ 1977  4 20 23 13 10.4  -9.83  160.32  33 6.5 -1.0        | Solomon Islands
+ 1977  4 20 23 42 50.5  -9.89  160.35  19 7.5 -2.5  0.10  | Solomon Islands
+ 1977  4 21  4 24  9.6  -9.97  160.73  33 7.1 -1.5        | Solomon Islands
+ 1977  6 22 12  8 33.4 -22.88 -175.90  65 7.8 -2.0  0.30  | Tonga Trench
+ 1977  8 19  6  8 55.2 -11.09  118.46  33 8.0  3.5 15.00  | Sunda islands.Indonesia
+ 1977  8 20             -1.10  146.20     5.5             | ADMIRALTY ISLANDS
+ 1977  8 28 20 10  5.0  -1.08  146.23  33 5.5 -0.5        | Admiralty Islands
+ 1977 10 10 11 53 53.6 -25.86 -175.41  33 7.2 -3.0  0.02  | Tonga Trench
+ 1978  1 14  3 24 39.0  34.81  139.26  14 7.4  0.0  0.70  | Izu-Oshima-Kinkai, Japan
+ 1978  3 22  0 50 32.2  44.03  149.00  33 6.7 -2.5  7.00  | S.Kuril Islands, USSR
+ 1978  3 22 21 34 33.4  44.14  149.03  33 6.6 -3.0  0.05  | Kuril Islands, USSR
+ 1978  3 23  0 31  2.1  44.21  148.97  46 6.8 -1.5  0.17  | South Kurils
+ 1978  3 23  3 14 23.3  44.29  149.13  33 6.4             | Kuril
+ 1978  3 23  3 15 20.3  44.93  148.44  33 7.5 -2.0  0.30  | Iturup Is., S.Kuriles, USSR
+ 1978  3 23  3 50 52.5  44.38  149.58  50 7.1             | Kuril Islands, USSR
+ 1978  3 23 19 12 23.6  44.34  149.74  33 6.8 -3.0        | Kuril Islands, USSR
+ 1978  3 24 19 47 50.7  44.24  148.86  33 7.6  0.0  0.65  | Iturup,S.Kuril Islands.USSR
+ 1978  6 12  8 14 26.4  38.19  142.03  44 7.7  0.5  1.20  | Miyagi-Oki,Sanriku. Japan
+ 1978  6 14 12 32 33.9   8.25  122.40  24 6.9             | Mindanao Is., Philippines
+ 1978  6 20 20  3 21.0  40.60   23.25   6 6.5  0.0  0.45  | Aegian Sea and Adriatic Sea
+ 1978  7 23 14 42 36.9  22.28  121.51  17 7.4 -2.0  0.10  | Taiwan
+ 1978  8 14 14 17 50.0  36.35   -6.98  31 5.1  1.0        | South of Portugal
+ 1978 11 29 19 52 47.6  16.01  -96.59  18 7.7  0.0  1.50  | Mexico
+ 1979  2 20  6 32 32.2  40.23  143.70  10 6.7 -2.0  0.20  | Iwate Pref., Japan
+ 1979  2 28 21 27  6.1  60.64 -141.59  15 7.1       0.10  | Alaska
+ 1979  3 14 11  7 16.3  17.81 -101.28  49 7.6 -1.1  0.40  | S.Mexico:GUERRERO
+ 1979  4  9             41.95   19.02  10 5.3             |
+ 1979  4 15  6 19 41.0  42.00   19.00   4 7.1  2.0        | South Adriatic Sea
+ 1979  4 15 19 56 43.2   2.85  126.70  86 5.0             | MONTENEGRO
+ 1979  5 15             34.60   24.10     5.8  1.0        | Crete Isl.
+ 1979  7 18  7 57 45.3  -7.53  127.50 171      3.0 10.00  | Lomblen Islands.Indonesia
+ 1979  9  3             11.50  -69.30          2.0        | Venezuela, Puerto Cumarebo
+ 1979  9 12  5 17 51.4  -1.68  136.04   5 7.9  0.0  2.00  | West Iran.Indonesia:IRIAN JAYA
+ 1979 10 16 13 57       43.70    7.15          2.0        | Liguria, Cote d'Azur
+ 1979 11 16 15 21 25.7 -16.76 -179.98  33 6.9             | Fiji Islands
+ 1979 12 12  7 59  3.3   1.60  -79.36  24 7.7  2.5  5.00  | Colombia-Ecuador
+ 1980  1  1 16 42 40.0  38.80  -27.80  12 7.2  0.0        | Azores
+ 1980  2 23  5 51  3.2  43.53  146.75  44 6.8 -0.5  0.60  | S.off Shikotan,S.Kuril Is.USSR
+ 1980  6 29  7 20  5.5  34.81  139.18  15 6.0 -0.5  0.60  | E.Izu-Toho, Honshu Is., Japan
+ 1980  7 17 19 42 23.2 -12.52  165.92  33 7.9 -1.5  0.20  | Banks Is.,New Hebrides Islands
+ 1980 10 10 12 24       36.30    1.70  14 7.3  0.0        | Algeria
+ 1981  1 18 18 17 24.4  38.64  142.75  33 6.9 -1.0  0.40  | Miyagi Pref,E.Honshu Is..Japan
+ 1981  2 24 20 53 37.0  38.10   22.90   8 6.7  0.0  0.30  | E.Corinthos Gulf
+ 1981  5 11  7 10      -35.60   20.25         -1.0  0.58  | Agulhas Bank, South Africa
+ 1981  5 25  5 25 14.4 -48.79  164.36  33 7.6             | NEW ZEALAND
+ 1981  9  1  9 29 31.5 -14.96 -173.09  25 7.9 -3.0  0.10  | Samoa Islands;APIA,PAGO PAGO
+ 1981 10 25  3 22 15.6  18.05 -102.08  33 7.4 -3.0  0.10  | MEXICO
+ 1982  1 11  6 10  6.5  13.75  124.36  45 7.4             | Philippines
+ 1982  2 24  4 22 40.4   4.37   97.75  52 5.4             | Java Trench
+ 1982  3 21  2 32  7.7  42.16  142.36  44 6.7  0.0  1.35  | Urakawa-Oki,Hokkaido Is.,Japan
+ 1982  7 23 14 23 53.6  36.19  141.70  36 6.8 -2.0  0.40  | Ibaraki-Oki, Japan
+ 1982 12 19 17 43 54.9 -24.13 -175.86  33 7.7 -2.0  0.20  | Kermadec I., South of Tonga Is
+ 1982 12 25 12 28  2.9  -8.40  123.08  33 5.9             | TIMOR, INDONESIA
+ 1982 12 28  6 37 42.5  33.83  139.43  22 6.2 -1.0  0.40  | near Miyake Is., Japan
+ 1983  1 17 12 41 31.0  38.10   20.20   8      1.0  0.50  | Ionian Sea
+ 1983  3 12  1 36 35.8  -4.06  127.92  16 6.9  1.5  3.00  | Banda Sea.Indonesia
+ 1983  3 18  9  5 50.0  -4.88  153.58  88 7.9             | New Britain.PAPUA NEW GUINEA
+ 1983  5 26  2 59 59.6  40.46  139.09  23 7.8  2.3 14.50  | Nihonkai-Chubu,NW.Honshu,Japan
+ 1983  6 21  6 25 27.4  41.35  139.10   9 6.9  0.0  1.00  | W.Aomori,N.Honshu Is., Japan
+ 1983  8  6 15 43  0.0  40.00   24.42   9 6.8  1.0        | North Aegian Sea
+ 1983  8  8             40.10   24.80          1.0        | LEMNOS, AEGIAN SEA
+ 1983  8 17 10 55 54.1  55.87  161.29  62 6.7 -4.0  0.02  | Kamchatka
+ 1983  8 17 12 17 56.0  18.23  120.86  28 6.5             | PHILIPPINES:  LUZON IS.
+ 1983 10  4 18 52 13.3 -26.53  -70.56  14 7.4 -2.0  0.30  | Caldera, North Central Chile
+ 1984  2 11  8  2 51.0  38.30   21.90  10 5.5  2.0        | W.Corinthos Gulf
+ 1984  3 24  9 44  2.6  44.12  148.19  44 7.0 -2.0  0.10  | South Kurils
+ 1984  6 13  2 29 25.3  31.45  140.04  40 5.4             | TORI SHIMA, OKINAWA
+ 1984  8  6 19  6 38.4  32.39  131.95  46 6.9 -2.0  0.20  | JAPAN:  KYUSHU:  NOBEOKA
+ 1984  9 18 17  2 44.3  34.01  141.50  47 6.9 -3.0  0.10  | HONSHU, JAPAN
+ 1984 12 28 10 37 53.8  56.19  163.46  33 7.0 -4.0  0.02  | Kamchatka
+ 1985  3  3 22 47  7.3 -33.13  -71.87  33 7.8  1.5  3.50  | Valparaiso, Central Chile
+ 1985  3 16  4 54       17.10  -62.40     6.3 -2.0  0.05  | Guadeloupe, Leeward Is.
+ 1985  4 13  1  6  0.2  -9.24  114.18  98 5.2             | S. BALI ISLAND, PACIFIC
+ 1985  7  3  4 36 51.7  -4.44  152.83  33 7.4  0.0  1.30  | PAPUA NEW GUINEA:  NEW IRELAND
+ 1985  9 19 13 17 47.4  18.19 -102.53  27 8.1  1.5  3.00  | MEXICO:  MICHOACAN:  MEXICO CI
+ 1985  9 21  1 37 13.5  17.80 -101.65  30 7.6  0.0  1.20  | MEXIC0:  SW COAST:  MEXICO CIT
+ 1986  5  7 22 47 10.5  51.52 -174.78  33 7.9  0.5  0.90  | ANDREANOFF IS.,Alaska-ALEUTIAN
+ 1986 10 20  6 46 10.0 -28.12 -176.37  29 8.3 -2.0  0.20  | KERMADEC ISLANDS:  RAOUL, NEW
+ 1986 11 14 21 20 10.6  23.90  121.57  33 7.8 -2.0  0.20  | TAIWAN, EAST OF HWA-LIEN
+ 1987  2  6 13 16 17.9  36.99  141.69  47 6.5 -3.0  0.10  | E. COAST HONSHU, JAPAN
+ 1987  2  8 18 33 58.4  -6.09  147.69  54 7.6             | PAPUA NEW GUINEA:  HUON PENINS
+ 1987  2 21  7 40       62.20    6.65          2.0        | Western Norway
+ 1987  3  5  9 17  5.3 -24.39  -70.16  62 7.3 -2.0  0.20  | Antofagasta, Northern Chile
+ 1987  3 18  3 36 30.3  32.03  131.84  54 6.7 -3.0  0.10  | JAPAN:  KYUSHU:  MIYAZAKI, NAZ
+ 1987  6 17  1 32 53.7  -5.58  130.79  67 6.8             | IRIAN JAYA
+ 1987  7  6  2 49 42.8 -14.07  167.83  47 7.1             | VANUATU Islands
+ 1987 10  6  4 19  6.1 -17.94 -172.23  16 7.3 -3.0  0.10  | TONGA ISLANDS
+ 1987 10 12 13 57  4.8  -7.29  154.37  24 6.8 -3.0  0.10  | SOLOMON ISLANDS
+ 1987 10 16 20 48  1.6  -6.27  149.06  47 7.7 -2.0  0.10  | PAPUA NEW GUINEA
+ 1987 11 17  8 46 53.3  58.59 -143.27  10 7.0 -3.0  0.10  | GULF OF ALASKA
+ 1987 11 26  1 43 14.1  -8.25  124.15  33 6.5             | TIMOR, INDONESIA
+ 1987 11 30 19 23 19.6  58.68 -142.79  10 7.7 -0.5  0.50  | Gulf of Alaska:YAKUTAT.USA
+ 1988  2  5 14  1  2.8 -24.75  -70.43  36 6.7 -3.6  0.10  | Taltal, Northern Chile
+ 1988  3  6 22 35 38.1  56.95 -143.03  10 7.6 -3.0  0.20  | GULF OF ALASKA
+ 1988  4 30 15 42       32.60 -117.30               5.00  | San Diego, S. California
+ 1988  7  5 20 32  7.2  -5.98  148.78  53 6.8             | PAPUA NEW GUINEA:  NEW BRITAIN
+ 1988  8 10  4 38 26.2 -10.37  160.82  34 7.4 -3.0  0.10  | SOLOMON ISLANDS:  SAN CRISTOBA
+ 1989  5 23 10 54 46.3 -52.34  160.57  10 8.2 -2.0  0.30  | MACQUARIE ISLAND:  MACQUARIE S
+ 1989  6 26  3 27  4.0  19.36 -155.08   9 6.2 -2.0  0.30  | USA:  HAWAIIAN ISLANDS:  PUNA
+ 1989  9  4 13 14 58.3  55.54 -156.84  11 6.9 -3.0  0.10  | ALASKA
+ 1989 10 18  0  4 15.2  37.04 -121.88  18 7.1 -1.0  0.50  | Loma Prieta, California
+ 1989 10 29             36.78    2.44   5 6.1             | Algeria
+ 1989 10 29  5 25 38.3  39.57  143.33   9 6.6             | N.HONSHU, JAPAN
+ 1989 11  1 10 25 52.2  18.99  -68.83  26 5.2 -1.0        | PUERTO RICO, CABO ROJO
+ 1989 11  1 18 25 34.9  39.84  142.76  28 7.4 -0.5  0.60  | FAR E OFF SANRIKU. JAPAN
+ 1990  3  3 12 16 28.0 -22.12  175.16  33 7.4             | FIJI
+ 1990  3 25 13 16  6.9   9.81  -84.83  26 6.4  0.0  1.00  | Puntaarenas, Costa Rica
+ 1990  4  5 21 12 35.6  15.12  147.60  11 7.5 -2.0  0.20  | MARIANA ISLANDS:  GUAM,  SAIPA
+ 1990  4 18 13 39 19.0   1.19  122.86  25 7.4             | SULAWESI, INDONESIA
+ 1990  7 16  7 26 34.6  15.68  121.17  25 7.8             | LUZON
+ 1990  8  2             45.50   36.00          1.0        | Kazantip Cape, Azov Sea
+ 1990  9 23 21 13  7.5  33.27  138.64  10 6.5             | Off TOKAI DISTRI.,S.HONSHU
+ 1990 12 13  0 14 33.0  37.20   15.45     5.4  1.0        | Eastern Sicily
+ 1990 12 13 19 50 17.9  23.72  121.63  10 6.4             | TAIWAN
+ 1991  1  4             37.70   26.30          1.0        | East Aegian Sea
+ 1991  2  9 16 18 58.4  -9.86  159.14  10 6.9 -4.5  0.03  | Solomon Islands
+ 1991  2 16  1 23 40.4  48.27  154.33  38 5.7 -1.5  0.30  | North Kuriles
+ 1991  2 21  2 35 34.1  58.43 -175.45  20 6.7 -1.7  0.30  | Bering Sea
+ 1991  4 22 21 56        9.60  -83.20     7.6  1.5  3.00  | Bocas del Toro, Panama
+ 1991  5  7             37.10   26.80          0.0  0.50  | East Aegian Sea
+ 1991 10 14 15 58 12.8  -9.09  158.44  23 7.1 -2.5  0.10  | Solomon Islands
+ 1991 12 22  8 43 13.4  45.53  151.02  24 7.4  0.5  0.52  | Kurile Islands
+ 1992  1  5 14 30       18.00  108.00     3.7  0.5  0.80  | Hainan Is., Gulf of Tonkin
+ 1992  4 25 18  6  4.2  40.37 -124.32  15 7.1  1.2  1.80  | Cape Mendocino, California
+ 1992  5 17 10 15 31.3   7.19  126.76  33 7.5             | Mindanao, Philippines
+ 1992  5 27  5 13 38.8 -11.12  165.24  18 7.3             | Santa Cruz Islands
+ 1992  7  3             29.20  -81.00          1.0  3.00  | Daytona Beach, Florida
+ 1992  7 18  8 36 58.7  39.42  143.33  28 7.0 -0.5  0.20  | Sanriku, Honshu Is., Japan
+ 1992  8 11 15 14 55.1  32.54  141.64  15 6.3 -3.0  0.09  | Izu Islands, Japan
+ 1992  9  2  0 16  1.7  11.74  -87.34  44 7.4  2.8  9.10  | Nicaragua
+ 1992 12 12  5 29 26.4  -8.48  121.90  27 7.5  2.7 26.18  | Flores Is., Indonesia
+ 1993  2  7 13 27 42.0  37.63  137.24  10 6.6 -0.5  0.50  | East of Honshu, Japan Sea
+ 1993  6  8 13  3 36.5  51.22  157.83  70 7.2 -0.5  0.50  | East of Kamchatka
+ 1993  7 12 13 17 11.9  42.84  139.25  33 7.6  3.1 31.70  | Okushiri Is., Japan Sea
+ 1993  8  7 19 42 41.9  41.99  139.84  13 6.3 -2.5  0.30  | Okusihir Is., Hokkaido
+ 1993  8  8  8 34 24.9  12.98  144.80  59 8.2 -1.0  2.00  | Guam, Mariana Islands
+ 1993 11 13  1 18  4.2  51.93  158.65  34 7.0 -3.0  0.10  | East of Kamchatka
+ 1994  1 17 12 30 55.4  34.21 -118.54  18 6.8 -3.0  0.10  | Southern California
+ 1994  1 21  2 24 30.0   1.01  127.73  19 7.3  1.5  2.00  | Halmahera, Indonesia
+ 1994  2 15 17  7 43.8  -4.97  104.30  23 7.0             | Southern Sumatra
+ 1994  4  8  1 10 40.8  40.61  143.68  13 6.2 -1.5  0.22  | Sanriku, Hakkaido, Japan
+ 1994  4 28 11 30       61.25    6.60          2.0  4.00  | Western Norway
+ 1994  6  2 18 17 34.0 -10.48  112.83  18 7.2  2.5 13.90  | Java, Indonesia
+ 1994  9  1 15 15 53.1  40.40 -125.68  10 7.0 -3.0  0.10  | Cape Mendocino, California
+ 1994  9  9             -4.50  152.20   0      0.0  1.20  | Rabaul, Solomon Sea
+ 1994 10  4 13 22 55.8  43.77  147.32  14 8.1  2.6 10.40  | Shikotan Is., South Kuriles
+ 1994 10  8 21 44  7.2  -1.26  127.98  16 6.8  1.5  3.00  | Halmahera, Obi Is., Indonesia
+ 1994 10  9  7 55 39.6  43.90  147.92  33 7.0 -2.5  0.15  | Shikotan Is., South Kuriles
+ 1994 11  4  4 12       59.45 -135.32   0      2.5 11.00  | Skagway Bay, Alaska
+ 1994 11 14 19 15 30.7  13.52  121.07  31 7.1  2.1  7.30  | Mindoro, Philippines
+ 1994 12 28 12 19 23.0  40.53  143.42  26 7.5  0.0  1.00  | Sanriku, Hokkaido, Japan
+ 1995  1 16 20 46 52.1  34.58  135.02  21 6.8 -3.0  0.10  | Kobe, Honshu Is., Japan
+ 1995  1 27 20 16 52.2  -4.43  134.48  22 6.8             | Irian Jaya, Indonesia
+ 1995  2 13 15  4 24.1  -1.32  127.44  14 6.8             | Halmahera, Indonesia
+ 1995  3 19 23 53 14.9  -4.18  135.11  33 7.1             | Irian Jaya,Indonesia
+ 1995  4  7 22  6 56.9 -15.20 -173.53  21 8.1 -1.5  0.10  | Tonga, Samoa Islands
+ 1995  4 21  0 34 46.1  12.06  125.58  20 7.3 -2.0  0.10  | Samar, Philippines
+ 1995  5  5  3 53 45.1  12.63  125.30  16 7.1             | Luzon, Philippines
+ 1995  5 14 11 33 18.9  -8.38  125.13  11 6.9  1.5  4.00  | Timor, Indonesia
+ 1995  5 16 20 12 44.2 -23.01  169.90  20 7.8 -2.0  0.20  | Loyality Is.
+ 1995  5 27 13  3 52.7  52.63  142.83  11 7.5 -2.0  0.10  | Sakhalin Island, Russia
+ 1995  6 15  0 15 48.6  38.40   22.27  14 6.3  2.0        | Greece
+ 1995  7 30  5 11 23.6 -23.34  -70.29  45 7.8  1.5  2.80  | Antofagasta, Northern Chile
+ 1995  8 16 10 27 28.6  -5.80  154.18  30 7.8 -1.5  0.30  | New Guinea, Solomon Is.
+ 1995  9 14 14  4 31.4  16.78  -98.60  23 7.4 -1.0  0.42  | Oaxaca, Mexico
+ 1995 10  9 15 35 53.9  19.06 -104.21  33 7.3  2.0  5.00  | Jalisco, Mexico
+ 1995 10 18 10 37 26.4  27.93  130.18  28 6.9  1.5  2.60  | Ryukyu Is., Japan
+ 1995 10 19  2 41 36.2  28.09  130.15  19 6.9  0.5  1.50  | Ryukyu Is, Japan
+ 1995 11  1  0 35 32.7 -28.91  -71.42  19 6.4 -3.0  0.10  | Northern Chile
+ 1995 12  3 18  1  9.0  44.66  149.30  33 7.9  0.5  0.50  | Iturup Is., South Kuriles
+ 1996  1  1  8  5 10.8   0.73  119.93  24 7.7  1.8  3.43  | Sulawesi, Indonesia
+ 1996  2 17  5 59 30.6  -0.89  136.95  33 8.1  1.8  7.68  | Irian Jaya, Indonesia
+ 1996  2 21 12 51  1.3  -9.59  -79.59  10 7.5  1.9  5.04  | Peru
+ 1996  2 25  3  8 15.9  15.98  -98.07  21 6.9 -3.0  0.12  | Oaxaca, Mexico
+ 1996  6 10  4  3 35.5  51.56 -177.63  33 7.6  0.5  1.02  | Adrianoff Is., Aleutians
+ 1996  6 10 15 24 56.0  51.48 -176.85  26 7.2 -1.5  0.35  | Adrianoff Is., Aleutians
+ 1996  9  4 18 16  2.0  31.56  139.93  33 5.1 -2.0  0.26  | Izu Is., Japan
+ 1996  9  5  8 14 14.5 -22.12 -113.44  10 7.0 -2.5  0.18  | Easter Island
+ 1996 10 18 10 50 20.9  30.57  131.09  10 6.6 -2.5  0.19  | Kyushyu Is., Japan
+ 1996 10 19 14 44 40.8  31.89  131.47  22 6.6  0.5  1.10  | Kyushyu Is., Japan
+ 1996 11 12 16 59 44.0 -14.99  -75.68  33 7.3 -1.0  0.35  | Northern Peru
+ 1996 12  2 22 17 59.2  31.79  131.31  49 6.6 -2.0  0.21  | Kyushyu Is., Japan
+ 1997  4 21 12  2 26.4 -12.58  166.68  33 7.9 -2.0  0.20  | Santa Crus Is.
+ 1997  7  9 19 24       10.60  -63.50     6.8  1.0        | Venezuala
+ 1997  9 30  6 27 24.8  31.96  141.88  10 6.5 -4.0  0.05  | Torishima Is.
+ 1997 10 14  9 53 18.2 -22.10 -176.77 167 6.5             | Tonga Islands
+ 1997 10 15  1  3 33.5 -30.93  -71.22  58 6.8             | Central Chile
+ 1997 12  5 11 26 54.7  54.84  162.04  33 7.7  0.5  1.50  | Kronotskiy Cape, Kamchatka
+ 1997 12 14  3 30       54.74  162.14   0      2.0  8.00  | Kronotskiy Cape, Kamchatka
+ 1997 12 26  3  0       16.70  -62.20   0      1.0  3.00  | Montserrat, Lesser Antilles
+ 1998  3 25  3 12 25.1 -62.88  149.53  10 7.9 -2.0  0.20  | Balleny Islands
+ 1998  5  3 23 30 21.9  22.31  125.31  33 7.3 -3.0  0.10  | East of Taiwan
+ 1998  7 17  8 49 13.3  -2.96  141.93  10 7.1  3.2 15.03  | Aitape, N. coast of New Guinea
+ 1998 11 29 14 10 32.0  -2.07  124.89  33 7.6  1.5  2.70  | South Molucca Sea, Indonesia
+ 1999  8 17  0  1 47.8  40.81   30.08  17 7.9  2.0  2.52  | Izmit Bay, Turkey
+ 1999  9 12 18          17.62 -101.60          2.5  8.00  | Guerero, Mexico
+ 1999  9 14 23 15      -10.54 -138.67   0      1.0  6.00  | Fatu Hiva, Marquesas Is.
+ 1999  9 20 17 47 18.5  23.77  120.98  33 7.7 -5.0        | Taiwan
+ 1999  9 30 16 31 15.7  16.06  -96.93  60 7.5 -5.0        | Oaxaca, Mexico
+ 1999 11  1 17 53  0.1  23.38  121.52  33 6.1 -5.0        | NE of Taiwan
+ 1999 11 26 13 21 15.6 -16.42  168.21  33 7.3  1.0  5.00  | Vanuatu Is.
+ 2000  5  4  4 21 16.2  -1.11  123.57  26 7.5  1.0  5.00  | Sulawesi, Indonesia
+ 2000  6  4 16 28 26.2  -4.72  102.09  33 8.0             | Southern Sumatera, Indonesia
+ 2000  6 18 14 44 13.3 -13.80   97.45  10 7.8             | South Indian Ocean
+ 2000  7  1  7  1 55.6  34.22  139.13  10 6.2 -4.0  0.07  | Niijima Is., S of Honshu
+ 2000  7 15  1 30 30.5  34.32  139.26  10 6.1 -4.0  0.07  | Niijima Is., S of Honshu
+ 2000  7 30 12 25 45.6  33.90  139.38  10 6.5 -3.0  0.14  | Miyakejima Is., S of Honshu
+ 2000 11 16  4 54 56.7  -3.98  152.17  33 8.2  1.0  2.00  | New Ireland Region, PNG
+ 2000 11 16  7 42 16.9  -5.23  153.10  30 7.8  0.0  1.00  | New Ireland Region, PNG
+ 2000 11 17 21  1 56.5  -5.50  151.78  33 8.2             | New Ireland Region, PNG
+ 2000 11 21 15  0       70.30  -53.10   0      3.0 40.00  | Wester Greenland
+ 2001  1 13 17 33 32.4  13.05  -88.66  60 7.8             | El Salvador
+ 2001  6 23 20 33 14.1 -16.26  -73.64  33 8.4  2.6  8.60  | Camana, Southern Peru
+ 2001 10 12  5  2 34.0  52.63 -132.20  20 6.1 -2.0  0.20  | Charlotte Is., Canada
+ 2002  1  2 17 22 48.8 -17.60  167.86  21 7.5  1.0  3.00  | Vanuatu Isl.
+ 2002  1  3 10 17 36.3 -17.66  168.00  10 6.4             | Vanuatu Isl.
+ 2002  3  5 21 16  9.1   6.03  124.25  31 7.2  1.0  3.00  | Mindanao, Philippines
+ 2002  3 26  3 45 48.7  23.35  124.09  33 6.6 -4.0  0.10  | SW of Ryukyu Islands, Japan
+ 2002  3 31  6 52 50.5  24.28  122.18  32 7.4 -3.0  0.20  | NW of Taiwan
+ 2002  9  8 18 44 23.7  -3.30  142.95  13 7.8  1.0  4.00  | Kairiru Island, PNG
+ 2002  9 13 22 28 29.5  13.04   93.07  21 6.7  0.0        | Andaman Sea, Indonesia
+ 2002 10 10 10 50 20.6  -1.76  134.30  10 7.7  1.0  3.00  | Irian Jaya, Indonesia
+ 2002 12 30 13 15       38.80   15.20   0      2.0  7.00  | Stromboli volcano
+ 2003  1 20  8 43  6.1 -10.49  160.77  33 7.8  0.0  2.00  | Solomon Islands
+ 2003  1 22  2  6 34.6  18.77 -104.10  24 7.6  0.5  1.30  | Colima, Mexico
+ 2003  5 21 18 44 20.1  36.96    3.63  12 6.9  1.0  3.00  | Northern Algeria
+ 2003  7 13  3 35       16.72  -62.18   0      0.0  1.50  | Montserrat, Lesser Antilles*
+ 2003  8 21 12 12 49.8 -45.10  167.14  28 7.5  0.0  7.00  | Fjordland, New Zealand
+ 2003  9 25 19 50  6.2  41.79  143.90  27 8.1  1.5  3.80  | East of Hokkaido
+ 2003 11 17  6 43  7.0  61.13  178.74  33 7.5 -0.5  0.65  | Rat Islands, Aleutians
+ 2003 12 27 16  1  0.0 -22.01  169.61  10 7.0 -2.0  0.15  | Loyality Islands
+ 2004  7 15  4 27  0.0 -17.70  179.00  33 7.0             | Fiji I.
+ 2004  9 05 14 57 18.0  33.18  137.01  33 7.4  0.0  0.93  | South of Honshu, Japan
+ 2004 11 11 21 26 41.0  -8.17  124.91  10 7.5  1.0  2.00  | Alor Island, Indonesia
+ 2004 12 23 14 59 03.0 -50.14  160.36  10 7.8 -2.0  0.25  |  Macquarie Island
+ 2004 12 26  0 58 53.0   3.32   95.85  30 9.0  4.5 50.90  | North-West Sumatra, Indonesia
+ 2005 01 19 06 11 36.7  34.12  141.54  27 6.5 -2.0  0.39  | East of Honshu, Japan
+ 2005 03 28 16 09 36.0   2.06   97.01  30 8.7  1.5  4.00  | Indonesia, NW Sumatra
+ 2005 04 10 11 14 19.6  -1.71   99.78  30 6.5 -2.5  0.40  | Padang, Sumatra, Indonesia
+ 2005 06 13 22 44 33.0 -19.90  -69.13 111 7.9             | Tarapaka, Chile
+ 2005 06 15 02 50 53.0  41.33 -125.97  10 7.0 -3.0  0.27  | Northern California
+ 2005 07 24 15 59 00.0   7.90   92.10  33 7.2             | Nicobar Islands
+ 2005 08 16 02 46 28.3  38.28  142.04  36 7.1 -3.0  0.13  | East of Honshu, Japan
+ 2005 11 14 21 38 51.4  38.11  144.92  11 7.0       0.42  | Northern Honshu
+ 2005 12 09 01 57       51.0  -127.5    0     -3.0  0.10  | Britih Columbia, Canada
+ 2006 03 14 06 57 33.7  -3.60  127.21  30 6.6  2.0  5.0   | Buru Isl., Indonesia
+ 2006 05 03 15 26 39.0 -20.13 -174.16  55 7.9 -1.0  0.54  | Nuku'alofa Is., Tonga
+ 2006 07 17 08 19 35.0  -9.33  107.27  10 7.7  2.0  7.50  | Pangandaran, Java, Indonesia
+ 2006 11 15 11 14 16.0  46.69  153.22  28 8.1  3.0 12.00  | Central Kuriles, Russia
+ 2007  1 13  4 23 20.0  46.29  154.45  10 8.2  2.0  4.00  | Central Kuriles
+ 2007  3 25  0 40  1.6 -20.62  169.36  33 7.1 -3.0  0.08  | Vanuatu Is.
+ 2007  3 25  0 41 57.8  37.34  136.59  33 6.8 -3.0  0.10  | W coast of Honshu
+ 2007  4  1 20 40 40.7  -7.96  156.40  23 7.6      10.00  | Solomon Islands
+ 2007  4 21 17 53 46.3 -45.28  -72.61  33 6.3  2.0 30.00  | Aysen Fjord, Southern Chile
+ 2007  7 16  1 13 22.0  37.57  138.48     6.6             | Japan, HONSHU: W COAST
+ 2007  8  2  2 37 42.0  47.18  141.77  33 6.2 -2.0  0.38  | West coast of Sakhalin
+ 2007  8  2  3 21 42.8  51.31 -179.97     6.7       0.06  | USA, ALEUTIAN ISLANDS, AK
+ 2007  8 15 23 40 56.0 -13.36  -76.52  30 7.9  2.0 10.00  | Central Peru
+ 2007  9 12 11 10 26.0  -4.50  101.30  30 8.5  1.0  3.00  | Southern Sumatra, Indonesia
+ 2007  9 12 23 49  4.0  -2.51  100.91  30 7.9             | Southern Sumatra, Indonesia
+ 2007  9 13  3 55       -2.16   99.58  12 7.1 -3.0        | Southern Sumatra, Indonesia
+ 2007  9 30  5 23 34.0 -49.42  163.95  13 7.3 -1.0  0.22  | New Zealand, Auckland Is.
+ 2007 11 14 15 41 12.2 -22.20  -69.81  40 7.7 -1.0  0.25  | ANTOFAGASTA, CHILE
+ 2007 12  3             49.47 -121.85                     | Canada, CHEHALIS LAKE, CHILLIWACK
+ 2008  2 20  8  8 32.0   2.78   95.98  35 7.5             | Semuele Is., Indonesia
+ 2008  2 25  8 36 35.0  -2.35  100.02     7.3       0.24  | Indonesia, Sumatra
+ 2008  4  9 12 46 12.7 -20.07  168.89     7.3       0.30  | NEW CALEDONIA, LOYALTY ISLANDS
+ 2008  5 12  6 28  1.5  31.00  103.32     8.1             | China, SICHUAN PROVINCE
+ 2008  7 21 11 30 31.0  37.24  142.06     6.1       0.40  | Japan, OFF EAST COAST OF HONSHU ISLAND
+ 2008  8  8             52.18 -175.50               0.38  | USA, KASATOCHI
+ 2008  8 26  8  7  8.0 -52.51   26.42     5.0             | SOUTH AFRICA, SOUTHERN ATLANTIC OCEAN
+ 2008  9 11  0 20 50.9 41.892 143.754  25 6.9       0.18  | Japan, HOKKAIDO ISLAND
+ 2008 10 28             43.8  -69.7                 3.6     USA                 MAINE
+ 2008 11 16 17 2  32.7  1.271 122.091  30 7.3       .13     INDONESIA           SULAWESI
+ 2009  1  3 19 43 50.6  -.414 132.885  17 7.6       .39     INDONESIA           NEAR NORTH COAST
+ 2009  1  3 22 33 40.2  -.691 133.305  23 7.3               INDONESIA           NEAR NORTH COAST
+ 2009  1 15 17 49 39   46.857 155.154  36 7.4       .11     RUSSIA              KAMCHATKA
+ 2009  2 11 17 34 50.8  3.884 126.397  22 7.2       .13     PHILIPPINES         MINDANAO ISLAND
+ 2009  3 19 18 17 40.9 -23.05 -174.66  34 7.6       .15     TONGA               TONGA
+ 2009  5 28 8  24 45    16.72 -86.236  10 7.3       4       HONDURAS            OFF COAST
+ 2009  7 15 9  22 29   -45.76 166.562  12 7.8       .47     NEW ZEALAND         WEST COAST SOUTH ISLAND
+ 2009  8 10 19 55 35.6 14.099  92.888  5  7.5       .01     INDIA               ANDAMAN ISLANDS
+ 2009  8 10 20 7  9.1  34.743 138.264  40 6.4       .6      JAPAN               HONSHU: S COAST
+ 2009  8 16 7  38 21.7 -1.479  99.49   20 6.7       .18     INDONESIA           SUMATRA
+ 2009  8 25                                                 USA                 COLUMBIA RIVER VALLEY, WA
+ 2009  9 29 17 48 10.9 -15.49 -172.10  18 8         22.4    SAMOA               SAMOA ISLANDS
+ 2009  9 30 10 16 9.2   -.72   99.867  81 7.5       .27     INDONESIA           SUMATRA
+ 2009 10  7 22 3  14.4 -13.01  166.51  45 7.6       .31     VANUATU             VANUATU ISLANDS
+ 2010  1  3 21 48 5.3  -8.743 157.477  26 6.6       .01     SOLOMON ISLANDS
+ 2010  1  3 22 36 27.9 -8.799 157.346  25 7.1       3       SOLOMON ISLANDS
+ 2010  1  5 12 15 32.2 -9.019 157.551  15 6.8       .03     SOLOMON ISLANDS
+ 2010  1 12 21 53 10   18.457 -72.533  13 7         3       HAITI & DOMINICAN REPUBLIC
+ 2010  2 26 20 31 26.9 25.93  128.425  25 7         .1      JAPAN               RYUKYU ISLANDS
+ 2010  2 27 6  34 11.5 -36.12 -72.898  23 8.8  2.5  11.2    CHILE               OFF SOUTHERN COAST
+ 2010  3 11 14 39 43.9 -34.29 -71.891  11 6.9       .14     CHILE               CENTRAL CHILE
+ 2010  4  6 22 15 1.5   2.383  97.048  31 7.8       .44     INDONESIA           SUMATRA
+ 2010  4 13            -9.282 -77.645               23      PERU 513 LAKE,      HUALCAN GLACIER
+ 2010  5 29 11 46 50   16.708  145.97               .04     USA                 SOUTH SARIGAN IS, N.MARIANA
+ 2010  6 12 19 26 50.4  7.881  91.936  35 7.5       .03     INDIA               LITTLE NICOBAR ISLAND
+ 2010  8 10 5  23 44.9 -17.54 168.069  25 7.2       .23     VANUATU             VANUATU ISLANDS
+ 2010  8 13 21 19 33   12.484 141.476  10 6.9       .07     GU GUAM, MARIANA ISLANDS
+ 2010  9 3  16 35 47.7 -43.52 171.83   12 7                 NEW ZEALAND         SOUTH ISLAND
+ 2010 10 25 14 42 22   -3.487 100.082  20 7.8       7       INDONESIA           SUMATRA
+ 2010 12 21 17 19 40   26.892 143.726  14 7.4       .13     JAPAN               BONIN ISLANDS
+ 2010 12 25 13 16 37   -19.77 167.895  12 7.3               VANUATU             VANUATU ISLANDS
+ 2011  1  9 10 3  44.3 -19.16  168.31  24 6.6       .03     VANUATU             VANUATU ISLANDS
+ 2011  2 11 20 5  30   -36.34 -72.959  18 6.8       .15     CHILE               OFF COAST
+ 2011  2 21 23 51 43   -43.6  172.71   5  6.3               NEW ZEALAND         SOUTH ISLAND
+ 2011  3  9 2  45 18   38.51  142.792  14 7.2       .6      JAPAN               HONSHU ISLAND
+ 2011  3 11 5  46 23   38.322 142.369  32 9    3.0 39.00  |          Землетрясение и цунами на Хонсю в Японии
+;
+; это пробные точки для проведения тревог и тестирования программы
+;
+ 2011 11 11  0  0  0.0  52.5   159.6   30 8.5             ; для учений "Pacific wave 11" в ноябре
+ 2011 01 01  _  _  _    57.94  147.25  33 9.0  5.0  10.00 ; на шельфе вблизи Магадана
+ 2011 01 01  _  _  _    35.94  151.83  30 9.0  6.0  10.00 ; посреди Тихого океана
