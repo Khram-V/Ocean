@@ -27,6 +27,7 @@
 					<Add option="-m32" />
 					<Add library="Dev/Lib/libAlis64.a" />
 					<Add library="msvcrt-os" />
+					<Add library="pthread" />
 					<Add library="dl" />
 				</Linker>
 			</Target>

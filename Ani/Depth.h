@@ -77,20 +77,13 @@ public: operator float**(){ return __Depth; }
   void  write( );                    // Запись данных
   void  write( const char* );        // Запись информационного файла
   bool  edits( bool=false );         // Программа преобразования
-  void ItD( Point& W )               // Пересчет индексов в гео.координаты
-     { W=Geo.Goext( W ); if( isMercator )W.y=Geography( W.y ); W*=Radian; }
-  void D2I( Point& W )               // -- без отсечений и изъятий
-     { W/=Radian; if( isMercator )W.y=Merkatory( W.y ); W=Geo.Goint( W ); }
+  void ItD( Point& W );              // Пересчет индексов в гео.координаты
+  void D2I( Point& W );              // -- без отсечений и изъятий
   void DtI( Point& );                // Координаты в индексы по замкнутой сфере
-  void D2I( Point Q,int &y,int &x )  // Координаты -> Индексы
-     { DtI( Q ); y=Q.y+0.5,x=Q.x+0.5; }
-  void DtI(_Point P,int &y,int &x )     // - с контролем и без ухода за границы
-     { D2I( P,y,x ); if( y<0 )y=0; else if( y>=Ny )y=Ny-1;
-                     if( x<0 )x=0; else if( x>=Nx )x=Nx-1; }
+  void D2I( Point Q,int &y,int &x ); // Координаты -> Индексы
+  void DtI(_Point P,int &y,int &x ); // - с контролем и без ухода за границы
   void sphere( Point,Point,bool=false ); // Соединение линией от P к Q
-  bool is_Globus()                       //
-  { if( (Cs!=0.0 && Cs!=180.0) || fabs( Pd-Nx*Sx )>Sx/2.0 )Active&=~as_Globus;
-    else { Active|=as_Globus; Sx=Pd/Real(Nx); } return (Active&as_Globus)!=0; }
+  bool is_Globus();
   void mario_control();                  // Обработка мореограмм
   int  mario_utility( int&,int&,int=0 ); // 0 весь список, иначе mode:
                                          // +- следующий, <Enter>ближайший

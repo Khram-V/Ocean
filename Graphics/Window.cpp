@@ -3,6 +3,12 @@
 //
 #include "Window.h"
 
+Window::Window(): F( (Field){ 0,0,1,1 } ),f( (field){ 0,0,0,0,0 } )
+{ _x=b.left,_y=b.top,x=b.right,y=b.bottom; Focus();// конструктор приустановкой
+}
+bool Window::Is( int X,int Y )
+{ return X>=b.left && X<=b.right && Y<=b.bottom && Y>=b.top;
+}
 Field Window::Focus()
    { field t=f; Tv_place( &t );
      Field T=F; Tv_place( 0,&T ); b=Tv_port; return T;

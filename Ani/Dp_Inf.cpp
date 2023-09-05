@@ -118,7 +118,19 @@ Okhotsk.int
 static char Nm[MAX_PATH+4]=""; // Имя последнего открытого файла
 static bool First=true;        // Признак первого чтения данных
 static FILE *Fi;               // Для информационного файа
-                               //
+
+void Depth::ItD( Point& W )               // Пересчет индексов в гео.координаты
+{ W=Geo.Goext( W ); if( isMercator )W.y=Geography( W.y ); W*=Radian; }
+void Depth::D2I( Point& W )               // -- без отсечений и изъятий
+{ W/=Radian; if( isMercator )W.y=Merkatory( W.y ); W=Geo.Goint( W ); }
+void Depth::D2I( Point Q,int &y,int &x ) // Координаты -> Индексы
+{ DtI( Q ); y=Q.y+0.5,x=Q.x+0.5; }
+void Depth::DtI(_Point P,int &y,int &x ) // с контролем и без ухода за границы
+{ D2I( P,y,x ); if( y<0 )y=0; else if( y>=Ny )y=Ny-1;
+                if( x<0 )x=0; else if( x>=Nx )x=Nx-1; }
+bool Depth::is_Globus()
+{ if( (Cs!=0.0 && Cs!=180.0) || fabs( Pd-Nx*Sx )>Sx/2.0 )Active&=~as_Globus;
+  else { Active|=as_Globus; Sx=Pd/Real(Nx); } return (Active&as_Globus)!=0; }
 void Depth::close(){ if( Fs )fclose( Fs ); Fs=NULL; Nm[0]=0; }
 void Depth::remove()
 { if( Fs ){ fclose( Fs ); Fs=NULL; if( Nm[0] )::remove( Nm ); } Nm[0]=0;

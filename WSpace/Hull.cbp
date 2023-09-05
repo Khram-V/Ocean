@@ -79,6 +79,7 @@
 			<Option compilerVar="WINDRES" />
 			<Option virtualFolder="Ship/" />
 		</Unit>
+		<Unit filename="../Type.h" />
 		<Extensions />
 	</Project>
 </CodeBlocks_project_file>

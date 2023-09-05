@@ -59,7 +59,6 @@
 					<Add option="-fopenmp" />
 				</Compiler>
 				<Linker>
-					<Add library="Dev/Lib/libAlis32.a" />
 					<Add library="gomp" />
 				</Linker>
 			</Target>
@@ -72,9 +71,6 @@
 				<Option use_console_runner="0" />
 				<Option parameters="Okho-20" />
 				<Option projectLinkerOptionsRelation="2" />
-				<Linker>
-					<Add library="Dev/Lib/libAlis32.a" />
-				</Linker>
 			</Target>
 			<Target title="GCC night">
 				<Option output="Dev/Ani-night" prefix_auto="1" extension_auto="1" />
@@ -102,6 +98,8 @@
 				<Linker>
 					<Add option="-flto" />
 					<Add library="gomp" />
+					<Add library="pthread" />
+					<Add library="dl" />
 				</Linker>
 			</Target>
 		</Build>
@@ -206,155 +204,75 @@
 		</Unit>
 		<Unit filename="../Graphics/Graphics.cpp">
 			<Option virtualFolder="Graphics/" />
-			<Option target="GCC stable 32" />
-			<Option target="GCC night" />
-			<Option target="GCC stable" />
 		</Unit>
 		<Unit filename="../Graphics/Graphics.h">
 			<Option virtualFolder="Graphics/" />
-			<Option target="GCC stable 32" />
-			<Option target="GCC night" />
-			<Option target="GCC stable" />
 		</Unit>
 		<Unit filename="../Graphics/Sym_CCCP.inc">
 			<Option virtualFolder="Graphics/" />
-			<Option target="GCC stable 32" />
+			<Option target="&lt;{~None~}&gt;" />
 		</Unit>
 		<Unit filename="../Graphics/Tf_Paint.cpp">
 			<Option virtualFolder="Graphics/" />
-			<Option target="GCC stable 32" />
-			<Option target="GCC night" />
-			<Option target="GCC stable" />
-			<Option target="GCC single" />
 		</Unit>
 		<Unit filename="../Graphics/Tf_Topo.h">
 			<Option virtualFolder="Graphics/" />
-			<Option target="GCC stable 32" />
-			<Option target="GCC night" />
-			<Option target="GCC stable" />
 		</Unit>
 		<Unit filename="../Graphics/Tv_Case.cpp">
 			<Option virtualFolder="Graphics/" />
-			<Option target="GCC stable 32" />
-			<Option target="GCC night" />
-			<Option target="GCC stable" />
 		</Unit>
 		<Unit filename="../Graphics/Tv_File.cpp">
 			<Option virtualFolder="Graphics/" />
-			<Option target="GCC stable 32" />
-			<Option target="GCC night" />
-			<Option target="GCC stable" />
 		</Unit>
 		<Unit filename="../Graphics/Tv_Getc.cpp">
 			<Option virtualFolder="Graphics/" />
-			<Option target="GCC stable 32" />
-			<Option target="GCC night" />
-			<Option target="GCC stable" />
 		</Unit>
 		<Unit filename="../Graphics/Tv_Graph.h">
 			<Option virtualFolder="Graphics/" />
-			<Option target="GCC stable 32" />
-			<Option target="GCC night" />
-			<Option target="GCC stable" />
 		</Unit>
 		<Unit filename="../Graphics/Tv_Graphics.cpp">
 			<Option virtualFolder="Graphics/" />
-			<Option target="GCC stable 32" />
-			<Option target="GCC night" />
-			<Option target="GCC stable" />
 		</Unit>
 		<Unit filename="../Graphics/Tv_Help.cpp">
 			<Option virtualFolder="Graphics/" />
-			<Option target="GCC stable 32" />
-			<Option target="GCC night" />
-			<Option target="GCC stable" />
 		</Unit>
 		<Unit filename="../Graphics/Tv_Text.cpp">
 			<Option virtualFolder="Graphics/" />
-			<Option target="GCC stable 32" />
-			<Option target="GCC night" />
-			<Option target="GCC stable" />
 		</Unit>
 		<Unit filename="../Graphics/Win_Palette.inc">
 			<Option virtualFolder="Graphics/" />
-			<Option target="GCC stable 32" />
-			<Option target="GCC night" />
-			<Option target="GCC stable" />
 		</Unit>
-		<Unit filename="../Graphics/Window.cpp">
-			<Option target="GCC stable 32" />
-			<Option target="GCC night" />
-			<Option target="GCC stable" />
-		</Unit>
-		<Unit filename="../Graphics/Window.h">
-			<Option target="GCC stable 32" />
-			<Option target="GCC night" />
-			<Option target="GCC stable" />
-		</Unit>
-		<Unit filename="../Graphics/_Small_Font.c++">
-			<Option target="GCC night" />
-			<Option target="GCC stable" />
-			<Option target="GCC stable 32" />
-		</Unit>
+		<Unit filename="../Graphics/Window.cpp" />
+		<Unit filename="../Graphics/Window.h" />
+		<Unit filename="../Graphics/_Small_Font.c++" />
 		<Unit filename="../Matrix/Allocate.cpp">
 			<Option virtualFolder="Matrix/" />
-			<Option target="GCC stable 32" />
-			<Option target="GCC night" />
-			<Option target="GCC stable" />
 		</Unit>
 		<Unit filename="../Matrix/B_Geo.cpp">
 			<Option virtualFolder="Matrix/" />
-			<Option target="GCC stable 32" />
-			<Option target="GCC night" />
-			<Option target="GCC stable" />
 		</Unit>
 		<Unit filename="../Matrix/Basis.cpp">
 			<Option virtualFolder="Matrix/" />
-			<Option target="GCC stable 32" />
-			<Option target="GCC night" />
-			<Option target="GCC stable" />
 		</Unit>
 		<Unit filename="../Matrix/Basis.h">
 			<Option virtualFolder="Matrix/" />
-			<Option target="GCC stable 32" />
-			<Option target="GCC night" />
-			<Option target="GCC stable" />
 		</Unit>
 		<Unit filename="../Matrix/Function.cpp">
 			<Option virtualFolder="Matrix/" />
-			<Option target="GCC stable 32" />
-			<Option target="GCC night" />
-			<Option target="GCC stable" />
 		</Unit>
 		<Unit filename="../Matrix/Function.h">
 			<Option virtualFolder="Matrix/" />
-			<Option target="GCC stable 32" />
-			<Option target="GCC night" />
-			<Option target="GCC stable" />
 		</Unit>
 		<Unit filename="../Matrix/Julian.cpp">
 			<Option virtualFolder="Matrix/" />
-			<Option target="GCC stable 32" />
-			<Option target="GCC night" />
-			<Option target="GCC stable" />
 		</Unit>
 		<Unit filename="../Matrix/Point.h">
 			<Option virtualFolder="Matrix/" />
-			<Option target="GCC stable 32" />
-			<Option target="GCC night" />
-			<Option target="GCC stable" />
 		</Unit>
 		<Unit filename="../Matrix/Rstring.cpp">
 			<Option virtualFolder="Matrix/" />
-			<Option target="GCC stable 32" />
-			<Option target="GCC night" />
-			<Option target="GCC stable" />
 		</Unit>
-		<Unit filename="../Type.h">
-			<Option target="GCC stable 32" />
-			<Option target="GCC night" />
-			<Option target="GCC stable" />
-		</Unit>
+		<Unit filename="../Type.h" />
 		<Extensions />
 	</Project>
 </CodeBlocks_project_file>

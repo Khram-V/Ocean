@@ -22,6 +22,13 @@ double Plaze::Amplint( const double &La )
      Wx[i]=norm( A )*Mw/sqrt( Mw*Mw-1 )/La/La;
   } return norm( A )*Mw/sqrt( Mw*Mw-1 )/La/La;
 }
+double Plaze::QG4( const double &Xl, const double &Xu )
+{ double A = 0.5*( Xu+Xl ),B=Xu-Xl,C,D;
+         C = .4305681557970263 * B;
+         D = .1739274225687269 * ( Amplint( A+C )+Amplint( A-C ) );
+         C = .1699905217924281 * B;
+  return B * (D+.3260725774312731 * ( Amplint( A+C )+Amplint( A-C )));
+}
 Real Plaze::Michell( Real Fn )
 {   int i;      //
  double Rw=0.0, // Искомое волновое сопротивление

@@ -7,10 +7,8 @@ struct Window                        //
 { Field F; field f;                  // экранные границы действующего фрагмента
   viewporttype b;                    // Tv_port - разметка окна Window
   int _x,_y,x,y;                     // =( l,t,r,b ) рамка для мышкина окошка
-  Window(): F( (Field){ 0,0,1,1 } ),f( (field){ 0,0,0,0,0 } )  // конструктор с
-       { _x=b.left,_y=b.top,x=b.right,y=b.bottom; Focus(); }   // приустановкой
-  Field Focus();                                               //
-  bool Is( int X,int Y ){ return X>=b.left&&X<=b.right&&Y<=b.bottom&&Y>=b.top; }
+  Window();                          // конструктор с приустановкой
+  Field Focus(); bool Is( int X,int Y );
   Course Console( int Fl( int,int,bool ) );     // -1 -команда на перерисовку ?
 };
 //

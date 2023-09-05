@@ -170,7 +170,29 @@ static int Console()    // 0x02 - Общесистемная подсказка
   } while( ans>_Enter ); if( !ans || ans==_Enter ){ Building(); Init(); }
   return 1;
 }
+// остатки комплекса процедур представления и управления н=-графическими окнами
 //
+Window::Window(){ f=Tv_port; F.Jx=F.Jy=0; F.Lx=F.Ly=1; }
+void Window::Set( field a ){ Tv_place( &a ); f=Tv_port; }
+bool Window::Is( int x,int y )
+          { return x>=f.left && x<=f.right && y<=f.bottom && y>=f.top; }
+void Window::Focus()  // Установка графического окна
+  { field t;    //
+    Field T=F; t.Jx=-f.left;        t.Lx=f.right-Tv.mX; t.wb=0;
+               t.Jy=f.bottom-Tv.mY; t.Ly=-f.top; Tv_place( &t );
+                                                 Tv_place( 0,&T );
+}/*
+  bool Is(){ int x,y; Tv_GetCursor( x,y ); return Is( x,y ); }
+                //
+  void Check( int &x, int &y )
+  { int Ans=0;                                  //
+    if( x<f.left   ){ Ans=1; x=f.left;   } else // Удержание
+    if( x>f.right  ){ Ans=1; x=f.right;  }      // мышки в
+    if( y<f.top    ){ Ans=1; y=f.top;    } else // границах
+    if( y>f.bottom ){ Ans=1; y=f.bottom; }     //  текущей
+    if( Ans )Tv_SetCursor( x,y );             //   карты
+  }                                          //
+*/
 //      Информационные окошки и текстовые справки
 //
 bool DrawPlane::Info( int x, int y )

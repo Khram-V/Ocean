@@ -3,7 +3,6 @@
 //              Сахалинского государственного университета
 //
 #include "..\Graphics\Tv_Graph.h"
-
 extern Real               //
      Xo,Xm,Length, Lwl,    // Длина
            Breadth,Bwl,    // Ширина
@@ -11,7 +10,7 @@ extern Real               //
            Volume,         // Водоизмещение
            Surface;        // Смоченная поверхность
 extern int Hull_Keys;      // Набор ключей - параметров
-       //  0x01 -  задействовать сплайн-интерполяцию
+//              0x01 -  задействовать сплайн-интерполяцию
 //
 // Три процедуры обращения к старым (оригинальным) чертежам
 //
@@ -93,29 +92,11 @@ extern Hull Kh; // Собственно корпус, заданный отдельными шпангоутами
 //      Блок определений для визуализации формы корпуса
 //
 struct Window
-{                         //
- viewporttype f; Field F; // Проверка попадания мышки
-                          //
-  Window(){ f=Tv_port; F.Jx=F.Jy=0; F.Lx=F.Ly=1; }
-  void Set( field a ){ Tv_place( &a ); f=Tv_port; }
-  bool Is( int x,int y )
-          { return x>=f.left && x<=f.right && y<=f.bottom && y>=f.top; }
-  bool Is(){ int x,y; Tv_GetCursor( x,y ); return Is( x,y ); }
-                //
-  void Focus()  // Установка графического окна
-  { field t;    //
-    Field T=F; t.Jx=-f.left;        t.Lx=f.right-Tv.mX; t.wb=0;
-               t.Jy=f.bottom-Tv.mY; t.Ly=-f.top; Tv_place( &t );
-                                                 Tv_place( 0,&T ); }
-  void Check( int &x, int &y )
-  { int Ans=0;                                  //
-    if( x<f.left   ){ Ans=1; x=f.left;   } else // Удержание
-    if( x>f.right  ){ Ans=1; x=f.right;  }      // мышки в
-    if( y<f.top    ){ Ans=1; y=f.top;    } else // границах
-    if( y>f.bottom ){ Ans=1; y=f.bottom; }     //  текущей
-    if( Ans )Tv_SetCursor( x,y );             //   карты
-  }                                          //
-};                                          //
+{ viewporttype f; Field F; Window(); void Set( field a );
+  bool Is( int x,int y ); // Проверка попадания мышки
+  void Focus();  // предустановка и активация графического окна
+//void Check( int &x, int &y ); bool Is();
+};
 struct DrawPlane: public Window
 { const char *iD,*aX,*aY;
   DrawPlane( const char i[], const char x[], const char y[] ):
@@ -133,27 +114,16 @@ struct Plaze          //
      **QV,            // Массив "источников", замещающих корпус в движении
      *Wx;             // Рабочий массив для визуализации волнообразования
   int Nx,Nz;          // Размерности основной матрицы
-                      //
   Plaze( int z, int x )
-  { Depth=V=S=0; dX=dZ=1; QV=Y=NULL; Wx=Xa=Xs=Ya=Ys=NULL; allocate( z,x );
-  }
+  { Depth=V=S=0; dX=dZ=1; QV=Y=NULL; Wx=Xa=Xs=Ya=Ys=NULL; allocate( z,x ); }
  ~Plaze(){ allocate( 0,0 ); }
-
-  void allocate( int z, int x );        // Распределение массивов и буферов
-  void build( Real Z=Draught );        // Построение таблицы ординат
-  void drawlines();                     // Прорисовка рисунков корпуса
-                                        //
+  void allocate( int z, int x );      // Распределение массивов и буферов
+  void build( Real Z=Draught );       // Построение таблицы ординат
+  void drawlines();                   // Прорисовка рисунков корпуса
   Real  Michell( Real Fn );           // Сопротивление по Мичеллу
-  double Amplint( const double &La );   //
-  double QG4( const double &Xl, const double &Xu )
-  { double A = 0.5*( Xu+Xl ),B=Xu-Xl,C,D;
-           C = .4305681557970263 * B;
-           D = .1739274225687269 * ( Amplint( A+C )+Amplint( A-C ) );
-           C = .1699905217924281 * B;
-    return B * (D+.3260725774312731 * ( Amplint( A+C )+Amplint( A-C )));
-  }
+  double Amplint( const double &La ); //
+  double QG4( const double &Xl, const double &Xu );
   void DrawWaves( Real Fn=0.0 );
-
 };
 //
 //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -163,14 +133,3 @@ extern DrawPlane wH,    // Окно проекции корпус,
                  wW;    //   и полуширота
                         //
 extern const char *Months[],*WeekDay[];
-//
-// Простое интегрирование аналитически определенной функции
-//
-inline double QG4( const double &Xl, const double &Xu,
-                   double F( const double& ) )
-{ double A = 0.5*( Xu+Xl ),B=Xu-Xl,C,D;
-         C = .4305681557970263 * B;
-         D = .1739274225687269 * ( F( A+C )+F( A-C ) );
-         C = .1699905217924281 * B;
-  return B * (D+.3260725774312731 * ( F( A+C )+F( A-C )));
-}

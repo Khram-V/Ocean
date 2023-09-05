@@ -35,9 +35,19 @@ static double AtaBlue( const double &Al )
   }
   Fw=Sumci*Sumci+Sumsi*Sumsi; return Hx<=0 ? Fw:A*Fw/sqrt( A-1 );
 }
-
+//
+// Простое интегрирование аналитически определенной функции
+//
+static double QG4( const double &Xl, const double &Xu,
+                   double F( const double& ) )
+{ double A = 0.5*( Xu+Xl ),B=Xu-Xl,C,D;
+         C = .4305681557970263 * B;
+         D = .1739274225687269 * ( F( A+C )+F( A-C ) );
+         C = .1699905217924281 * B;
+  return B * (D+.3260725774312731 * ( F( A+C )+F( A-C )));
+}                               //
 #include "..\Ship\Hull.h"
-                                //
+
 Real WaveRes( Real **_Hull,     // Корпус
               Real Froud,       // Число Фруда
               Real Length,      // Длина
@@ -60,7 +70,6 @@ Real WaveRes( Real **_Hull,     // Корпус
                   Xl=Xu;
    } return 2*Wres*ro*g*pow( Depth/Froud/Froud/Froud,2 )/Length/M_PI;
 }
-
 #if 0
     FROUD= V/SQRT(G*AL);                        TL=T/AL;
     WRES = WAVERES((FI),(FROUD),(TL));

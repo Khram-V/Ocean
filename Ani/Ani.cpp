@@ -86,7 +86,7 @@ static void Titles()    //   Заголовок программы при ее старте
 static void Tv_Set_Palette();
        void Simulation();
        void Time_hex();
-       Depth Chart; //!// Главная структура карты - батиметрии
+       Depth Chart;   //! Главная структура карты - батиметрии
 int    Depth::Nmp=0;   // Number of Marigrams
 MARIO *Depth::M = 0;   // List of Marigrams
 FILE  *Depth::Fs=NULL; // Локальный файл
