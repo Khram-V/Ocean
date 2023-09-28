@@ -1,7 +1,6 @@
 //
 //      Палитра изображений BGRa (dec), в Windows iRGB (intel)
 // _________________________________________________________________
-//
 //  Default palette table of blue, green, red + active values bytes
 //
 #define i ,0},{

@@ -1,43 +1,43 @@
 //
-//     ANI.cpp                                                /1987-2017.01.28/
-//     (c) Khramushin V.N.
-//      -  Tsunami Laboratory, Institute of Marine Geology and Geophysics,
-//         USSR Academy of Sciences;
-//      -  Sakhalin Research Institutes of Fisheries & Oceanography;
-//      -  Computational Fluid Mechanics & Oceanography lab.
-//         Special Research Bureau for Automation of Marine Researches
-//         Far Eastern Branch of Russian Academy of Sciences
-//      -  Sakhalin branch of Russian Geographical Society
-//      << Русское географическое общество, Сахалинское отделение >>
-//      -  Computational Fluid Mechanics and Marine Researches lab.
-//         Sakhalin State University. Devision of Mathematics
+//   ANI.cpp                                                /1987-2017.01.28/
+//   (c) Khramushin V.N.
+//    -  Tsunami Laboratory, Institute of Marine Geology and Geophysics,
+//       USSR Academy of Sciences;
+//    -  Sakhalin Research Institutes of Fisheries & Oceanography;
+//    -  Computational Fluid Mechanics & Oceanography lab.
+//       Special Research Bureau for Automation of Marine Researches
+//       Far Eastern Branch of Russian Academy of Sciences
+//    -  Sakhalin branch of Russian Geographical Society
+//    << Русское географическое общество, Сахалинское отделение >>
+//    -  Computational Fluid Mechanics and Marine Researches lab.
+//       Sakhalin State University. Devision of Mathematics
 /*
-                        Gorkiy str., 22/40
-                        Yuzhno-Sakhalinsk, 693010, Sakhalin, Russia
-                        88.09.19 / DEC PASCAL v1.0  RT-11v5.2 +
-                        90.11.03 / Turbo C          MsDos 3.3 -
-                        91.02.15 / Turbo C++        DrDos 3.4 +
-                        92.06.22 / Borland C++ 2.0  DrDos 6.0 •
-                        93.10.03 / Borland C++ 3.1 & Lite-286 -
-                        94.09.05 / Turbo C++ 3.1  Windows 3.1 +
-                        2000 --\\-- DPMI/16
-                        2006 перенастройка управления памятью
-                        2007.02.15 / Gnu-C++ / DevC++ / Win32
-                        2008.01.05 / wxDevC++6.11 + GCC-3.4.5
-                        2010.01.22 / Code::Blocks + GCC-4.3.3
-                        2010.09.12 / GCC-4.6.0/4.3.3 + OpenMP
-                        2011.04.05 / Изменена и ускорена графика
-                        2013.05 -- безуспешная переделка фронтов
-                        2014.02.12 / переход на 64-разрядную арифметику
-                        2016.12.12 / фрагментирование изображений */
+         Gorkiy str., 22/40
+         Yuzhno-Sakhalinsk, 693010, Sakhalin, Russia
+         88.09.19 / DEC PASCAL v1.0  RT-11v5.2 +
+         90.11.03 / Turbo C          MsDos 3.3 -
+         91.02.15 / Turbo C++        DrDos 3.4 +
+         92.06.22 / Borland C++ 2.0  DrDos 6.0 •
+         93.10.03 / Borland C++ 3.1 & Lite-286 -
+         94.09.05 / Turbo C++ 3.1  Windows 3.1 +
+         2000 --\\-- DPMI/16
+         2006 перенастройка управления памятью
+         2007.02.15 / Gnu-C++ / DevC++ / Win32
+         2008.01.05 / wxDevC++6.11 + GCC-3.4.5
+         2010.01.22 / Code::Blocks + GCC-4.3.3
+         2010.09.12 / GCC-4.6.0/4.3.3 + OpenMP
+         2011.04.05 / Изменена и ускорена графика
+         2013.05 -- безуспешная переделка фронтов
+         2014.02.12 / переход на 64-разрядную арифметику
+         2016.12.12 / фрагментирование изображений */
 #include <OMP.h>
 #include <Fenv.h>
 #include "Depth.h"
 /*
 int matherr (struct _exception *a){ a->retval=0.0; return 1; }
 int __cdecl _matherr (struct _exception *a){ a->retval=0.0; return 1; }
--Ofast
--floop-parallelize-all
+ -Ofast
+ -floop-parallelize-all
 */
 #define _0 (Depth::InfName)
 #define _1 (Depth::Name)
@@ -90,17 +90,17 @@ static void Tv_Set_Palette();
 int    Depth::Nmp=0;   // Number of Marigrams
 MARIO *Depth::M = 0;   // List of Marigrams
 FILE  *Depth::Fs=NULL; // Локальный файл
-unsigned Active=6;  // Биты состояния карты батиметрии
-                    // x0001 Готовность батиметрии
-                    // x0006 Empty, Letters, Numbers, Identify (4) для Mario
-                    // x0020 Произведен сдвиг карты в F4 (сброс при считывании)
-                    // x0018 Был считан новый файл в F4  (сброс с перерисовкой)
-                    //   - 8 = 0 - Произведена перерисовка внутри программы F4
-                    // x0100 Признак замыкания параллелей
-                    // x8000 Процесс восстановления сохраненного расчета
-                    //
-int main()          // int argc, char **argv - ушли в Tv_Graphics_Start();
-{                   //
+unsigned Active=6; // Биты состояния карты батиметрии
+                   // x0001 Готовность батиметрии
+                   // x0006 Empty, Letters, Numbers, Identify (4) для Mario
+                   // x0020 Произведен сдвиг карты в F4 (сброс при считывании)
+                   // x0018 Был считан новый файл в F4  (сброс с перерисовкой)
+                   //   - 8 = 0 - Произведена перерисовка внутри программы F4
+                   // x0100 Признак замыкания параллелей
+                   // x8000 Процесс восстановления сохраненного расчета
+                   //
+int main()         // int argc, char **argv - ушли в Tv_Graphics_Start();
+{                  //
  static int  ans;
  const char *Name[]={ "ANI   ","Главная процедура инициализации    ",
                                 "и управления блоками программ",0 },
