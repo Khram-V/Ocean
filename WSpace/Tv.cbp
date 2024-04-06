@@ -37,7 +37,7 @@
 				<Option object_output="Dev/Obj/" />
 				<Option type="0" />
 				<Option compiler="gcc" />
-				<Option parameters="T-UZH.dw2" />
+				<Option parameters="Чертежный.chr Apostol.vct T-UZH.dw2" />
 				<Option projectLinkerOptionsRelation="2" />
 				<Linker>
 					<Add library="Dev/Lib/libAlis32.a" />

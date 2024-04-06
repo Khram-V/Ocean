@@ -128,21 +128,23 @@ void DCFont::Graphics_Drawing()
 {
  int i,j,k,m,Yy,Xx;
  short *pY,*pX;
- string str;
- const char *Msg[7]={ Ident,"ABCDEFGHIJKLMNOPQRSTUVWXYZ",
-                           "abcdefghijklmnopqrstuvwxyz",
-                           "ְֱֲֳִֵֶַָֹÊֻּֽ־ֿ׀ׁׂ׃װױײ׳״ÙÚÛÜÝÞß ",
-                           "אבגדהוזחטיךכלםמןנסעףפץצקרשתûü‎‏ÿ ",
-                           "1234567890 .,:; ¨¸×÷¯¿¡¢°•·v¹₪¦  ",
-                           "@#$&`|\"!_~<({[+-*\\/%^=]})> "
-             };
+ char str[256];
+// const char *Msg[7]={ Ident," !\"#$%&'()*+,-./0123456789:;<=>? ",
+//                            "@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_ ",
+//                            "`abcdefghijklmnopqrstuvwxyz{|}~ ",
+//                            "ְֱֲֳִֵֶַָֹÊֻּֽ־ֿ׀ׁׂ׃װױײ׳״ÙÚÛÜÝÞß ",
+//                            "אבגדהוזחטיךכלםמןנסעףפץצקרשתûü‎‏ÿ ",
+//                            "¨¸×÷¯¿¡¢°•·±¹₪¦ "
+//             };
   if( ( Tv_getk()&SHIFT )==0 )clear();
   color( DARKGRAY );
 //if( Msg[3][0]=='ְ' )
 //for( m=3; m<7; m++ )CharToOemBuff( Msg[m],Msg[m],strlen( Msg[m] ) );
   Yy=Height+24;
-  for( m=0; m<7 && Yy<Tv.mY-3; m++ )
-  { str=string( m>0?W2D( Msg[m] ):Msg[0] );
+  for( m=0; m<8 && Yy<Tv.mY-3; m++ )
+  { //str=string( m>0?W2D( Msg[m] ):Msg[0] );
+    if( !m )strcpy( str,Ident ); else
+    { for( i=0; i<32; i++ )str[i]=m*32+i; str[32]=0; }
     Xx=6;
     i=0;
     while( (j=str[i++])!=0 && Xx<Tv.mX-6 )
@@ -161,7 +163,7 @@ void DCFont::Graphics_Drawing()
               , { 1,3,"  [%3d",&Width },{ 0,3,"x%d",&Height }
               , { 0,0,"] " },{ 0,8 }  // ֿנטחםאך Fill No Fill
               , { 0,0,"     Write to: " },{ 0,1,".VFN " },{ 0,1,".VCT " }
-              , { 1,45,"File: %s",FName }
+              , { 1,45,"File: %s",W2D( FName ) }
               };
   color( CYAN ); i=0;
   do

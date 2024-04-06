@@ -369,14 +369,14 @@ void Field_Window::Draw( Field& wF ) // Typ = 5,6 типа входного файла
 enum{ _0,_1=51,_2=104,_3=153,_4=204,_5=255 };
                                          //
 static RGB_colors DC_colors_16[16] =     //
-        { { _5,_5,_5,0 },{ _0,_0,_0,0 }  // WHITE,    BLACK
-        , { _0,_0,_2,0 },{ _0,_2,_0,0 }  // BROWN,    GREEN
-        , { _3,_0,_0,0 },{ _0,_1,_3,0 }  // BLUE,     LIGHTBROWN
-        , { _2,_3,_0,0 },{ _3,_0,_3,0 }  // CYAN,     LIGHTMAGENTA
-        , { 84,84,84,0 },{ _3,_3,_3,0 }  // GRAY,     LIGHTGRAY
-        , { _0,_0,_5,0 },{ _1,_3,_0,0 }  // RED,      LIGHTGREEN
-        , { _5,_3,_1,0 },{ _1,_5,_5,0 }  // LIGHTBLUE,YELLOW
-        , { _4,_4,_0,0 },{ _5,_2,_5,0 }  // LIGHTCYAN,LIGHTMAGENTA
+        { { _5,_5,_5,0 },{ _0,_0,_0,0 }  //  0 - WHITE,    BLACK
+        , { _0,_0,_2,0 },{ _0,_2,_0,0 }  //  2 - BROWN,    GREEN
+        , { _3,_0,_0,0 },{ _0,_1,_3,0 }  //  4 - BLUE,     LIGHTBROWN
+        , { _2,_3,_0,0 },{ _3,_0,_3,0 }  //  6 - CYAN,     LIGHTMAGENTA
+        , { 84,84,84,0 },{ _3,_3,_3,0 }  //  8 - GRAY,     LIGHTGRAY
+        , { _0,_0,_5,0 },{ _1,_3,_0,0 }  // 10 - RED,      LIGHTGREEN
+        , { _5,_3,_1,0 },{ _1,_5,_5,0 }  // 12 - LIGHTBLUE,YELLOW
+        , { _4,_4,_0,0 },{ _5,_2,_5,0 }  // 14 - LIGHTCYAN,LIGHTMAGENTA
         };                               //
 static Course Console();                 // Процедура интерактивного управления
                                          // Инициализация графического
