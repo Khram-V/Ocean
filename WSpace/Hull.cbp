@@ -23,11 +23,8 @@
 				<Option working_dir="Data" />
 				<Option object_output="Dev/Obj/" />
 				<Option type="0" />
-				<Option compiler="gnu_gcc_stable" />
+				<Option compiler="gcc-mingw64" />
 				<Option parameters="A-1201.vsl" />
-				<Compiler>
-					<Add option="-w" />
-				</Compiler>
 				<Linker>
 					<Add library="Dev/Lib/libAlis64.a" />
 				</Linker>
@@ -36,6 +33,9 @@
 		<Compiler>
 			<Add option="-fexpensive-optimizations" />
 			<Add option="-Os" />
+			<Add option="-w" />
+			<Add option="-std=gnu++98" />
+			<Add option="-std=gnu90" />
 			<Add option="-funsigned-char" />
 			<Add option="-fno-exceptions" />
 			<Add option="-ffast-math" />

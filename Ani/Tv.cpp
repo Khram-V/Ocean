@@ -81,7 +81,8 @@ int main( int Ac, char **Av )
       if( !strcmp( S+1,"chr" ) ){ FNT_View( Name,2 ); return 0; }
       if( !strcmp( S+1,"vct" ) ){ FNT_View( Name,3 ); return 0; }
       if( !strcmp( S+1,"vfn" ) ){ FNT_View( Name,4 ); return 0; }
-      if( !strcmp( S+1,"dc2" ) ){ DCM_View( Name,5 ); return 0; }
+      if( !strcmp( S+1,"dc2" )
+       || !strcmp( S+1,"dc3" ) ){ DCM_View( Name,5 ); return 0; }
       if( !strcmp( S+1,"dw2" ) ){ DCM_View( Name,6 ); return 0; }
       if( !strcmp( S+1,"bln" ) ){ DCM_View( Name,7 ); return 0; }
       if( !strcmp( S+1,"nc"  ) ){ Net_CDF( Name );    return 0; }

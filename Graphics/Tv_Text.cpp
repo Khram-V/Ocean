@@ -68,7 +68,7 @@ int Display::Answer( int _K )
 { const int IO=81,            //  81-161 - строка обмена с терминалом
             BF=162;           // 162-242 - сохранение для регистрации изменений
  static int lf=0;             //       Начальная инициализация списка сообщений
- int  ls,Lx=0,Ly=1,bc,hc,fc,c,k,kw=_K>=0 && _K<Nm;
+ int  ls,Lx=0,Ly=1,bc,fc,c,k,kw=_K>=0 && _K<Nm;
  bool key=( M->X==0 );
   setC
   for( Ls=M,k=ls=0; k<Nm; Ls++,k++ )    //

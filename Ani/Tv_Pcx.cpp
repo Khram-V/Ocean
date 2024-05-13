@@ -24,7 +24,7 @@ typedef struct
 //     fixed    svres;        //
 //     fixed    xtra[27];     // Extra space (filler)
 //     fixed    rsv;          // полная длина всегда = 128 байт
- }     pcxheader __attribute__ ((packed));
+ }     pcxheader; // __attribute__ ((packed));
 static pcxheader
        PCX={ 10,5,1,1,0,0,639,479,640,480, {{ 0 }}, 0,4,80,1 }; //,0,0,{ 0 } };
 //

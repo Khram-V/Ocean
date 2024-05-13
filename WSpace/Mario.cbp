@@ -12,7 +12,7 @@
 				<Option working_dir="Data" />
 				<Option object_output="Dev/Obj/" />
 				<Option type="0" />
-				<Option compiler="gnu_gcc_stable" />
+				<Option compiler="gcc-mingw64" />
 				<Option parameters="TS-1994R.mar -bgi=4" />
 				<Option projectLinkerOptionsRelation="2" />
 				<Linker>
@@ -35,6 +35,8 @@
 		<Compiler>
 			<Add option="-fexpensive-optimizations" />
 			<Add option="-Os" />
+			<Add option="-std=gnu++98" />
+			<Add option="-std=gnu90" />
 			<Add option="-funsigned-char" />
 			<Add option="-fopenmp" />
 			<Add option="-fno-exceptions" />
@@ -47,7 +49,6 @@
 		</Compiler>
 		<Linker>
 			<Add option="-s" />
-			<Add option="-static" />
 			<Add library="gdi32" />
 			<Add library="comdlg32" />
 			<Add library="gomp" />

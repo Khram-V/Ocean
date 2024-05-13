@@ -19,11 +19,10 @@
 				<Option working_dir="" />
 				<Option object_output="Dev/Obj" />
 				<Option type="2" />
-				<Option compiler="gnu_gcc_stable" />
+				<Option compiler="gcc-mingw64" />
 				<Option createDefFile="1" />
 				<Compiler>
 					<Add option="-w" />
-					<Add option="-fanalyzer" />
 				</Compiler>
 			</Target>
 			<Target title="Alib Dll">
@@ -52,6 +51,8 @@
 			<Add option="-fexpensive-optimizations" />
 			<Add option="-Os" />
 			<Add option="-w" />
+			<Add option="-std=gnu++98" />
+			<Add option="-std=gnu90" />
 			<Add option="-funsigned-char" />
 			<Add option="-fopenmp" />
 			<Add option="-fno-exceptions" />
@@ -61,8 +62,6 @@
 		</Compiler>
 		<Linker>
 			<Add option="-s" />
-			<Add option="-static-libgcc" />
-			<Add option="-static" />
 			<Add library="gdi32" />
 			<Add library="comdlg32" />
 			<Add library="gomp" />

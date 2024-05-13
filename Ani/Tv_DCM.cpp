@@ -46,16 +46,15 @@ struct Set_Line_Width
                          setlinestyle( SOLID_LINE,0,THICK_WIDTH ); }
       ~Set_Line_Width(){ setlinestyle( SOLID_LINE,0,NORM_WIDTH ); }
 };
-//
 //   —читывание одной строки по заданному формату
 //
 void static DCRead( const char *Fmt=0,... )
-{ if( fgets( Msg,MAX_PATH*2-1,DC ) )
-  if( Fmt )
-  { va_list A; va_start( A,Fmt ); vsscanf( Msg,Fmt,A ); va_end( A );
-} }
-float inline DCget(){ float w; fread( &w,1,4,DC ); return w; }
-void inline DColor(){ color( ((The_Color-1)%15)+1 ); }
+{ while( fgets( Msg,MAX_PATH*2-1,DC ) )if( Msg[0]!=';' || !Fmt )break;
+  if( Msg && Fmt )
+    { va_list A; va_start( A,Fmt ); vsscanf( Msg,Fmt,A ); va_end( A ); }
+}
+static float DCget(){ float w; fread( &w,1,4,DC ); return w; }
+static void DColor(){ color( ((The_Color-1)%15)+1 ); }
 
 void static DCReadItemHeader()
 {                         //
@@ -84,7 +83,7 @@ void static DCReadItemPoints()
   { for( i=0; i<Number_of_Points; i++ )P[i].x=DCget();
     for( i=0; i<Number_of_Points; i++ )P[i].y=DCget();
   } else
-    for( i=0; i<Number_of_Points; i++ )DCRead( "%lf%lf",&(P[i].x),&(P[i].y) );
+    for( i=0; i<Number_of_Points; i++ )DCRead( "%lg%lg",&(P[i].x),&(P[i].y) );
 }
 void static _01_Line()
 { int i;
@@ -93,10 +92,8 @@ void static _01_Line()
                 DCReadItemPoints(); moveto( P[0] );
   if( Entity_Type!=4 )
   for( i=1; i<Number_of_Points; i++ )
-  { if( Line_Type==-1 && (i&1)==0)moveto( P[i] ); else lineto( P[i] );
-  } else
-  { int j=1,N=Number_of_Points;
-    Real l,L=0;
+  { if( Line_Type==-1 && (i&1)==0)moveto( P[i] ); else lineto( P[i] ); } else
+  { int j=1,N=Number_of_Points; Real l,L=0;
     for( i=1; i<N; i++ )
     { l=abs( P[i]-P[j-1] ); if( l>0.0 ){ L+=l; P[j]=P[i]; j++; } } N=j;
     { Curve Cy( N ),
@@ -108,7 +105,8 @@ void static _01_Line()
       }        Cy.SpLine(); N =( N-1 )*6+1;
                Cx.SpLine(); L/=( N-1 );
       for( i=1; i<N; i++ )lineto( Cx( L*i ),Cy( L*i ) );
-  } }
+    }
+  }
 }
 void static _03_Text()
 { int i,l;
@@ -141,8 +139,7 @@ void static _03_Text()
       ( P[0]+B.Goext( R ),
         P[0]+B.Goext( R*polar( Tv.StrLen( s )*dS ) ),s
       ); R*=polar( dA );
-    }
-  }
+  } }
 }
 //      Ёллипсы проход€т с кодом 2, эллиптические дуги с кодом 7
 //      при этом оси могут хранитс€ в первых двух точках, если их
@@ -229,6 +226,7 @@ int Field_Window::DCReadItem()
       case  1: /* Line */   _01_Line();    break;
       case  7: // Back Ellipse
       case  2: /* Ellipse*/ _02_Ellipse(); break;
+      case 13: // “екст в DC3
       case 15: // Attribute
       case 22: // Text Arc
       case  3: /* Text   */ _03_Text();    break;
@@ -246,6 +244,10 @@ int Field_Window::DCReadItem()
       case 41: if( (Active&2)==0 )
                { DCRead( "%lf",&gScale ); --Number_of_Points; Focus();
                } goto r_Empty;
+      case 42: if( (Active&2)==0 )
+               { DCRead( "%lf",&gScale );
+                 while( --Number_of_Points>0 )DCRead(); Focus();
+               } break;
       case 1309: if( Active&2 )
                { gScale=DCget(); Number_of_Points-=4; Focus();
                }
@@ -259,7 +261,8 @@ int Field_Window::DCReadItem()
       } else
       for( int i=0; i<Number_of_Points; i++ )DCRead( "%lf%lf",&(P[i].x),&(P[i].y) );
       for( int i=0; i<Number_of_Points; i++ )line( P[i],P[i] );
-  } } return feof( DC );
+    }
+  } return feof( DC );
 }
 
 //#include "..\Graphics\BGI\simplex_font.c++"

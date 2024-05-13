@@ -4,46 +4,25 @@
 	<Project>
 		<Option title="Ani - Simulation" />
 		<Option pch_mode="2" />
-		<Option compiler="gnu_gcc_stable" />
+		<Option compiler="gcc" />
 		<Option virtualFolders="Graphics/;Matrix/;Charts/;Ani/" />
 		<Build>
-			<Target title="GCC stable">
+			<Target title="GCC 64">
 				<Option output="Dev/Ani-64" prefix_auto="1" extension_auto="1" />
 				<Option working_dir="Data" />
 				<Option object_output="Dev/Obj/" />
 				<Option type="1" />
-				<Option compiler="gnu_gcc_stable" />
+				<Option compiler="gcc-mingw64" />
 				<Option use_console_runner="0" />
 				<Option parameters="Okho-20 -bgi=4" />
 				<Option projectLinkerOptionsRelation="2" />
 				<Compiler>
+					<Add option="-m64" />
 					<Add option="-fopenmp" />
-					<Add option="-fanalyzer" />
 				</Compiler>
 				<Linker>
+					<Add option="-m64" />
 					<Add library="gomp" />
-					<Add library="pthread" />
-					<Add library="dl" />
-				</Linker>
-			</Target>
-			<Target title="GCC stable 32">
-				<Option output="Dev/Ani-32" prefix_auto="1" extension_auto="1" />
-				<Option working_dir="Data" />
-				<Option object_output="Dev/Obj/" />
-				<Option type="1" />
-				<Option compiler="gnu_gcc_stable32" />
-				<Option use_console_runner="0" />
-				<Option parameters="-bgi=3 Okho-20" />
-				<Compiler>
-					<Add option="-m32" />
-					<Add option="-fopenmp" />
-					<Add option="-fanalyzer" />
-				</Compiler>
-				<Linker>
-					<Add option="-m32" />
-					<Add library="gomp" />
-					<Add library="pthread" />
-					<Add library="dl" />
 				</Linker>
 			</Target>
 			<Target title="GCC 433">
@@ -60,6 +39,25 @@
 				</Compiler>
 				<Linker>
 					<Add library="gomp" />
+				</Linker>
+			</Target>
+			<Target title="GCC stable">
+				<Option output="Dev/Ani-stable" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="Data" />
+				<Option object_output="Dev/Obj/" />
+				<Option type="1" />
+				<Option compiler="gnu_gcc_stable" />
+				<Option use_console_runner="0" />
+				<Option parameters="-bgi=3 Okho-20" />
+				<Compiler>
+					<Add option="-w" />
+					<Add option="-fopenmp" />
+					<Add option="-Wno-narrowing" />
+				</Compiler>
+				<Linker>
+					<Add library="gomp" />
+					<Add library="pthread" />
+					<Add library="dl" />
 				</Linker>
 			</Target>
 			<Target title="GCC single">
@@ -81,7 +79,7 @@
 				<Option use_console_runner="0" />
 				<Option parameters="World-400" />
 				<Compiler>
-					<Add option="-flto" />
+					<Add option="-w" />
 					<Add option="-funsigned-char" />
 					<Add option="-fopenmp" />
 					<Add option="-fno-exceptions" />
@@ -94,9 +92,10 @@
 					<Add option="-fno-signaling-nans" />
 					<Add option="-fassociative-math" />
 					<Add option="-fanalyzer" />
+					<Add option="-Wno-narrowing" />
+					<Add option="-Wconversion" />
 				</Compiler>
 				<Linker>
-					<Add option="-flto" />
 					<Add library="gomp" />
 					<Add library="pthread" />
 					<Add library="dl" />
@@ -106,7 +105,6 @@
 		<Compiler>
 			<Add option="-fexpensive-optimizations" />
 			<Add option="-Os" />
-			<Add option="-w" />
 			<Add option="-funsigned-char" />
 			<Add option="-fno-exceptions" />
 			<Add option="-ffast-math" />
@@ -115,9 +113,6 @@
 		</Compiler>
 		<Linker>
 			<Add option="-s" />
-			<Add option="-static-libstdc++" />
-			<Add option="-static-libgcc" />
-			<Add option="-static" />
 			<Add library="gdi32" />
 			<Add library="comdlg32" />
 		</Linker>

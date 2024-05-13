@@ -1,32 +1,39 @@
-
-// �������������� ������������� � ������� ������������
-
+//
+// Вычислительная гидромеханика и морские исследования - UNICODE UTF-8
+//
 #include <windows.h>
 
-Ship ICON "..\\Ship\\Ship.ico"
-
+Ship ICON "Ship.ico"
+//
+// Russian resources
+//
+LANGUAGE LANG_RUSSIAN, SUBLANG_DEFAULT
+#pragma code_page(65001)
+//
+// Информация о версии
+//
 1 VERSIONINFO
-FILEVERSION 3,2,1,36
-PRODUCTVERSION 3,2,1,36
+FILEVERSION 3,2,1,48
+PRODUCTVERSION 3,2,1,24
 FILETYPE VFT_APP
 BEGIN
   BLOCK "StringFileInfo"
   BEGIN
-    BLOCK "00000001"
+    BLOCK "041904B0"
     BEGIN
-      VALUE "CompanyName", "Russian Shipbuilders Society of Alexey Krylov"
-      VALUE "FileVersion", "Sakhalin Branch 2015-04-06"
-      VALUE "FileDescription","Computational Fluid Mechanics and Marine Researches"
-      VALUE "InternalName", "Stormy Sea-keeping of Ship"
-      VALUE "LegalCopyright", "(c)1976-2014 Vasily Khramushin"
-      VALUE "LegalTrademarks", "Sakhalin GPL"
-      VALUE "OriginalFilename", "Ship.c++"
-      VALUE "ProductName", "Fluid-mechanics Simulation"
-      VALUE "ProductVersion", "original"
+      VALUE "CompanyName",      "Russian Shipbuilders Society of Alexey Krylov"
+      VALUE "FileVersion",      "Sakhalin Branch 2024-05-13"
+      VALUE "FileDescription",  "Computational Fluid Mechanics"
+      VALUE "InternalName",     "Ship Stormy Seaworthiness"
+      VALUE "LegalCopyright",   "(c)1976-2024 Vasily Khramushin"
+      VALUE "LegalTrademarks",  "Сызрань–Калининград–Севастополь–Ленинград–Владивосток–Сахалин–יְרוּשָׁלַיִם В.Храмушин"
+      VALUE "OriginalFilename", "Ship::c++"
+      VALUE "ProductName",      "Fluidmechanics Simulation"
+      VALUE "ProductVersion",   "original"
     END
   END
   BLOCK "VarFileInfo"
   BEGIN
-    VALUE "Translation", 0x0419, 1251
+    VALUE "Translation", 0x0419, 0x04B0, 0x0409, 0x04B0
   END
 END

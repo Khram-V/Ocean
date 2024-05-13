@@ -135,7 +135,8 @@ static void ItD( Point& W )     // Пересчет индексов в гео.координаты
 static void DtI( Point& W )     // Перевод системы счисления из географии
 { //bool Rec=true;              // к равномерной индексной сетке, при этом
   Point Q=W; //R;               // делается одна попытка исправления через 360°
-Retry:  Q*=Pr;
+/*Retry:*/
+        Q*=Pr;
   if( mPr=='M' )Q.y=Merkatory( Q.y ); W=Geo.Goint( Q );
 //  if( Q.x<0.0 || Q.x>=Nx
 //   || Q.y<0.0 || Q.y>=Ny )

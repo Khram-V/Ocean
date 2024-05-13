@@ -4,56 +4,44 @@
 	<Project>
 		<Option title="Tv - Graphics &amp; Pictures video" />
 		<Option pch_mode="2" />
-		<Option compiler="gnu_gcc_stable" />
+		<Option compiler="gcc" />
 		<Option virtualFolders="Tv/" />
 		<Build>
-			<Target title="Release">
-				<Option output="Dev/Tv64" prefix_auto="1" extension_auto="1" />
-				<Option working_dir="Data" />
-				<Option object_output="Dev/Obj/" />
-				<Option type="0" />
-				<Option compiler="gnu_gcc_stable" />
-				<Option parameters='&quot;A1206 Cruise-2.dc2&quot;' />
-				<Compiler>
-					<Add option="-flto" />
-					<Add option="-m32" />
-					<Add option="-fanalyzer" />
-				</Compiler>
-				<Linker>
-					<Add option="-flto" />
-					<Add option="-static-libstdc++" />
-					<Add option="-static-libgcc" />
-					<Add option="-static" />
-					<Add option="-m32" />
-					<Add library="Dev/Lib/libAlis64.a" />
-					<Add library="msvcrt-os" />
-					<Add library="pthread" />
-					<Add library="dl" />
-				</Linker>
-			</Target>
-			<Target title="Release-32">
+			<Target title="Tv-32">
 				<Option output="Dev/Tv" prefix_auto="1" extension_auto="1" />
 				<Option working_dir="Data" />
 				<Option object_output="Dev/Obj/" />
 				<Option type="0" />
 				<Option compiler="gcc" />
-				<Option parameters="Чертежный.chr Apostol.vct T-UZH.dw2" />
+				<Option parameters="T-UZH.dw2" />
 				<Option projectLinkerOptionsRelation="2" />
+			</Target>
+			<Target title="Tv-64">
+				<Option output="Dev/Tv64" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="Data" />
+				<Option object_output="Dev/Obj/" />
+				<Option type="0" />
+				<Option compiler="gcc-mingw64" />
+				<Option parameters='&quot;A1206 Cruise-2.dc2&quot;' />
+				<Compiler>
+					<Add option="-fexpensive-optimizations" />
+					<Add option="-m64" />
+				</Compiler>
 				<Linker>
-					<Add library="Dev/Lib/libAlis32.a" />
+					<Add option="-static-libgcc" />
+					<Add option="-static" />
+					<Add option="-m64" />
 				</Linker>
 			</Target>
 		</Build>
 		<Compiler>
-			<Add option="-fexpensive-optimizations" />
 			<Add option="-Os" />
+			<Add option="-std=gnu++98" />
+			<Add option="-std=gnu90" />
 			<Add option="-funsigned-char" />
 			<Add option="-fopenmp" />
 			<Add option="-fno-exceptions" />
 			<Add option="-ffast-math" />
-			<Add option="-fno-trapping-math" />
-			<Add option="-fno-enforce-eh-specs" />
-			<Add option="-funsafe-math-optimizations" />
 			<Add option="-mthreads" />
 			<Add option="-Wunused" />
 		</Compiler>
@@ -83,14 +71,28 @@
 		<Unit filename="../Ani/Tv_Pcx.cpp">
 			<Option virtualFolder="Tv/" />
 		</Unit>
+		<Unit filename="../Graphics/Graphics.cpp" />
+		<Unit filename="../Graphics/Graphics.h" />
+		<Unit filename="../Graphics/Tv_File.cpp" />
+		<Unit filename="../Graphics/Tv_Getc.cpp" />
+		<Unit filename="../Graphics/Tv_Graph.h" />
+		<Unit filename="../Graphics/Tv_Graphics.cpp" />
+		<Unit filename="../Graphics/Tv_Text.cpp" />
+		<Unit filename="../Graphics/Window.cpp" />
+		<Unit filename="../Graphics/Window.h" />
+		<Unit filename="../Graphics/_Small_Font.c++" />
+		<Unit filename="../Matrix/Allocate.cpp" />
+		<Unit filename="../Matrix/B_Geo.cpp" />
+		<Unit filename="../Matrix/Basis.cpp" />
+		<Unit filename="../Matrix/Basis.h" />
+		<Unit filename="../Matrix/Curve.cpp" />
+		<Unit filename="../Matrix/Curve.h" />
+		<Unit filename="../Matrix/Rstring.cpp" />
 		<Unit filename="../Ship/Ship.Rc">
 			<Option compilerVar="WINDRES" />
 			<Option virtualFolder="Tv/" />
-			<Option target="Release" />
 		</Unit>
-		<Unit filename="../Type.h">
-			<Option target="Release" />
-		</Unit>
+		<Unit filename="../Type.h" />
 		<Extensions />
 	</Project>
 </CodeBlocks_project_file>
